@@ -1,0 +1,6 @@
+{
+  "properties_total": 212,
+  "properties_with_map_url": 42,
+  "behavior": "หน้า Detail ของบ้านที่มี mapUrl จะแสดงแผนที่ Google Maps แบบ iframe และมีปุ่มเปิด Google Maps",
+  "note": "ถ้าลิงก์ maps.app.goo.gl บางรายการไม่อนุญาตให้ฝัง iframe จะยังสามารถกดปุ่มเปิด Google Maps ได้"
+}

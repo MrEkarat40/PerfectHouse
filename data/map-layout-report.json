@@ -1,0 +1,5 @@
+{
+  "layout": "map_under_description",
+  "button_count": "one button inside map card only",
+  "seo_note": "Moving map below description is layout-only and does not remove indexable property content."
+}

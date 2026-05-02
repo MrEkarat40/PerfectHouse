@@ -1,0 +1,14 @@
+{
+  "properties_total": 212,
+  "properties_with_map_url": 42,
+  "coords_pre_extracted_from_existing_full_urls": 0,
+  "supported_cases": [
+    "maps.app.goo.gl short link via tools/resolve-google-map-links.js",
+    "google.com/maps/place/.../@lat,lng,17z",
+    "google maps URL with !3dlat!4dlng",
+    "google maps URL with q=lat,lng",
+    "google maps URL with ll=lat,lng",
+    "google maps URL with center=lat,lng",
+    "fallback to property location query"
+  ]
+}

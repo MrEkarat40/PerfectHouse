@@ -1,0 +1,7 @@
+{
+  "layout": "map_frame_only_under_description",
+  "card": false,
+  "extra_button_under_map": false,
+  "right_side_buttons": "unchanged",
+  "seo_note": "Map iframe is appended inside the visible property description section. It does not hide or remove text content."
+}

@@ -1,0 +1,5 @@
+{
+  "mapped_properties": 42,
+  "fix": "iframe changed from querying maps.app.goo.gl short link to querying property location/project/title text; exact maps.app.goo.gl remains as open Google Maps button",
+  "reason": "Google Maps iframe cannot reliably resolve maps.app.goo.gl short links and may show world map."
+}

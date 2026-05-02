@@ -1,4 +1,87 @@
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function phDecodeMapUrl(url) {
+  try { return decodeURIComponent(String(url || "")); }
+  catch (err) { return String(url || ""); }
+}
+
+function phExtractLatLngFromMapUrl(url) {
+  const decoded = phDecodeMapUrl(url);
+  const patterns = [
+    /@(-?\d+(?:\.\d+)?),(-?\d+(?:\.\d+)?)(?:,|\/|\?|$)/i,
+    /!3d(-?\d+(?:\.\d+)?)!4d(-?\d+(?:\.\d+)?)/i,
+    /[?&]q=(-?\d+(?:\.\d+)?),\s*(-?\d+(?:\.\d+)?)/i,
+    /[?&]ll=(-?\d+(?:\.\d+)?),\s*(-?\d+(?:\.\d+)?)/i,
+    /[?&]center=(-?\d+(?:\.\d+)?),\s*(-?\d+(?:\.\d+)?)/i,
+    /[?&]query=(-?\d+(?:\.\d+)?),\s*(-?\d+(?:\.\d+)?)/i
+  ];
+  for (const re of patterns) {
+    const m = decoded.match(re);
+    if (!m) continue;
+    const lat = Number(m[1]);
+    const lng = Number(m[2]);
+    if (Number.isFinite(lat) && Number.isFinite(lng) && lat >= -90 && lat <= 90 && lng >= -180 && lng <= 180) return { lat, lng };
+  }
+  return null;
+}
+
+function phBuildMapQuery(p) {
+  const parts = [p?.address, p?.location, p?.project, p?.title, p?.zoneText, p?.province].filter(Boolean);
+  const unique = [];
+  for (const item of parts) {
+    const text = String(item).replace(/[#💸📍🏠🛏🛋️🧭📝⛳️🏢📲⚡️⭐️*]+/g, " ").replace(/\s+/g, " ").trim();
+    if (text && !unique.includes(text)) unique.push(text);
+  }
+  return unique.slice(0, 4).join(" ");
+}
+
+function phMapEmbedUrl(p) {
+  if (!p || !p.mapUrl) return "";
+  if (p.mapLat && p.mapLng) {
+    const zoom = p.mapZoom || 17;
+    return `https://www.google.com/maps?q=${encodeURIComponent(`${p.mapLat},${p.mapLng}`)}&z=${zoom}&output=embed`;
+  }
+  const coords = phExtractLatLngFromMapUrl(p.mapResolvedUrl || p.mapUrl);
+  if (coords) {
+    return `https://www.google.com/maps?q=${encodeURIComponent(`${coords.lat},${coords.lng}`)}&z=17&output=embed`;
+  }
+  if (p.mapResolvedUrl && String(p.mapResolvedUrl).includes("maps.google.com")) {
+    const sep = p.mapResolvedUrl.includes("?") ? "&" : "?";
+    return p.mapResolvedUrl + sep + "output=embed";
+  }
+  const query = p.mapEmbedQuery || phBuildMapQuery(p) || p.mapUrl;
+  return "https://www.google.com/maps?q=" + encodeURIComponent(query) + "&output=embed";
+}
+
+function phMapFrameOnly(p) {
+  if (!p || !p.mapUrl) return "";
+  return `
+    <div class="map-frame-only-section">
+      <h2>แผนที่บ้าน</h2>
+      <div class="map-frame-only-wrap">
+        <iframe src="${phMapEmbedUrl(p)}" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen title="แผนที่บ้าน"></iframe>
+      </div>
+    </div>`;
+}
+
+function phMapSideButton(p) {
+  if (!p || !p.mapUrl) return "";
+  return `<a class="btn btn-ghost btn-block" style="margin-top:10px" href="${p.mapUrl}" target="_blank" rel="noopener">📍 เปิด Google Maps</a>`;
+}
+
 const PH = {
   props: [],
   currentPage: 1,
@@ -24,7 +107,7 @@ const PH = {
     document.querySelectorAll("[data-count='compare']").forEach(e=>e.textContent=this.storage("ph_compare").length);
   },
   money(n){ return Number(n||0).toLocaleString("th-TH"); },
-  img(src){ return src || "assets/images/fallback-house.png"; },
+  img(src){ return src || "assets/images/-house.png"; },
   safe(s){ return String(s||"").replace(/[&<>"']/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#039;"}[c])); },
   normalize(s){ return String(s||"").toLowerCase().replace(/\s+/g," ").trim(); },
   filterData(list, extra={}){
@@ -52,7 +135,7 @@ const PH = {
     const img=this.img(p.coverImage);
     return `<article class="property-card">
       <a class="property-image" href="property.html?id=${encodeURIComponent(p.id)}">
-        <img src="${img}" alt="${this.safe(p.title)}" loading="lazy" onerror="this.src='assets/images/fallback-house.png'">
+        <img src="${img}" alt="${this.safe(p.title)}" loading="lazy" onerror="this.src='assets/images/-house.png'">
         <div class="badge-row"><span class="badge hot">${this.safe(p.status)}</span><button class="badge" type="button" data-fav="${p.id}">♡</button></div>
       </a>
       <div class="property-body">
@@ -107,16 +190,16 @@ const PH = {
     const el=document.getElementById("propertyDetail"); if(!el) return;
     const id=this.params().get("id")||"FB0001"; const data=await this.load(); const p=data.find(x=>x.id===id)||data[0];
     document.title=`${p.title} | Perfect House`;
-    const imgs=(p.images&&p.images.length?p.images:[p.coverImage||"assets/images/fallback-house.png"]);
+    const imgs=(p.images&&p.images.length?p.images:[p.coverImage||"assets/images/-house.png"]);
     const related=data.filter(x=>x.id!==p.id && (x.zone===p.zone || x.type===p.type)).slice(0,6);
     const desc=this.safe(p.description).replace(/\n/g,"<br>");
     const nearby=(p.nearby||[]).map(n=>`<div class="value-item"><strong>${this.safe(n)}</strong></div>`).join("");
     el.innerHTML=`<section class="page-hero"><div class="container"><span class="eyebrow">บ้านมือสอง • ${this.safe(p.typeText)} • ${this.safe(p.zoneText)}</span><h1>${this.safe(p.title)}</h1><p>${this.safe(p.address || (p.zoneText+', '+p.province))}</p></div></section>
     <section><div class="container detail-grid">
       <div>
-        <div class="gallery-main"><img id="mainPhoto" src="${this.img(imgs[0])}" alt="${this.safe(p.title)}" onerror="this.src='assets/images/fallback-house.png'"></div>
-        <div class="thumbs">${imgs.slice(0,12).map((im,i)=>`<button class="thumb ${i===0?'active':''}" type="button" data-img="${this.safe(im)}"><img src="${this.safe(im)}" alt="รูปบ้าน ${i+1}" onerror="this.src='assets/images/fallback-house.png'"></button>`).join("")}</div>
-        <div class="details-box" style="margin-top:22px"><h2>รายละเอียดประกาศ</h2><p>${desc}</p></div>
+        <div class="gallery-main"><img id="mainPhoto" src="${this.img(imgs[0])}" alt="${this.safe(p.title)}" onerror="this.src='assets/images/-house.png'"></div>
+        <div class="thumbs">${imgs.slice(0,12).map((im,i)=>`<button class="thumb ${i===0?'active':''}" type="button" data-img="${this.safe(im)}"><img src="${this.safe(im)}" alt="รูปบ้าน ${i+1}" onerror="this.src='assets/images/-house.png'"></button>`).join("")}</div>
+        <div class="details-box" style="margin-top:22px"><h2>รายละเอียดประกาศ</h2><p>${desc}</p>${phMapFrameOnly(p)}</div>
       </div>
       <aside class="content-card">
         <div class="price">${this.safe(p.priceText)}</div>
@@ -131,8 +214,8 @@ const PH = {
         </div>
         <a class="btn btn-primary btn-block" style="margin-top:16px" href="contact.html?property=${encodeURIComponent(p.id)}">นัดชมทรัพย์</a>
         <a class="btn btn-ghost btn-block" style="margin-top:10px" href="tel:0842628878">โทร 084-262-8878</a>
-              ${phMapButton(p)}
-        <a class="btn btn-ghost btn-block" style="margin-top:10px" href="${this.safe(p.facebookUrl)}" target="_blank" rel="noopener">ดูโพสต์ Facebook</a>
+              
+        <a class="btn btn-ghost btn-block" style="margin-top:10px" href="${this.safe(p.facebookUrl)}" target="_blank" rel="noopener">ดูโพสต์ Facebook</a>${phMapSideButton(p)}
         <button class="btn btn-ghost btn-block" style="margin-top:10px" data-fav="${p.id}">♡ เพิ่มรายการโปรด</button>
         <button class="btn btn-ghost btn-block" style="margin-top:10px" data-compare="${p.id}">เปรียบเทียบ</button>
       </aside>
@@ -159,10 +242,71 @@ function initMobileMenu(){
   document.body.append(backdrop,drawer); const close=()=>document.body.classList.remove("mobile-menu-open"); toggle.onclick=()=>document.body.classList.add("mobile-menu-open"); backdrop.onclick=close; drawer.querySelector(".mobile-drawer-close").onclick=close; drawer.querySelectorAll("a").forEach(a=>a.onclick=close);
 }
 
+
+
+
+
+
 function phMapButton(p, variant = "block") {
   if (!p || !p.mapUrl) return "";
   const cls = variant === "inline" ? "btn btn-map" : "btn btn-map btn-block";
   return `<a class="${cls}" href="${p.mapUrl}" target="_blank" rel="noopener noreferrer">📍 เปิดแผนที่ Google Maps</a>`;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function phLocationFirstList(list) {
+  return [...(list || [])].sort((a, b) => {
+    const am = a && (a.mapUrl || (a.mapLat && a.mapLng)) ? 1 : 0;
+    const bm = b && (b.mapUrl || (b.mapLat && b.mapLng)) ? 1 : 0;
+    if (am !== bm) return bm - am;
+    return Number(b.timestamp || 0) - Number(a.timestamp || 0);
+  });
 }
 
 document.addEventListener("DOMContentLoaded", async()=>{
@@ -246,25 +390,14 @@ document.addEventListener("DOMContentLoaded", () => {
 })();
 
 
-// Inject Google Maps button on property detail page when mapUrl exists
-document.addEventListener("DOMContentLoaded", async () => {
-  setTimeout(() => {
-    try {
-      const detailRoot = document.getElementById("propertyDetail");
-      if (!detailRoot || !window.PH_PROPERTIES) return;
-      const id = new URLSearchParams(location.search).get("id");
-      const p = window.PH_PROPERTIES.find(x => x.id === id);
-      if (!p || !p.mapUrl || document.querySelector(".btn-map")) return;
-      const target = document.querySelector(".detail-panel .content-card") ||
-                     document.querySelector("#propertyDetail .content-card") ||
-                     document.querySelector("#propertyDetail aside") ||
-                     detailRoot;
-      const wrap = document.createElement("div");
-      wrap.className = "map-button-runtime";
-      wrap.innerHTML = `<a class="btn btn-map btn-block" href="${p.mapUrl}" target="_blank" rel="noopener noreferrer">📍 เปิดแผนที่ Google Maps</a>`;
-      target.appendChild(wrap);
-    } catch (err) {
-      console.warn("Cannot inject map button", err);
-    }
-  }, 700);
-});
+
+
+
+
+
+
+
+
+
+
+
