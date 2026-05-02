@@ -167,3 +167,26 @@ document.addEventListener("DOMContentLoaded", async()=>{
   if(page==="favorites") await PH.renderSaved("ph_favorites","savedList");
   if(page==="compare") await PH.renderSaved("ph_compare","savedList");
 });
+
+
+// Runtime responsive guard for Facebook images/gallery
+document.addEventListener("DOMContentLoaded", () => {
+  document.documentElement.style.overflowX = "hidden";
+  document.body.style.overflowX = "hidden";
+
+  const fixMedia = () => {
+    document.querySelectorAll("img").forEach(img => {
+      img.loading = img.loading || "lazy";
+      img.style.maxWidth = "100%";
+      img.style.height = img.classList.contains("property-card-img") ? img.style.height : "auto";
+    });
+    document.querySelectorAll(".detail-grid, .content-grid, .property-layout, .seo-content, .content-card").forEach(el => {
+      el.style.minWidth = "0";
+      el.style.maxWidth = "100%";
+    });
+  };
+
+  fixMedia();
+  setTimeout(fixMedia, 500);
+  setTimeout(fixMedia, 1500);
+});

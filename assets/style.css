@@ -170,3 +170,405 @@ img, video, iframe {
     padding: 15px;
   }
 }
+
+
+
+/* =========================================================
+   MOBILE HARD FIX: prevent horizontal overflow on iPhone/Safari
+   ========================================================= */
+
+html,
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden !important;
+}
+
+body {
+  position: relative;
+}
+
+*,
+*::before,
+*::after {
+  max-width: 100%;
+}
+
+img,
+video,
+iframe,
+canvas,
+svg {
+  max-width: 100% !important;
+}
+
+.container,
+.header .container,
+.topbar .container,
+.nav,
+main,
+section,
+.page-hero,
+.hero,
+.footer,
+.cta,
+.property-layout,
+.detail-grid,
+.content-grid,
+.split,
+.seo-content,
+.content-card {
+  max-width: 100% !important;
+}
+
+/* Long Thai/Facebook text must not stretch layout */
+p,
+span,
+div,
+article,
+section,
+h1,
+h2,
+h3,
+li,
+.value-item,
+.contact-item,
+.seo-content,
+.content-card,
+.property-body,
+.location,
+.price {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+/* Facebook detail gallery */
+.detail-gallery,
+.gallery,
+.property-gallery,
+.photo-gallery,
+.image-gallery,
+.detail-images,
+.property-images,
+.gallery-wrap,
+.gallery-main,
+.thumbnails,
+.thumbnail-row,
+.gallery-thumbs {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  overflow-x: hidden !important;
+}
+
+.detail-photo,
+.main-photo,
+.gallery-photo,
+.property-main-image,
+.detail-main-image,
+.detail-image,
+.property-image-large,
+.hero-image {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  height: auto !important;
+  max-height: none !important;
+  aspect-ratio: 16 / 10;
+  object-fit: contain !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  border-radius: 22px;
+}
+
+/* In case main image is rendered as <img> */
+.detail-photo img,
+.main-photo img,
+.gallery-photo img,
+.property-main-image img,
+.detail-main-image img,
+.detail-image img,
+.property-image-large img,
+.gallery-main img {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  max-height: 70vh !important;
+  object-fit: contain !important;
+  display: block !important;
+  border-radius: 22px;
+}
+
+/* Thumbnail row should scroll internally, not expand page width */
+.thumbnail-row,
+.thumbnails,
+.gallery-thumbs,
+.detail-thumbnails,
+.photo-thumbs {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  gap: 10px !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 6px;
+}
+
+.thumbnail-row > *,
+.thumbnails > *,
+.gallery-thumbs > *,
+.detail-thumbnails > *,
+.photo-thumbs > * {
+  flex: 0 0 92px !important;
+  width: 92px !important;
+  min-width: 92px !important;
+  max-width: 92px !important;
+  height: 68px !important;
+}
+
+.thumbnail-row img,
+.thumbnails img,
+.gallery-thumbs img,
+.detail-thumbnails img,
+.photo-thumbs img {
+  width: 92px !important;
+  height: 68px !important;
+  object-fit: cover !important;
+  border-radius: 12px !important;
+}
+
+/* Catch common generated gallery classes/buttons */
+button[data-gallery-index],
+.gallery-thumb,
+.thumb,
+.thumb-btn,
+.detail-thumb {
+  flex: 0 0 92px !important;
+  width: 92px !important;
+  min-width: 92px !important;
+  max-width: 92px !important;
+  height: 68px !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  border-radius: 12px !important;
+}
+
+/* Detail page mobile layout */
+@media (max-width: 768px) {
+  html,
+  body {
+    overflow-x: hidden !important;
+  }
+
+  .container,
+  .header .container,
+  .topbar .container {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-left: 14px !important;
+    padding-right: 14px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .page-hero,
+  .hero {
+    padding-top: 34px !important;
+    padding-bottom: 34px !important;
+  }
+
+  .page-hero h1,
+  .hero h1 {
+    font-size: clamp(28px, 8vw, 40px) !important;
+    line-height: 1.22 !important;
+  }
+
+  .page-hero p,
+  .hero p {
+    font-size: 15px !important;
+  }
+
+  .detail-grid,
+  .property-layout,
+  .content-grid,
+  .split,
+  .cta-inner,
+  .hero-grid {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 18px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .detail-grid > *,
+  .property-layout > *,
+  .content-grid > *,
+  .split > *,
+  .hero-grid > * {
+    min-width: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .detail-photo,
+  .main-photo,
+  .gallery-photo,
+  .property-main-image,
+  .detail-main-image,
+  .detail-image,
+  .property-image-large,
+  .gallery-main {
+    aspect-ratio: 4 / 3 !important;
+    min-height: 0 !important;
+    height: auto !important;
+    max-height: 58vh !important;
+    overflow: hidden !important;
+    background-color: #f5f7fb !important;
+  }
+
+  .detail-photo img,
+  .main-photo img,
+  .gallery-photo img,
+  .property-main-image img,
+  .detail-main-image img,
+  .detail-image img,
+  .property-image-large img,
+  .gallery-main img {
+    max-height: 58vh !important;
+  }
+
+  .seo-content,
+  .content-card {
+    padding: 20px !important;
+    border-radius: 22px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .features {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+
+  .property-grid,
+  .property-grid.two,
+  .category-grid,
+  .location-grid,
+  .budget-grid,
+  .article-grid {
+    grid-template-columns: minmax(0, 1fr) !important;
+    width: 100% !important;
+  }
+
+  .property-card,
+  .property-card *,
+  .property-body {
+    min-width: 0 !important;
+  }
+
+  .property-image {
+    min-height: 210px !important;
+  }
+
+  .topbar-inner {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+
+  .topbar-links {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 8px !important;
+  }
+
+  .nav {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .logo {
+    min-width: 0 !important;
+    overflow: hidden !important;
+  }
+
+  .logo span:last-child {
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+  }
+
+  .sticky-contact {
+    right: 10px !important;
+    bottom: calc(78px + env(safe-area-inset-bottom)) !important;
+  }
+}
+
+@media (max-width: 430px) {
+  .container,
+  .header .container,
+  .topbar .container {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  .page-hero h1,
+  .hero h1 {
+    font-size: clamp(25px, 7.4vw, 34px) !important;
+  }
+
+  .detail-photo,
+  .main-photo,
+  .gallery-photo,
+  .property-main-image,
+  .detail-main-image,
+  .detail-image,
+  .property-image-large,
+  .gallery-main {
+    aspect-ratio: 1 / 1 !important;
+    max-height: 48vh !important;
+  }
+
+  .detail-photo img,
+  .main-photo img,
+  .gallery-photo img,
+  .property-main-image img,
+  .detail-main-image img,
+  .detail-image img,
+  .property-image-large img,
+  .gallery-main img {
+    max-height: 48vh !important;
+  }
+
+  .thumbnail-row > *,
+  .thumbnails > *,
+  .gallery-thumbs > *,
+  .detail-thumbnails > *,
+  .photo-thumbs > *,
+  button[data-gallery-index],
+  .gallery-thumb,
+  .thumb,
+  .thumb-btn,
+  .detail-thumb {
+    flex-basis: 78px !important;
+    width: 78px !important;
+    min-width: 78px !important;
+    max-width: 78px !important;
+    height: 58px !important;
+  }
+
+  .thumbnail-row img,
+  .thumbnails img,
+  .gallery-thumbs img,
+  .detail-thumbnails img,
+  .photo-thumbs img {
+    width: 78px !important;
+    height: 58px !important;
+  }
+
+  .seo-content,
+  .content-card {
+    padding: 16px !important;
+  }
+}
