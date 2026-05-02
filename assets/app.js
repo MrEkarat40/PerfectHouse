@@ -3,107 +3,67 @@ const PH = {
   props: [],
   currentPage: 1,
   perPage: 12,
-
-  params() { return new URLSearchParams(location.search); },
-
-  async load() {
-    if (this.props.length) return this.props;
-    if (window.PH_PROPERTIES && Array.isArray(window.PH_PROPERTIES)) {
-      this.props = window.PH_PROPERTIES;
-      return this.props;
-    }
-    try {
-      const res = await fetch("data/properties.json");
-      this.props = await res.json();
-      return this.props;
-    } catch (err) {
-      console.error("Cannot load property data", err);
-      this.props = [];
-      return this.props;
-    }
+  params(){ return new URLSearchParams(location.search); },
+  async load(){
+    if(this.props.length) return this.props;
+    if(window.PH_PROPERTIES){ this.props = window.PH_PROPERTIES; return this.props; }
+    const res = await fetch("data/properties.json");
+    this.props = await res.json();
+    return this.props;
   },
-
-  storage(key) {
-    try { return JSON.parse(localStorage.getItem(key) || "[]"); } catch { return []; }
+  storage(k){ try{return JSON.parse(localStorage.getItem(k)||"[]")}catch{return[]} },
+  setStorage(k,v){ localStorage.setItem(k, JSON.stringify(v)); },
+  toggleList(k,id){
+    const list=this.storage(k); const i=list.indexOf(id);
+    if(i>=0) list.splice(i,1);
+    else { if(k==="ph_compare" && list.length>=5){alert("เลือกเปรียบเทียบได้สูงสุด 5 รายการ"); return false;} list.push(id); }
+    this.setStorage(k,list); this.updateCounters(); return list.includes(id);
   },
-
-  setStorage(key, value) {
-    localStorage.setItem(key, JSON.stringify(value));
+  updateCounters(){
+    document.querySelectorAll("[data-count='favorites']").forEach(e=>e.textContent=this.storage("ph_favorites").length);
+    document.querySelectorAll("[data-count='compare']").forEach(e=>e.textContent=this.storage("ph_compare").length);
   },
-
-  toggleList(key, id) {
-    const list = this.storage(key);
-    const i = list.indexOf(id);
-    if (i >= 0) {
-      list.splice(i, 1);
-    } else {
-      if (key === "ph_compare" && list.length >= 5) {
-        alert("เลือกเปรียบเทียบได้สูงสุด 5 รายการ");
-        return false;
-      }
-      list.push(id);
-    }
-    this.setStorage(key, list);
-    this.updateCounters();
-    return list.includes(id);
-  },
-
-  updateCounters() {
-    document.querySelectorAll("[data-count='favorites']").forEach(el => el.textContent = this.storage("ph_favorites").length);
-    document.querySelectorAll("[data-count='compare']").forEach(el => el.textContent = this.storage("ph_compare").length);
-  },
-
-  normalize(s) {
-    return String(s || "").toLowerCase().trim();
-  },
-
-  filterData(list, extra = {}) {
-    const form = document.getElementById("filterForm");
-    const url = this.params();
-
-    const get = (name) => {
-      const el = form?.querySelector(`[name="${name}"]`);
-      return el ? el.value : (url.get(name) || "");
-    };
-
-    const q = this.normalize(get("q") || extra.q);
-    const type = get("type") || extra.type || "";
-    const market = get("market") || extra.market || "";
-    const zone = get("zone") || extra.zone || "";
-    const maxPrice = Number(get("max_price") || extra.max_price || 0);
-    const bedroom = Number(get("bedroom") || extra.bedroom || 0);
-    const status = get("status") || extra.status || "";
-
-    return list.filter(p => {
-      const hay = this.normalize(`${p.id} ${p.title} ${p.typeText} ${p.marketText} ${p.status} ${p.location} ${p.province} ${p.zone} ${p.transit} ${p.priceText}`);
-      return (!q || hay.includes(q))
-        && (!type || p.type === type)
-        && (!market || p.market === market)
-        && (!zone || p.zone === zone)
-        && (!status || p.status.includes(status))
-        && (!maxPrice || p.price <= maxPrice)
-        && (!bedroom || Number(p.bed || 0) >= bedroom);
+  money(n){ return Number(n||0).toLocaleString("th-TH"); },
+  img(src){ return src || "assets/images/fallback-house.png"; },
+  safe(s){ return String(s||"").replace(/[&<>"']/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#039;"}[c])); },
+  normalize(s){ return String(s||"").toLowerCase().replace(/\s+/g," ").trim(); },
+  filterData(list, extra={}){
+    const form=document.getElementById("filterForm"); const url=this.params();
+    const get=(n)=>{const el=form?.querySelector(`[name="${n}"]`); return el?el.value:(url.get(n)||"");};
+    const q=this.normalize(get("q")||extra.q);
+    const type=get("type")||extra.type||"";
+    const zone=get("zone")||extra.zone||"";
+    const province=get("province")||extra.province||"";
+    const max=Number(get("max_price")||extra.max_price||0);
+    const bed=Number(get("bedroom")||extra.bedroom||0);
+    return list.filter(p=>{
+      const hay=this.normalize(`${p.id} ${p.title} ${p.priceText} ${p.typeText} ${p.zoneText} ${p.province} ${p.address} ${p.description}`);
+      return (!q || hay.includes(q)) && (!type || p.type===type) && (!zone || p.zone===zone) && (!province || p.province===province) && (!max || p.price<=max) && (!bed || Number(p.bed||0)>=bed);
     });
   },
-
-  card(p) {
-    return `
-    <article class="property-card">
-      <a class="property-image" style="background-image:linear-gradient(135deg,rgba(11,76,111,.12),rgba(215,155,52,.10)),url('${p.image}')" href="property.html?id=${encodeURIComponent(p.id)}" aria-label="${p.title}">
-        <div class="badge-row">
-          <span class="badge ${p.badge || ""}">${p.status}</span>
-          <button class="badge" type="button" data-fav="${p.id}" aria-label="เพิ่มรายการโปรด">♡</button>
-        </div>
+  sortData(list){
+    const sort=document.querySelector("[name='sort']")?.value || this.params().get("sort") || "newest";
+    if(sort==="price-asc") return list.sort((a,b)=>a.price-b.price);
+    if(sort==="price-desc") return list.sort((a,b)=>b.price-a.price);
+    if(sort==="area-desc") return list.sort((a,b)=>(b.area||0)-(a.area||0));
+    return list.sort((a,b)=>(b.createdTime||0)-(a.createdTime||0));
+  },
+  card(p){
+    const img=this.img(p.coverImage);
+    return `<article class="property-card">
+      <a class="property-image" href="property.html?id=${encodeURIComponent(p.id)}">
+        <img src="${img}" alt="${this.safe(p.title)}" loading="lazy" onerror="this.src='assets/images/fallback-house.png'">
+        <div class="badge-row"><span class="badge hot">${this.safe(p.status)}</span><button class="badge" type="button" data-fav="${p.id}">♡</button></div>
       </a>
       <div class="property-body">
-        <div class="price">${p.priceText}</div>
-        <h3><a href="property.html?id=${encodeURIComponent(p.id)}">${p.title}</a></h3>
-        <div class="location">${p.location}, ${p.province} • ${p.transit}</div>
+        <div class="price">${this.safe(p.priceText)}</div>
+        <h3><a href="property.html?id=${encodeURIComponent(p.id)}">${this.safe(p.title)}</a></h3>
+        <div class="location">${this.safe(p.zoneText)}, ${this.safe(p.province)}</div>
         <div class="features">
-          <div class="feature"><b>${p.bed || "-"}</b>นอน</div>
-          <div class="feature"><b>${p.bath || "-"}</b>น้ำ</div>
-          <div class="feature"><b>${p.usable || "-"}</b>ตร.ม.</div>
-          <div class="feature"><b>${p.area || "-"}</b>ตร.ว.</div>
+          <div class="feature"><b>${p.bed||"-"}</b>นอน</div>
+          <div class="feature"><b>${p.bath||"-"}</b>น้ำ</div>
+          <div class="feature"><b>${p.parking||"-"}</b>จอด</div>
+          <div class="feature"><b>${p.area||"-"}</b>ตร.ว.</div>
         </div>
         <div class="property-actions">
           <a class="btn btn-primary" href="property.html?id=${encodeURIComponent(p.id)}">ดูรายละเอียด</a>
@@ -112,264 +72,98 @@ const PH = {
       </div>
     </article>`;
   },
-
-  bindButtons() {
-    document.querySelectorAll("[data-fav]").forEach(btn => {
-      btn.onclick = (e) => {
-        e.preventDefault();
-        const active = PH.toggleList("ph_favorites", btn.dataset.fav);
-        btn.textContent = active ? "♥" : "♡";
-      };
-      if (PH.storage("ph_favorites").includes(btn.dataset.fav)) btn.textContent = "♥";
+  bindButtons(){
+    document.querySelectorAll("[data-fav]").forEach(btn=>{
+      btn.onclick=(e)=>{e.preventDefault(); btn.textContent=this.toggleList("ph_favorites",btn.dataset.fav)?"♥":"♡";};
+      if(this.storage("ph_favorites").includes(btn.dataset.fav)) btn.textContent="♥";
     });
-
-    document.querySelectorAll("[data-compare]").forEach(btn => {
-      btn.onclick = () => {
-        const active = PH.toggleList("ph_compare", btn.dataset.compare);
-        btn.textContent = active ? "เอาออก" : "เปรียบเทียบ";
-      };
-      if (PH.storage("ph_compare").includes(btn.dataset.compare)) btn.textContent = "เอาออก";
+    document.querySelectorAll("[data-compare]").forEach(btn=>{
+      btn.onclick=()=>{btn.textContent=this.toggleList("ph_compare",btn.dataset.compare)?"เอาออก":"เปรียบเทียบ";};
+      if(this.storage("ph_compare").includes(btn.dataset.compare)) btn.textContent="เอาออก";
     });
   },
-
-  renderPagination(total, targetId, extra) {
-    const pager = document.getElementById("pagination");
-    if (!pager) return;
-    const pages = Math.max(1, Math.ceil(total / this.perPage));
-    if (pages <= 1) {
-      pager.innerHTML = "";
-      return;
-    }
-    let html = "";
-    for (let i = 1; i <= pages; i++) {
-      html += `<button type="button" class="${i === this.currentPage ? "active" : ""}" data-page-no="${i}">${i}</button>`;
-    }
-    pager.innerHTML = html;
-    pager.querySelectorAll("[data-page-no]").forEach(btn => {
-      btn.onclick = () => {
-        PH.currentPage = Number(btn.dataset.pageNo);
-        PH.renderListings(targetId, extra);
-        window.scrollTo({ top: 0, behavior: "smooth" });
-      };
-    });
+  renderPagination(total,target,extra){
+    const pager=document.getElementById("pagination"); if(!pager) return;
+    const pages=Math.max(1,Math.ceil(total/this.perPage)); if(pages<=1){pager.innerHTML=""; return;}
+    let h=""; for(let i=1;i<=pages;i++) h+=`<button class="${i===this.currentPage?'active':''}" data-page-no="${i}">${i}</button>`;
+    pager.innerHTML=h; pager.querySelectorAll("button").forEach(b=>b.onclick=()=>{this.currentPage=Number(b.dataset.pageNo); this.renderListings(target,extra); scrollTo({top:0,behavior:"smooth"});});
   },
-
-  async renderListings(targetId = "propertyList", extra = {}, options = {}) {
-    const target = document.getElementById(targetId);
-    if (!target) return;
-    const data = await this.load();
-    let list = this.filterData(data, extra);
-
-    const sort = document.querySelector("[name='sort']")?.value || this.params().get("sort") || "";
-    if (sort === "price-asc") list.sort((a,b) => a.price - b.price);
-    if (sort === "price-desc") list.sort((a,b) => b.price - a.price);
-    if (sort === "newest") list.sort((a,b) => b.id.localeCompare(a.id));
-
-    const total = list.length;
-    const count = document.getElementById("resultCount");
-    if (count) count.textContent = `${total} รายการ`;
-
-    if (options.limit) {
-      list = list.slice(0, options.limit);
-    } else if (options.paginate !== false) {
-      const start = (this.currentPage - 1) * this.perPage;
-      list = list.slice(start, start + this.perPage);
-      this.renderPagination(total, targetId, extra);
-    }
-
-    target.innerHTML = list.length
-      ? list.map(p => this.card(p)).join("")
-      : `<div class="empty">ไม่พบทรัพย์ที่ตรงกับเงื่อนไข กรุณาลองเปลี่ยนทำเล ประเภททรัพย์ หรือช่วงราคา</div>`;
+  async renderListings(target="propertyList", extra={}, opt={}){
+    const el=document.getElementById(target); if(!el) return;
+    let list=this.filterData(await this.load(), extra); this.sortData(list);
+    const total=list.length; const c=document.getElementById("resultCount"); if(c)c.textContent=`${total} รายการ`;
+    if(opt.limit) list=list.slice(0,opt.limit);
+    else if(opt.paginate!==false){ const start=(this.currentPage-1)*this.perPage; this.renderPagination(total,target,extra); list=list.slice(start,start+this.perPage); }
+    el.innerHTML=list.length?list.map(p=>this.card(p)).join(""):`<div class="empty">ไม่พบทรัพย์ที่ตรงกับเงื่อนไข กรุณาลองเปลี่ยนทำเล ประเภทบ้าน หรือช่วงราคา</div>`;
     this.bindButtons();
   },
-
-  bindFilters(extra = {}) {
-    const form = document.getElementById("filterForm");
-    if (!form) return;
-    const url = this.params();
-
-    [...form.elements].forEach(el => {
-      if (!el.name) return;
-      const v = url.get(el.name);
-      if (v !== null) el.value = v;
-      el.addEventListener("input", () => { PH.currentPage = 1; PH.renderListings("propertyList", extra); });
-      el.addEventListener("change", () => { PH.currentPage = 1; PH.renderListings("propertyList", extra); });
-    });
-
-    form.addEventListener("submit", (e) => {
-      e.preventDefault();
-      PH.currentPage = 1;
-      PH.renderListings("propertyList", extra);
-    });
-
-    const reset = document.getElementById("resetFilters");
-    if (reset) reset.onclick = () => {
-      form.reset();
-      history.replaceState(null, "", location.pathname);
-      PH.currentPage = 1;
-      PH.renderListings("propertyList", extra);
-    };
+  bindFilters(extra={}){
+    const form=document.getElementById("filterForm"); if(!form) return;
+    const url=this.params(); [...form.elements].forEach(el=>{ if(!el.name)return; const v=url.get(el.name); if(v!==null) el.value=v; el.addEventListener("input",()=>{this.currentPage=1; this.renderListings("propertyList",extra);}); el.addEventListener("change",()=>{this.currentPage=1; this.renderListings("propertyList",extra);}); });
+    form.onsubmit=e=>{e.preventDefault();this.currentPage=1;this.renderListings("propertyList",extra);};
+    const reset=document.getElementById("resetFilters"); if(reset) reset.onclick=()=>{form.reset(); history.replaceState(null,"",location.pathname); this.currentPage=1; this.renderListings("propertyList",extra);};
   },
-
-  async renderDetail() {
-    const el = document.getElementById("propertyDetail");
-    if (!el) return;
-    const id = this.params().get("id") || "p001";
-    const data = await this.load();
-    const p = data.find(x => x.id === id) || data[0];
-    document.title = `${p.title} | Perfect House`;
-
-    const related = data.filter(x => x.id !== p.id && (x.zone === p.zone || x.type === p.type || x.market === p.market)).slice(0, 6);
-
-    el.innerHTML = `
-      <section class="page-hero">
-        <div class="container">
-          <span class="eyebrow">${p.marketText} • ${p.typeText} • ${p.status}</span>
-          <h1>${p.title}</h1>
-          <p>${p.location}, ${p.province} • ${p.transit}</p>
+  async renderDetail(){
+    const el=document.getElementById("propertyDetail"); if(!el) return;
+    const id=this.params().get("id")||"FB0001"; const data=await this.load(); const p=data.find(x=>x.id===id)||data[0];
+    document.title=`${p.title} | Perfect House`;
+    const imgs=(p.images&&p.images.length?p.images:[p.coverImage||"assets/images/fallback-house.png"]);
+    const related=data.filter(x=>x.id!==p.id && (x.zone===p.zone || x.type===p.type)).slice(0,6);
+    const desc=this.safe(p.description).replace(/\n/g,"<br>");
+    const nearby=(p.nearby||[]).map(n=>`<div class="value-item"><strong>${this.safe(n)}</strong></div>`).join("");
+    el.innerHTML=`<section class="page-hero"><div class="container"><span class="eyebrow">บ้านมือสอง • ${this.safe(p.typeText)} • ${this.safe(p.zoneText)}</span><h1>${this.safe(p.title)}</h1><p>${this.safe(p.address || (p.zoneText+', '+p.province))}</p></div></section>
+    <section><div class="container detail-grid">
+      <div>
+        <div class="gallery-main"><img id="mainPhoto" src="${this.img(imgs[0])}" alt="${this.safe(p.title)}" onerror="this.src='assets/images/fallback-house.png'"></div>
+        <div class="thumbs">${imgs.slice(0,12).map((im,i)=>`<button class="thumb ${i===0?'active':''}" type="button" data-img="${this.safe(im)}"><img src="${this.safe(im)}" alt="รูปบ้าน ${i+1}" onerror="this.src='assets/images/fallback-house.png'"></button>`).join("")}</div>
+        <div class="details-box" style="margin-top:22px"><h2>รายละเอียดประกาศ</h2><p>${desc}</p></div>
+      </div>
+      <aside class="content-card">
+        <div class="price">${this.safe(p.priceText)}</div>
+        <div class="spec-grid">
+          <div class="spec"><b>${p.bed||"-"}</b>ห้องนอน</div><div class="spec"><b>${p.bath||"-"}</b>ห้องน้ำ</div>
+          <div class="spec"><b>${p.parking||"-"}</b>ที่จอดรถ</div><div class="spec"><b>${p.area||"-"}</b>ตร.ว.</div>
+          <div class="spec"><b>${this.safe(p.facing||"-")}</b>ทิศหน้าบ้าน</div><div class="spec"><b>${this.safe(p.commonFee||"-")}</b>ค่าส่วนกลาง</div>
         </div>
-      </section>
-
-      <section>
-        <div class="container detail-grid">
-          <div>
-            <div class="detail-photo" style="background-image:linear-gradient(135deg,rgba(11,76,111,.12),rgba(215,155,52,.10)),url('${p.image}')"></div>
-            <div class="seo-content" style="margin-top:22px">
-              <h2>รายละเอียดทรัพย์</h2>
-              <p>${p.description}</p>
-              <div class="features">
-                <div class="feature"><b>${p.bed || "-"}</b>ห้องนอน</div>
-                <div class="feature"><b>${p.bath || "-"}</b>ห้องน้ำ</div>
-                <div class="feature"><b>${p.parking || "-"}</b>ที่จอดรถ</div>
-                <div class="feature"><b>${p.usable || "-"}</b>ตร.ม.</div>
-              </div>
-              <h2 style="margin-top:24px">สถานที่ใกล้เคียง</h2>
-              <div class="value-list">${p.nearby.map(n => `<div class="value-item"><strong>${n}</strong><span>เดินทางสะดวกจากตัวบ้าน</span></div>`).join("")}</div>
-            </div>
-          </div>
-
-          <aside class="content-card">
-            <div class="price">${p.priceText}</div>
-            <div class="contact-list">
-              <div class="contact-item"><div class="symbol">🏠</div><div><b>ประเภท</b><span>${p.typeText}</span></div></div>
-              <div class="contact-item"><div class="symbol">📍</div><div><b>ทำเล</b><span>${p.location}, ${p.province}</span></div></div>
-              <div class="contact-item"><div class="symbol">📐</div><div><b>พื้นที่</b><span>${p.area || "-"} ตร.ว. / ${p.usable || "-"} ตร.ม.</span></div></div>
-              <div class="contact-item"><div class="symbol">🚆</div><div><b>การเดินทาง</b><span>${p.transit}</span></div></div>
-            </div>
-            <a class="btn btn-primary btn-block" style="margin-top:16px" href="contact.html?property=${encodeURIComponent(p.id)}">นัดชมทรัพย์</a>
-            <a class="btn btn-ghost btn-block" style="margin-top:10px" href="tel:0000000000">โทรสอบถาม</a>
-            <button class="btn btn-ghost btn-block" style="margin-top:10px" data-fav="${p.id}">♡ เพิ่มรายการโปรด</button>
-            <button class="btn btn-ghost btn-block" style="margin-top:10px" data-compare="${p.id}">เปรียบเทียบ</button>
-          </aside>
+        <div class="contact-list">
+          <div class="contact-item"><div class="symbol">📍</div><div><b>ทำเล</b><span>${this.safe(p.zoneText)}, ${this.safe(p.province)}</span></div></div>
+          <div class="contact-item"><div class="symbol">🏠</div><div><b>ประเภท</b><span>${this.safe(p.typeText)} มือสอง</span></div></div>
         </div>
-      </section>
-
-      <section class="soft-section">
-        <div class="container">
-          <div class="section-head"><div><h2>ทรัพย์ใกล้เคียงที่น่าสนใจ</h2><p>บ้านและทรัพย์ในทำเลหรือประเภทใกล้เคียงที่คุณอาจสนใจ</p></div><a class="btn btn-ghost" href="properties.html?zone=${p.zone}">ดูทำเลนี้ทั้งหมด</a></div>
-          <div class="property-grid">${related.map(x => this.card(x)).join("")}</div>
-        </div>
-      </section>`;
+        <a class="btn btn-primary btn-block" style="margin-top:16px" href="contact.html?property=${encodeURIComponent(p.id)}">นัดชมทรัพย์</a>
+        <a class="btn btn-ghost btn-block" style="margin-top:10px" href="tel:0842628878">โทร 084-262-8878</a>
+        <a class="btn btn-ghost btn-block" style="margin-top:10px" href="${this.safe(p.facebookUrl)}" target="_blank" rel="noopener">ดูโพสต์ Facebook</a>
+        <button class="btn btn-ghost btn-block" style="margin-top:10px" data-fav="${p.id}">♡ เพิ่มรายการโปรด</button>
+        <button class="btn btn-ghost btn-block" style="margin-top:10px" data-compare="${p.id}">เปรียบเทียบ</button>
+      </aside>
+    </div></section>
+    <section class="soft-section"><div class="container"><div class="section-head"><div><h2>ทรัพย์ใกล้เคียงที่น่าสนใจ</h2><p>บ้านในทำเลหรือประเภทใกล้เคียงที่คุณอาจสนใจ</p></div><a class="btn btn-ghost" href="properties.html?zone=${p.zone}">ดูทำเลนี้ทั้งหมด</a></div><div class="property-grid">${related.map(x=>this.card(x)).join("")}</div></div></section>`;
+    document.querySelectorAll(".thumb").forEach(t=>t.onclick=()=>{document.querySelectorAll(".thumb").forEach(x=>x.classList.remove("active"));t.classList.add("active");document.getElementById("mainPhoto").src=t.dataset.img;});
     this.bindButtons();
   },
-
-  async renderSaved(key, targetId) {
-    const target = document.getElementById(targetId);
-    if (!target) return;
-    const ids = this.storage(key);
-    const data = await this.load();
-    const list = data.filter(p => ids.includes(p.id));
-    target.innerHTML = list.length ? list.map(p => this.card(p)).join("") : `<div class="empty">ยังไม่มีรายการที่เลือกไว้</div>`;
-    this.bindButtons();
+  async renderSaved(key,target){
+    const el=document.getElementById(target); if(!el) return;
+    const ids=this.storage(key), data=await this.load(), list=data.filter(p=>ids.includes(p.id));
+    el.innerHTML=list.length?list.map(p=>this.card(p)).join(""):`<div class="empty">ยังไม่มีรายการที่เลือกไว้</div>`; this.bindButtons();
   },
-
-  bindForms() {
-    document.querySelectorAll("[data-lead-form]").forEach(form => {
-      form.addEventListener("submit", e => {
-        e.preventDefault();
-        const notice = form.querySelector(".notice") || document.querySelector(form.dataset.notice || "");
-        if (notice) {
-          notice.classList.add("show");
-          notice.textContent = "ขอบคุณสำหรับข้อมูล ทีมงาน Perfect House จะติดต่อกลับโดยเร็วที่สุด";
-        }
-        form.reset();
-      });
-    });
+  bindForms(){
+    document.querySelectorAll("[data-lead-form]").forEach(form=>form.onsubmit=e=>{e.preventDefault();const n=form.querySelector(".notice"); if(n){n.classList.add("show");n.textContent="ขอบคุณสำหรับข้อมูล ทีมงาน Perfect House จะติดต่อกลับโดยเร็วที่สุด";} form.reset();});
   }
 };
-
-
 function initMobileMenu(){
-  const toggle = document.querySelector(".mobile-toggle");
-  const menu = document.querySelector(".menu");
-  if(!toggle || !menu || document.querySelector(".mobile-drawer")) return;
-
-  const backdrop = document.createElement("div");
-  backdrop.className = "mobile-backdrop";
-
-  const drawer = document.createElement("aside");
-  drawer.className = "mobile-drawer";
-  drawer.setAttribute("aria-label", "เมนูมือถือ");
-
-  const brand = document.querySelector(".logo")?.innerHTML || "Perfect House";
-  drawer.innerHTML = `
-    <div class="mobile-drawer-head">
-      <div class="logo">${brand}</div>
-      <button class="mobile-drawer-close" type="button" aria-label="ปิดเมนู">×</button>
-    </div>
-    <nav>${Array.from(menu.querySelectorAll("a")).map(a => `<a href="${a.getAttribute("href")}" class="${a.className || ""}">${a.textContent.trim()} <span>›</span></a>`).join("")}</nav>
-  `;
-
-  document.body.appendChild(backdrop);
-  document.body.appendChild(drawer);
-
-  const close = () => document.body.classList.remove("mobile-menu-open");
-  const open = () => document.body.classList.add("mobile-menu-open");
-
-  toggle.addEventListener("click", open);
-  backdrop.addEventListener("click", close);
-  drawer.querySelector(".mobile-drawer-close").addEventListener("click", close);
-  drawer.querySelectorAll("a").forEach(a => a.addEventListener("click", close));
-  document.addEventListener("keydown", (e) => {
-    if(e.key === "Escape") close();
-  });
+  const toggle=document.querySelector(".mobile-toggle"), menu=document.querySelector(".menu"); if(!toggle||!menu||document.querySelector(".mobile-drawer"))return;
+  const backdrop=document.createElement("div"); backdrop.className="mobile-backdrop";
+  const drawer=document.createElement("aside"); drawer.className="mobile-drawer";
+  const brand=document.querySelector(".logo")?.innerHTML||"Perfect House";
+  drawer.innerHTML=`<div class="mobile-drawer-head"><div class="logo">${brand}</div><button class="mobile-drawer-close">×</button></div><nav>${Array.from(menu.querySelectorAll("a")).map(a=>`<a href="${a.href}" class="${a.className||""}">${a.textContent}<span>›</span></a>`).join("")}</nav>`;
+  document.body.append(backdrop,drawer); const close=()=>document.body.classList.remove("mobile-menu-open"); toggle.onclick=()=>document.body.classList.add("mobile-menu-open"); backdrop.onclick=close; drawer.querySelector(".mobile-drawer-close").onclick=close; drawer.querySelectorAll("a").forEach(a=>a.onclick=close);
 }
-
-
-document.addEventListener("DOMContentLoaded", async () => {
-  initMobileMenu();
-  PH.updateCounters();
-  PH.bindForms();
-
-  const page = document.body.dataset.page;
-  const extra = {
-    "new-house": { market: "new-house" },
-    "second-hand": { market: "second-hand" },
-    "renovated": { status: "รีโนเวท" },
-    "single-house": { type: "single-house" },
-    "townhome": { type: "townhome" },
-    "condo": { type: "condo" },
-    "land": { type: "land" }
-  }[page] || {};
-
-  if (["properties","new-house","second-hand","renovated","single-house","townhome","condo","land"].includes(page)) {
-    PH.bindFilters(extra);
-    await PH.renderListings("propertyList", extra);
-  }
-
-  if (page === "home") {
-    await PH.renderListings("featuredList", {}, { limit: 12, paginate: false });
-    await PH.renderListings("newHomeList", { market: "new-house" }, { limit: 6, paginate: false });
-    await PH.renderListings("secondHomeList", { market: "second-hand" }, { limit: 6, paginate: false });
-    await PH.renderListings("renovatedHomeList", { status: "รีโนเวท" }, { limit: 6, paginate: false });
-  }
-
-  if (page === "locations" || page === "budget") {
-    PH.bindFilters({});
-    await PH.renderListings("propertyList", {});
-  }
-
-  if (page === "property") await PH.renderDetail();
-  if (page === "favorites") await PH.renderSaved("ph_favorites", "savedList");
-  if (page === "compare") await PH.renderSaved("ph_compare", "savedList");
+document.addEventListener("DOMContentLoaded", async()=>{
+  initMobileMenu(); PH.updateCounters(); PH.bindForms();
+  const page=document.body.dataset.page;
+  const extra={ "single-house":{type:"single-house"},"townhome":{type:"townhome"},"condo":{type:"condo"},"land":{type:"land"},"nonthaburi":{province:"นนทบุรี"} }[page]||{};
+  if(["properties","single-house","townhome","condo","land","locations","budget","nonthaburi"].includes(page)){ PH.bindFilters(extra); await PH.renderListings("propertyList", extra); }
+  if(page==="home"){ await PH.renderListings("featuredList", {}, {limit:12,paginate:false}); await PH.renderListings("nonthaburiList", {province:"นนทบุรี"}, {limit:6,paginate:false}); await PH.renderListings("townhomeList", {type:"townhome"}, {limit:6,paginate:false}); }
+  if(page==="property") await PH.renderDetail();
+  if(page==="favorites") await PH.renderSaved("ph_favorites","savedList");
+  if(page==="compare") await PH.renderSaved("ph_compare","savedList");
 });
