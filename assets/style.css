@@ -855,3 +855,26 @@ button[data-gallery-index] img {
 .content-card {
   overflow-wrap: anywhere;
 }
+
+
+/* =========================================================
+   GOOGLE MAP LOCATION BUTTON
+   ========================================================= */
+.btn-map {
+  background: linear-gradient(135deg, #0f766e, #075f6b) !important;
+  color: #ffffff !important;
+  border-color: transparent !important;
+  box-shadow: 0 12px 24px rgba(7, 95, 107, .18);
+  margin-top: 10px;
+}
+.btn-map:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.02);
+}
+.map-card p {
+  color: #667085;
+  margin-top: 6px;
+}
+.map-button-runtime {
+  margin-top: 12px;
+}

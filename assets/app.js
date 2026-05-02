@@ -131,6 +131,7 @@ const PH = {
         </div>
         <a class="btn btn-primary btn-block" style="margin-top:16px" href="contact.html?property=${encodeURIComponent(p.id)}">นัดชมทรัพย์</a>
         <a class="btn btn-ghost btn-block" style="margin-top:10px" href="tel:0842628878">โทร 084-262-8878</a>
+              ${phMapButton(p)}
         <a class="btn btn-ghost btn-block" style="margin-top:10px" href="${this.safe(p.facebookUrl)}" target="_blank" rel="noopener">ดูโพสต์ Facebook</a>
         <button class="btn btn-ghost btn-block" style="margin-top:10px" data-fav="${p.id}">♡ เพิ่มรายการโปรด</button>
         <button class="btn btn-ghost btn-block" style="margin-top:10px" data-compare="${p.id}">เปรียบเทียบ</button>
@@ -157,6 +158,13 @@ function initMobileMenu(){
   drawer.innerHTML=`<div class="mobile-drawer-head"><div class="logo">${brand}</div><button class="mobile-drawer-close">×</button></div><nav>${Array.from(menu.querySelectorAll("a")).map(a=>`<a href="${a.href}" class="${a.className||""}">${a.textContent}<span>›</span></a>`).join("")}</nav>`;
   document.body.append(backdrop,drawer); const close=()=>document.body.classList.remove("mobile-menu-open"); toggle.onclick=()=>document.body.classList.add("mobile-menu-open"); backdrop.onclick=close; drawer.querySelector(".mobile-drawer-close").onclick=close; drawer.querySelectorAll("a").forEach(a=>a.onclick=close);
 }
+
+function phMapButton(p, variant = "block") {
+  if (!p || !p.mapUrl) return "";
+  const cls = variant === "inline" ? "btn btn-map" : "btn btn-map btn-block";
+  return `<a class="${cls}" href="${p.mapUrl}" target="_blank" rel="noopener noreferrer">📍 เปิดแผนที่ Google Maps</a>`;
+}
+
 document.addEventListener("DOMContentLoaded", async()=>{
   initMobileMenu(); PH.updateCounters(); PH.bindForms();
   const page=document.body.dataset.page;
@@ -236,3 +244,27 @@ document.addEventListener("DOMContentLoaded", () => {
 
   window.addEventListener("resize", auditLayout);
 })();
+
+
+// Inject Google Maps button on property detail page when mapUrl exists
+document.addEventListener("DOMContentLoaded", async () => {
+  setTimeout(() => {
+    try {
+      const detailRoot = document.getElementById("propertyDetail");
+      if (!detailRoot || !window.PH_PROPERTIES) return;
+      const id = new URLSearchParams(location.search).get("id");
+      const p = window.PH_PROPERTIES.find(x => x.id === id);
+      if (!p || !p.mapUrl || document.querySelector(".btn-map")) return;
+      const target = document.querySelector(".detail-panel .content-card") ||
+                     document.querySelector("#propertyDetail .content-card") ||
+                     document.querySelector("#propertyDetail aside") ||
+                     detailRoot;
+      const wrap = document.createElement("div");
+      wrap.className = "map-button-runtime";
+      wrap.innerHTML = `<a class="btn btn-map btn-block" href="${p.mapUrl}" target="_blank" rel="noopener noreferrer">📍 เปิดแผนที่ Google Maps</a>`;
+      target.appendChild(wrap);
+    } catch (err) {
+      console.warn("Cannot inject map button", err);
+    }
+  }, 700);
+});

@@ -1,0 +1,8 @@
+{
+  "comment_results": 60,
+  "comment_total_comments": 57,
+  "maps_found_in_comments": 42,
+  "mapped_to_properties": 42,
+  "properties_total": 212,
+  "note": "นำ mapUrl เข้าเฉพาะบ้านที่ sourcePostId ตรงกับ post_id ของคอมเมนท์ และคอมเมนท์มี maps.app.goo.gl / Google Maps URL"
+}
