@@ -190,3 +190,49 @@ document.addEventListener("DOMContentLoaded", () => {
   setTimeout(fixMedia, 500);
   setTimeout(fixMedia, 1500);
 });
+
+
+
+// Final UI audit guard: prevent clipped cards and mobile overflow after dynamic render
+(function () {
+  function auditLayout() {
+    document.documentElement.style.overflowX = "hidden";
+    document.body.style.overflowX = "hidden";
+
+    document.querySelectorAll(".property-card").forEach(card => {
+      card.style.height = "auto";
+      card.style.overflow = "hidden";
+      card.style.display = "flex";
+      card.style.flexDirection = "column";
+    });
+
+    document.querySelectorAll(".property-body").forEach(body => {
+      body.style.overflow = "visible";
+      body.style.display = "flex";
+      body.style.flexDirection = "column";
+    });
+
+    document.querySelectorAll("img").forEach(img => {
+      if (!img.getAttribute("loading")) img.setAttribute("loading", "lazy");
+      img.style.maxWidth = "100%";
+    });
+
+    document.querySelectorAll(".detail-grid, .property-layout, .content-grid, .split, .seo-content, .content-card").forEach(el => {
+      el.style.minWidth = "0";
+      el.style.maxWidth = "100%";
+    });
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    if (document.getElementById("propertyDetail")) {
+      document.body.classList.add("property-detail-page");
+    }
+
+    auditLayout();
+    setTimeout(auditLayout, 300);
+    setTimeout(auditLayout, 900);
+    setTimeout(auditLayout, 1800);
+  });
+
+  window.addEventListener("resize", auditLayout);
+})();
