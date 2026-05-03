@@ -82,6 +82,19 @@ function phMapSideButton(p) {
   return `<a class="btn btn-ghost btn-block" style="margin-top:10px" href="${p.mapUrl}" target="_blank" rel="noopener">📍 เปิด Google Maps</a>`;
 }
 
+
+function phLineQrCard() {
+  return `
+    <div class="line-qr-card">
+      <div>
+        <b>ติดต่อผ่าน LINE</b>
+        <span>สแกน QR Code เพื่อสอบถามหรือนัดชมบ้าน</span>
+      </div>
+      <img src="assets/images/line-qr.png" alt="QR Code ติดต่อ LINE Perfect House" loading="lazy">
+    </div>
+  `;
+}
+
 const PH = {
   props: [],
   currentPage: 1,
@@ -215,7 +228,7 @@ const PH = {
         <a class="btn btn-primary btn-block" style="margin-top:16px" href="contact.html?property=${encodeURIComponent(p.id)}">นัดชมทรัพย์</a>
         <a class="btn btn-ghost btn-block" style="margin-top:10px" href="tel:0842628878">โทร 084-262-8878</a>
               
-        <a class="btn btn-ghost btn-block" style="margin-top:10px" href="${this.safe(p.facebookUrl)}" target="_blank" rel="noopener">ดูโพสต์ Facebook</a>${phMapSideButton(p)}
+        <a class="btn btn-ghost btn-block" style="margin-top:10px" href="${this.safe(p.facebookUrl)}" target="_blank" rel="noopener">ดูโพสต์ Facebook</a>${phMapSideButton(p)}${phLineQrCard()}
         <button class="btn btn-ghost btn-block" style="margin-top:10px" data-fav="${p.id}">♡ เพิ่มรายการโปรด</button>
         <button class="btn btn-ghost btn-block" style="margin-top:10px" data-compare="${p.id}">เปรียบเทียบ</button>
       </aside>

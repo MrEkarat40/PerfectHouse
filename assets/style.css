@@ -1257,3 +1257,213 @@ button[data-gallery-index] img {
     border-radius: 16px;
   }
 }
+
+
+
+
+
+
+/* =========================================================
+   LINE QR CONTACT - FOOTER + PAGES
+   ========================================================= */
+.footer-qr {
+  display: none !important;
+}
+
+.line-qr-card {
+  margin-top: 14px;
+  padding: 14px;
+  border: 1px solid var(--line, #dce7ef);
+  border-radius: 18px;
+  background: #f7fbfc;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 92px;
+  gap: 14px;
+  align-items: center;
+}
+
+.line-qr-card b {
+  display: block;
+  color: #075f6b;
+  font-size: 15px;
+  margin-bottom: 4px;
+}
+
+.line-qr-card span {
+  display: block;
+  color: #667085;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.line-qr-card img {
+  width: 92px;
+  height: 92px;
+  border-radius: 14px;
+  background: #fff;
+  object-fit: contain;
+  box-shadow: 0 8px 18px rgba(15, 35, 52, .08);
+}
+
+.qr-section-wrap {
+  padding: 48px 0;
+  background: #f4f8fb;
+}
+
+.line-qr-section {
+  background: #ffffff;
+  border: 1px solid var(--line, #dce7ef);
+  border-radius: 28px;
+  box-shadow: 0 16px 42px rgba(15, 35, 52, .08);
+  padding: 28px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 180px;
+  gap: 26px;
+  align-items: center;
+}
+
+.line-qr-section-text h2 {
+  margin: 8px 0 10px;
+  font-size: clamp(24px, 3vw, 36px);
+  color: #122033;
+}
+
+.line-qr-section-text p {
+  color: #667085;
+  max-width: 680px;
+  margin-bottom: 18px;
+}
+
+.line-qr-section-image {
+  justify-self: end;
+  background: #f7fbfc;
+  border: 1px solid var(--line, #dce7ef);
+  border-radius: 24px;
+  padding: 16px;
+}
+
+.line-qr-section-image img {
+  width: 160px;
+  height: 160px;
+  object-fit: contain;
+  border-radius: 18px;
+  background: #fff;
+  display: block;
+}
+
+.footer-line-qr {
+  width: min(1180px, calc(100% - 32px));
+  margin: 26px auto 0;
+  padding: 18px;
+  border: 1px solid rgba(255,255,255,.12);
+  border-radius: 20px;
+  background: rgba(255,255,255,.04);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.footer-line-qr-text {
+  display: grid;
+  gap: 4px;
+}
+
+.footer-line-qr-text strong {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.footer-line-qr-text span {
+  color: #cbd5e1;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.footer-line-qr img {
+  width: 88px;
+  height: 88px;
+  border-radius: 14px;
+  background: #fff;
+  object-fit: contain;
+  flex: 0 0 auto;
+}
+
+/* keep floating buttons away from footer edge */
+.sticky-contact {
+  z-index: 60;
+}
+
+@media (max-width: 720px) {
+  .line-qr-section {
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 22px;
+  }
+
+  .line-qr-section-image {
+    justify-self: center;
+  }
+
+  .line-qr-card {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .line-qr-card img {
+    margin: 0 auto;
+    width: 128px;
+    height: 128px;
+  }
+
+  .footer-line-qr {
+    width: calc(100% - 24px);
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .footer-line-qr img {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+
+/* =========================================================
+   CONTACT QR SPACING FIX
+   ========================================================= */
+
+/* ลดช่องว่างก่อนกล่อง LINE ในหน้า contact/about */
+.qr-section-wrap {
+  padding-top: 22px !important;
+  padding-bottom: 44px !important;
+}
+
+/* ถ้า section ก่อนหน้าเว้นล่างเยอะ ให้กระชับลง */
+main > section:has(+ .qr-section-wrap) {
+  padding-bottom: 24px !important;
+}
+
+/* เฉพาะจอเล็ก ให้กล่อง LINE ขยับขึ้นอีกนิด */
+@media (max-width: 720px) {
+  .qr-section-wrap {
+    padding-top: 12px !important;
+    padding-bottom: 34px !important;
+  }
+
+  main > section:has(+ .qr-section-wrap) {
+    padding-bottom: 14px !important;
+  }
+}
+
+
+.contact-qr-tight-before {
+  padding-bottom: 22px !important;
+}
+
+@media (max-width: 720px) {
+  .contact-qr-tight-before {
+    padding-bottom: 12px !important;
+  }
+}
