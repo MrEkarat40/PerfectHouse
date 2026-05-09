@@ -95,6 +95,31 @@ function phLineQrCard() {
   `;
 }
 
+
+function phSetMeta(name, content, attr = "name") {
+  if (!content) return;
+  let el = document.head.querySelector(`meta[${attr}="${name}"]`);
+  if (!el) {
+    el = document.createElement("meta");
+    el.setAttribute(attr, name);
+    document.head.appendChild(el);
+  }
+  el.setAttribute("content", content);
+}
+function phSetCanonical(url) {
+  let el = document.head.querySelector('link[rel="canonical"]');
+  if (!el) {
+    el = document.createElement("link");
+    el.setAttribute("rel", "canonical");
+    document.head.appendChild(el);
+  }
+  el.setAttribute("href", url);
+}
+function phSiteUrl(path = "") {
+  const base = "https://mrekarat40.github.io/PerfectHouse/";
+  return new URL(path, base).href;
+}
+
 const PH = {
   props: [],
   currentPage: 1,
@@ -120,7 +145,17 @@ const PH = {
     document.querySelectorAll("[data-count='compare']").forEach(e=>e.textContent=this.storage("ph_compare").length);
   },
   money(n){ return Number(n||0).toLocaleString("th-TH"); },
-  img(src){ return src || "assets/images/-house.png"; },
+  houseImageById(id) {
+    const text = String(id || "");
+    const match = text.match(/\d+/);
+    const n = match ? Number(match[0]) : 1;
+    const index = ((n - 1) % 100) + 1;
+    return `assets/images/house-${String(index).padStart(3, "0")}.png`;
+  },
+  img(src, id) {
+    if (src && String(src).trim()) return src;
+    return this.houseImageById(id);
+  },
   safe(s){ return String(s||"").replace(/[&<>"']/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#039;"}[c])); },
   normalize(s){ return String(s||"").toLowerCase().replace(/\s+/g," ").trim(); },
   filterData(list, extra={}){
@@ -145,10 +180,10 @@ const PH = {
     return list.sort((a,b)=>(b.createdTime||0)-(a.createdTime||0));
   },
   card(p){
-    const img=this.img(p.coverImage);
+    const img=this.img(p.coverImage, p.id);
     return `<article class="property-card">
       <a class="property-image" href="property.html?id=${encodeURIComponent(p.id)}">
-        <img src="${img}" alt="${this.safe(p.title)}" loading="lazy" onerror="this.src='assets/images/-house.png'">
+        <img src="${img}" alt="${this.safe(p.title)}" loading="lazy" onerror="this.src='assets/images/house-001.png'">
         <div class="badge-row"><span class="badge hot">${this.safe(p.status)}</span><button class="badge" type="button" data-fav="${p.id}">♡</button></div>
       </a>
       <div class="property-body">
@@ -202,16 +237,25 @@ const PH = {
   async renderDetail(){
     const el=document.getElementById("propertyDetail"); if(!el) return;
     const id=this.params().get("id")||"FB0001"; const data=await this.load(); const p=data.find(x=>x.id===id)||data[0];
-    document.title=`${p.title} | Perfect House`;
-    const imgs=(p.images&&p.images.length?p.images:[p.coverImage||"assets/images/-house.png"]);
+    const detailUrl = phSiteUrl(`property.html?id=${encodeURIComponent(p.id)}`);
+    const detailImage = phSiteUrl(p.coverImage || this.houseImageById(p.id));
+    document.title = p.seoTitle || `${p.title} | Perfect House Property`;
+    phSetMeta("description", p.seoDescription || `${p.title} ${p.zoneText || ""} ${p.province || ""} ${p.priceText || ""} ดูรูปบ้าน รายละเอียด และนัดชมบ้านกับ Perfect House Property`);
+    phSetMeta("og:title", document.title, "property");
+    phSetMeta("og:description", p.seoDescription || p.shortDescription || p.description, "property");
+    phSetMeta("og:image", detailImage, "property");
+    phSetMeta("og:url", detailUrl, "property");
+    phSetMeta("og:type", "product", "property");
+    phSetCanonical(detailUrl);
+    const imgs=(p.images&&p.images.length?p.images:[p.coverImage||"assets/images/house-001.png"]);
     const related=data.filter(x=>x.id!==p.id && (x.zone===p.zone || x.type===p.type)).slice(0,6);
     const desc=this.safe(p.description).replace(/\n/g,"<br>");
     const nearby=(p.nearby||[]).map(n=>`<div class="value-item"><strong>${this.safe(n)}</strong></div>`).join("");
     el.innerHTML=`<section class="page-hero"><div class="container"><span class="eyebrow">บ้านมือสอง • ${this.safe(p.typeText)} • ${this.safe(p.zoneText)}</span><h1>${this.safe(p.title)}</h1><p>${this.safe(p.address || (p.zoneText+', '+p.province))}</p></div></section>
     <section><div class="container detail-grid">
       <div>
-        <div class="gallery-main"><img id="mainPhoto" src="${this.img(imgs[0])}" alt="${this.safe(p.title)}" onerror="this.src='assets/images/-house.png'"></div>
-        <div class="thumbs">${imgs.slice(0,12).map((im,i)=>`<button class="thumb ${i===0?'active':''}" type="button" data-img="${this.safe(im)}"><img src="${this.safe(im)}" alt="รูปบ้าน ${i+1}" onerror="this.src='assets/images/-house.png'"></button>`).join("")}</div>
+        <div class="gallery-main"><img id="mainPhoto" src="${this.img(imgs[0], p.id)}" alt="${this.safe(p.title)}" onerror="this.src='assets/images/house-001.png'"></div>
+        <div class="thumbs">${imgs.slice(0,12).map((im,i)=>`<button class="thumb ${i===0?'active':''}" type="button" data-img="${this.safe(im)}"><img src="${this.safe(im)}" alt="รูปบ้าน ${i+1}" onerror="this.src='assets/images/house-001.png'"></button>`).join("")}</div>
         <div class="details-box" style="margin-top:22px"><h2>รายละเอียดประกาศ</h2><p>${desc}</p>${phMapFrameOnly(p)}</div>
       </div>
       <aside class="content-card">
@@ -234,6 +278,21 @@ const PH = {
       </aside>
     </div></section>
     <section class="soft-section"><div class="container"><div class="section-head"><div><h2>ทรัพย์ใกล้เคียงที่น่าสนใจ</h2><p>บ้านในทำเลหรือประเภทใกล้เคียงที่คุณอาจสนใจ</p></div><a class="btn btn-ghost" href="properties.html?zone=${p.zone}">ดูทำเลนี้ทั้งหมด</a></div><div class="property-grid">${related.map(x=>this.card(x)).join("")}</div></div></section>`;
+    document.querySelectorAll('script[data-property-jsonld]').forEach(s=>s.remove());
+    const jsonLd = document.createElement("script");
+    jsonLd.type = "application/ld+json";
+    jsonLd.dataset.propertyJsonld = "true";
+    jsonLd.textContent = JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "RealEstateListing",
+      "name": p.title,
+      "description": p.seoDescription || p.shortDescription || p.description,
+      "url": detailUrl,
+      "image": [detailImage],
+      "offers": {"@type":"Offer", "priceCurrency":"THB", "price": p.price || undefined, "availability":"https://schema.org/InStock"},
+      "address": {"@type":"PostalAddress", "addressLocality": p.zoneText || p.location, "addressRegion": p.province, "streetAddress": p.address}
+    });
+    document.head.appendChild(jsonLd);
     document.querySelectorAll(".thumb").forEach(t=>t.onclick=()=>{document.querySelectorAll(".thumb").forEach(x=>x.classList.remove("active"));t.classList.add("active");document.getElementById("mainPhoto").src=t.dataset.img;});
     this.bindButtons();
   },
