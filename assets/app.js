@@ -23,10 +23,7 @@ function phExtractLatLngFromMapUrl(url) {
   const patterns = [
     /@(-?\d+(?:\.\d+)?),(-?\d+(?:\.\d+)?)(?:,|\/|\?|$)/i,
     /!3d(-?\d+(?:\.\d+)?)!4d(-?\d+(?:\.\d+)?)/i,
-    /[?&]q=(-?\d+(?:\.\d+)?),\s*(-?\d+(?:\.\d+)?)/i,
-    /[?&]ll=(-?\d+(?:\.\d+)?),\s*(-?\d+(?:\.\d+)?)/i,
-    /[?&]center=(-?\d+(?:\.\d+)?),\s*(-?\d+(?:\.\d+)?)/i,
-    /[?&]query=(-?\d+(?:\.\d+)?),\s*(-?\d+(?:\.\d+)?)/i
+    /[?&](?:q|ll|center|query)=(-?\d+(?:\.\d+)?),\s*(-?\d+(?:\.\d+)?)/i
   ];
   for (const re of patterns) {
     const m = decoded.match(re);
@@ -38,8 +35,17 @@ function phExtractLatLngFromMapUrl(url) {
   return null;
 }
 
+function phExtractMapPlaceText(url) {
+  const decoded = phDecodeMapUrl(url);
+  const byPlace = decoded.match(/\/maps\/place\/([^\/@?]+)/i);
+  if (byPlace) return byPlace[1].replace(/\+/g, " ").trim();
+  const byQuery = decoded.match(/[?&](?:q|query)=([^&]+)/i);
+  if (byQuery) return byQuery[1].replace(/\+/g, " ").trim();
+  return "";
+}
+
 function phBuildMapQuery(p) {
-  const parts = [p?.address, p?.location, p?.project, p?.title, p?.zoneText, p?.province].filter(Boolean);
+  const parts = [p?.mapEmbedQuery, p?.address, p?.location, p?.project, p?.title, p?.zoneText, p?.province].filter(Boolean);
   const unique = [];
   for (const item of parts) {
     const text = String(item).replace(/[#💸📍🏠🛏🛋️🧭📝⛳️🏢📲⚡️⭐️*]+/g, " ").replace(/\s+/g, " ").trim();
@@ -54,15 +60,18 @@ function phMapEmbedUrl(p) {
     const zoom = p.mapZoom || 17;
     return `https://www.google.com/maps?q=${encodeURIComponent(`${p.mapLat},${p.mapLng}`)}&z=${zoom}&output=embed`;
   }
-  const coords = phExtractLatLngFromMapUrl(p.mapResolvedUrl || p.mapUrl);
+  const refUrl = p.mapResolvedUrl || p.mapUrl;
+  const coords = phExtractLatLngFromMapUrl(refUrl);
   if (coords) {
     return `https://www.google.com/maps?q=${encodeURIComponent(`${coords.lat},${coords.lng}`)}&z=17&output=embed`;
   }
-  if (p.mapResolvedUrl && String(p.mapResolvedUrl).includes("maps.google.com")) {
-    const sep = p.mapResolvedUrl.includes("?") ? "&" : "?";
-    return p.mapResolvedUrl + sep + "output=embed";
+  if (String(refUrl).includes("google.com/maps/embed")) return refUrl;
+  if (String(refUrl).includes("maps.google.com")) {
+    const sep = refUrl.includes("?") ? "&" : "?";
+    return refUrl + sep + "output=embed";
   }
-  const query = p.mapEmbedQuery || phBuildMapQuery(p) || p.mapUrl;
+  const placeText = phExtractMapPlaceText(refUrl);
+  const query = p.mapEmbedQuery || placeText || phBuildMapQuery(p) || p.mapUrl;
   return "https://www.google.com/maps?q=" + encodeURIComponent(query) + "&output=embed";
 }
 

@@ -1,0 +1,2250 @@
+{
+  "source_file": "facebook-posts-partial.json",
+  "total_posts": 300,
+  "total_comments": 57,
+  "results": [
+    {
+      "post_id": "1492175906259989",
+      "api_post_id": "pfbid02aCoiiBDpRafPB22GRXGvfUzm5YC2Mkh8XAqurjUMmajPbdzGKK4KHKZkVzP4sqc7l",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02aCoiiBDpRafPB22GRXGvfUzm5YC2Mkh8XAqurjUMmajPbdzGKK4KHKZkVzP4sqc7l&id=100064027815481",
+      "comments_count_from_post": 1,
+      "total_comments": 0,
+      "comments": [],
+      "error": {
+        "message": "API error 403: {\"message\":\"You are not subscribed to this API.\"}",
+        "status": 403,
+        "response": {
+          "message": "You are not subscribed to this API."
+        }
+      }
+    },
+    {
+      "post_id": "1492086022935644",
+      "api_post_id": "pfbid0RyLiZLRK2MT5MoK46xbhMGwS2oKZbq9YT9GX5sz1JavTXg1ceqT3L6UxpqaT6cgFl",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0RyLiZLRK2MT5MoK46xbhMGwS2oKZbq9YT9GX5sz1JavTXg1ceqT3L6UxpqaT6cgFl&id=100064027815481",
+      "comments_count_from_post": 1,
+      "total_comments": 0,
+      "comments": [],
+      "error": {
+        "message": "API error 403: {\"message\":\"You are not subscribed to this API.\"}",
+        "status": 403,
+        "response": {
+          "message": "You are not subscribed to this API."
+        }
+      }
+    },
+    {
+      "post_id": "1491968906280689",
+      "api_post_id": "pfbid02aoKKgDibnhu2DTrNDRLgkL4iJpR4BXzvv6kP8DYBJjQ4Wfe6XZtVZQgKPx5NF7Ael",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02aoKKgDibnhu2DTrNDRLgkL4iJpR4BXzvv6kP8DYBJjQ4Wfe6XZtVZQgKPx5NF7Ael&id=100064027815481",
+      "comments_count_from_post": 0,
+      "total_comments": 0,
+      "comments": [],
+      "error": {
+        "message": "API error 429: {\"message\":\"Too many requests\"}",
+        "status": 429,
+        "response": {
+          "message": "Too many requests"
+        }
+      }
+    },
+    {
+      "post_id": "1491668232977423",
+      "api_post_id": "pfbid02Ggpm3XHMxsBKgWJox1aZnFwP6hyFYJF8qx25e5bgD1JXXZZB7vudiMK6RPgNV99ul",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02Ggpm3XHMxsBKgWJox1aZnFwP6hyFYJF8qx25e5bgD1JXXZZB7vudiMK6RPgNV99ul&id=100064027815481",
+      "comments_count_from_post": 1,
+      "total_comments": 0,
+      "comments": [],
+      "error": {
+        "message": "API error 403: {\"message\":\"You are not subscribed to this API.\"}",
+        "status": 403,
+        "response": {
+          "message": "You are not subscribed to this API."
+        }
+      }
+    },
+    {
+      "post_id": "1491613212982925",
+      "api_post_id": "pfbid02zcw7YAsQbU9g4qXBfFy8181GweEWBp1i2WxsywSAcXXSRNxFW8nLt8TmGXheq2oul",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02zcw7YAsQbU9g4qXBfFy8181GweEWBp1i2WxsywSAcXXSRNxFW8nLt8TmGXheq2oul&id=100064027815481",
+      "comments_count_from_post": 1,
+      "total_comments": 0,
+      "comments": [],
+      "error": {
+        "message": "API error 403: {\"message\":\"You are not subscribed to this API.\"}",
+        "status": 403,
+        "response": {
+          "message": "You are not subscribed to this API."
+        }
+      }
+    },
+    {
+      "post_id": "1491282856349294",
+      "api_post_id": "pfbid02bLmZvb5hALVg5KGm1R5EvJQdp6wK5U9TFqDmqxZJPJxubUuM9WSPxpp9rPe9KuKBl",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02bLmZvb5hALVg5KGm1R5EvJQdp6wK5U9TFqDmqxZJPJxubUuM9WSPxpp9rPe9KuKBl&id=100064027815481",
+      "comments_count_from_post": 1,
+      "total_comments": 0,
+      "comments": [],
+      "error": {
+        "message": "API error 429: {\"message\":\"Too many requests\"}",
+        "status": 429,
+        "response": {
+          "message": "Too many requests"
+        }
+      }
+    },
+    {
+      "post_id": "1491231219687791",
+      "api_post_id": "pfbid0znmE2Q4Bjpke9hV1kgfz4u9dtfYqrCM8Wm4qsPd1zxuaH9swfYX89SRVKhzh2jBUl",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0znmE2Q4Bjpke9hV1kgfz4u9dtfYqrCM8Wm4qsPd1zxuaH9swfYX89SRVKhzh2jBUl&id=100064027815481",
+      "comments_count_from_post": 1,
+      "total_comments": 1,
+      "comments": [
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDkxMjMxMjE5Njg3NzkxXzE0NjMzMzAzNzQ3NDc2MjU=",
+          "legacy_comment_id": "1463330374747625",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1777561756,
+          "message": "ช่องทางการติดต่อขอรายละเอียดเพิ่มเติม👇🏻\n\n📍Location\nhttps://maps.app.goo.gl/ytrd8wyPV3Q93JUHA?g_st=ic\n\nปรึกษาสินเชื่อฟรี⚡️\n📲084-262-8878 \nแอดไลน์อัตโนมัติ 🔖 https://lin.ee/HHAC58E\nแอดไลน์ ID : @perfect-house \nWebsite บ้านสวยๆ 👉🏻 https://perfecthouse-property.com\n✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨",
+          "author": {
+            "id": "100064027815481",
+            "name": "บ้านมือสองนนทบุรี กรุงเทพฯและปริมณฑล สินเชื่อฟรี-by Perfect House Property",
+            "gender": "NEUTER",
+            "url": null,
+            "profile_image": "https://scontent.fscl9-2.fna.fbcdn.net/v/t39.30808-1/311191000_558996439362424_6276165546597166861_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=T_LZ_RRcHgEQ7kNvwGlRoJp&_nc_oc=Adov5FmirIWkSeLiMwSD55zOaFt_WVP-TDApLPjGlsptK-IfcBnxKxDW4Ym1jkNGuto&_nc_zt=24&_nc_ht=scontent.fscl9-2.fna&_nc_gid=FOhyowaLav-JLeQMaaLYpg&_nc_ss=7f289&oh=00_Af7zjbsFN0ke_OT331a7ilNGR9T01zmNznfql1WoKcs7Rw&oe=69FBFF1A"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzMzODIyOgF_JqAGXGKfyAahkmjnXcEqHXanqyaiR-5ZnMjjfGY8elvcfDWxKHQxHoy9NrGIv30SliPRU0UV2OlB1LFaRecLO4jXnq6luexUf_wMlZ0LTdnFf850d2Rj1JVVGnfXiYqBLA-r8jb1ZWOmHWXNMf1O2U-1Gqny8WyRvQE-zp2RGtd_oDnqaZOwztmLWhjfeygqmu7CTQEaEY9rYe37vozR5mRw6ZieZB6sPAwFvlH4gD4JLXcjka4JJ3piRlumac5XCeWwz_nz1YU-0F7-Nh7n0oD0Givbd169lntyKqJZgAUCCJGjBJfD1AdPpuVdis290KgiL3hqTzX4rFaH73yam1g3Uzckl_HHZBcrJLicxUM7bjgd8Jn1fU1PUcQt9z_L8t4uAjMf2-xop6i2pMmgq2Ij2mz6Xe-MBnTxNIu9ir2gE1DXF0_ED_msJNsjxfDnXHGIJgI15B4P1hQWNHyVv9V_w9HgMuZKvYydNWviiy-TgJBNsIo0kl9_WvvWSl5fVhLammxERjSdnD4cYeu_d4lfvvPUhjSoKmNZoJiyONfxFfFXXrRz9XsAMdQZ_Ud2HMX8tGLeD-RDuyfLegZ74A",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "post_id": "1491148479696065",
+      "api_post_id": "pfbid04v9r36yRznaqQn2NVGAaAD2TodmgUho5vUMZydv4Ar9X148QJdf9Gce9eVT9ocyJl",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid04v9r36yRznaqQn2NVGAaAD2TodmgUho5vUMZydv4Ar9X148QJdf9Gce9eVT9ocyJl&id=100064027815481",
+      "comments_count_from_post": 1,
+      "total_comments": 1,
+      "comments": [
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDkxMTQ4NDc5Njk2MDY1XzM5NDM0Nzg2MDkyODMzMzc=",
+          "legacy_comment_id": "3943478609283337",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1777556293,
+          "message": "ช่องทางการติดต่อขอรายละเอียดเพิ่มเติม👇🏻\n\n📍Location\nhttps://maps.app.goo.gl/aKQ4ymq8HuhxeAvm7?g_st=ic\n\nปรึกษาสินเชื่อฟรี⚡️\n📲084-262-8878 \nแอดไลน์อัตโนมัติ 🔖 https://lin.ee/HHAC58E\nแอดไลน์ ID : @perfect-house \nWebsite บ้านสวยๆ 👉🏻 https://perfecthouse-property.com\n✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨",
+          "author": {
+            "id": "100064027815481",
+            "name": "บ้านมือสองนนทบุรี กรุงเทพฯและปริมณฑล สินเชื่อฟรี-by Perfect House Property",
+            "gender": "NEUTER",
+            "url": null,
+            "profile_image": "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-1/311191000_558996439362424_6276165546597166861_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=T_LZ_RRcHgEQ7kNvwHByAt8&_nc_oc=AdrJEqUGRvyAPO2poS8kEkZLWbqrCXFqxxu41oKzV7mXZqEOgAOwEpSvlx1DkMYv0lDR5qWJgrqt1oiUsJOmFtwh&_nc_zt=24&_nc_ht=scontent-lhr6-2.xx&_nc_gid=YY8DIWfkHbtvAOEcqFgEYw&_nc_ss=7f289&oh=00_Af6lMkx5FhgZzDhylIoErLhM7BLkYv0fvBIhwCwyaRiINA&oe=69FBFF1A"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzMzODI3OgF_O13w8QCwqzC_cbz4s_T4uGpfyRKq5QpT47gPrn7qmdoQ3XrZi8xjpn_DeozdVzxyF08rb4cSamXXK6B-OiIaIQeVJLFv2m8yT6squrF_ksD31Ztkt7x-7YItJLqgIm8bEzmV7GS5tNJp5LKQeSPsoPjgrJ818QfL21FMqAppzsSIEVbxL0LYsDEA09LD0LzcVkp5UkGzHgQ1NTbqrnzWRLlnMp-5IfHltdPElYp0pr7JsG7c71fVyaIBbonL2RvjCHhfH8-mVWmP8qPPMHW1KohK5MwWXJXCtPM6CeuhkvrTPK26ZGKGYS3Y47UYFAkjCwMW2j-sbCbbZtjREh3rbcbMs0_U4Jmjd_StLD-N-OQ4WAbA9haqIdJSOdVRomXVrEbxDx-O_EtVaN1aQJSm-XANKD0NXMXY0IABwDNWyjz8f1Jcmp10PRZYAh69XC-J7YveIX22YkLoWQrdX1xDDcWfpdtXj_eJxlxovsg0jnlaRwF-DJxZ348R6UfDgbmTDsQ3jmzKHF-zv7KWNXtswxEsotdITR9E4l15QmRamsbvgfFa_SKsXntGAp8nLaNro1a3IfQ8D0Ots_zjWssOTg",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "post_id": "1491123226365257",
+      "api_post_id": "pfbid0KDVdcvnrCFfmmAaCFTszHN3xBaw9H7pACLLrjTbQQCnurCZgA3RiCjHiWmMMLB35l",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0KDVdcvnrCFfmmAaCFTszHN3xBaw9H7pACLLrjTbQQCnurCZgA3RiCjHiWmMMLB35l&id=100064027815481",
+      "comments_count_from_post": 1,
+      "total_comments": 0,
+      "comments": []
+    },
+    {
+      "post_id": "1490997223044524",
+      "api_post_id": "pfbid02nwipmRkwmo7RC7VbR1dLxAb88FwWSEGTnWe81tm6g3G7hmCCzqq3suT6oDVT2ziEl",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02nwipmRkwmo7RC7VbR1dLxAb88FwWSEGTnWe81tm6g3G7hmCCzqq3suT6oDVT2ziEl&id=100064027815481",
+      "comments_count_from_post": 1,
+      "total_comments": 1,
+      "comments": [
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDkwOTk3MjIzMDQ0NTI0XzEyNzUwOTgzMTA5NTQ5MzQ=",
+          "legacy_comment_id": "1275098310954934",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1777541864,
+          "message": null,
+          "author": {
+            "id": "100003277915883",
+            "name": "นพพล เกิดคง",
+            "gender": "MALE",
+            "url": "https://www.facebook.com/nphphl.keid.khng",
+            "profile_image": "https://scontent.fkik11-1.fna.fbcdn.net/v/t39.30808-1/672686230_26559616180397618_1915641352565639626_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=105&ccb=1-7&_nc_sid=1d2534&_nc_ohc=kNKK_vkdE0YQ7kNvwHgPPg1&_nc_oc=Adoo42uv-GabxZcWtDJD2w3dOGZGHj3qs8C80KqJeCtiqjwsYRdNtW022qHJvp4X7qc&_nc_zt=24&_nc_ht=scontent.fkik11-1.fna&_nc_gid=pyaqJb8Zl9YOYqMPlGVztA&_nc_ss=7f289&oh=00_Af4HGO_y-9VU66R8MjKLYyujk62vmrU0TOjmEFl7b3PCpw&oe=69FBFEF2"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzMzODM1OgF_3WZhrAhzQfo-rVf6zQGLo2Qq4NQ5w1e8HUZh3LXeL4oqRibtc1gQESeEfM2x_dukkmzLUdFjS7M2TgrfXAjGMPdC4Lwep1P7M90CUDyoEM5iZznHOS-M71xEnkkN9yyAwwzm1KXRMJCyTKPjBXhkGtVv1wZ6jXJjw1b3fSVSc5bJpV3d10lvWKgu2nsIY6KrOvUrnTc3Zu1bPZNQwZ87OghqfrFj-dlnzrkCj6D4ctFXpaLnsPa-BY7jVJK1EroVGYDaYgD4D17nS2yV66BIJ3eUTixYPOTrKAGizBBjWRoO33zPc_-FTp56B1cF79Ih_Z_UH6L8-H0wooIMah9szCab___334ersHpNjcQQm0d-ImdCA-OhGpF7qHaVvfU1SkXzo8XnNLkFxVeqLbyzOwpJTWdEo-3sBc9p8xFvkeN1v14OpePvsmzpo2rMRXKV3bAVo2yuZ0wCZmJ99kSWiPSHTAUr57gs_GFnJXyl_asTE7B3VwQ2S5ZwmbGVHqMlXZue6yvgHkBppWG1qmjuI9SrlGY8rLIfrLGxAcFfeypcwIxcGljLYIzqYNYex-MA6yWP59WdSnhAgk7Vmk1Y3w",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": true,
+          "gif": {
+            "__typename": "GenericAttachmentMedia",
+            "sticker_image": {
+              "__typename": "Image",
+              "uri": "https://external.fkik11-1.fna.fbcdn.net/emg1/v/t13/6354888574171800053?url=https%3A%2F%2Fmedia1.giphy.com%2Fmedia%2Fv1.Y2lkPWJlMzAyMTE3dmU5YmR6Y3N1NXJxZ21lOTlxOHN0OHdmMTcxbmJzdmQwbGdyYnl2NCZlcD12MV9naWZzJmN0PXRz%2FRkMZE0Qca2UzLnsuFV%2Fgiphy.gif&fb_obo=1&utld=giphy.com&stp=dst-gif_fr_q75&_nc_gid=pyaqJb8Zl9YOYqMPlGVztA&_nc_oc=Adqk__by0Btiwb0WJ0JGetR-o0-vslwBLKTpU7icjOelQ5vnLRjr0joBxMnU4yPaxNc&ccb=13-1&oh=06_Q3--AXnwdkri5T8kc2cxNcBLZ3lViI-svPsqJZ2swI3CJYue&oe=69F7F258&_nc_sid=9e3c15"
+            },
+            "id": "26668287756197126",
+            "image": {
+              "height": 250,
+              "width": 500,
+              "uri": "https://external.fkik11-1.fna.fbcdn.net/emg1/v/t13/6354888574171800053?url=https%3A%2F%2Fmedia1.giphy.com%2Fmedia%2Fv1.Y2lkPWJlMzAyMTE3dmU5YmR6Y3N1NXJxZ21lOTlxOHN0OHdmMTcxbmJzdmQwbGdyYnl2NCZlcD12MV9naWZzJmN0PXRz%2FRkMZE0Qca2UzLnsuFV%2Fgiphy.gif&fb_obo=1&utld=giphy.com&stp=dst-emg0_q75_s500x250_tt6&_nc_gid=pyaqJb8Zl9YOYqMPlGVztA&_nc_oc=Adqk__by0Btiwb0WJ0JGetR-o0-vslwBLKTpU7icjOelQ5vnLRjr0joBxMnU4yPaxNc&ccb=13-1&oh=06_Q3--AcDfMLyD4xf8uOvtYHqmBo6slXkDk7IlsHDbeTsva12n&oe=69F7F258&_nc_sid=c97757"
+            },
+            "animated_image": {
+              "height": 250,
+              "width": 500,
+              "uri": "https://external.fkik11-1.fna.fbcdn.net/emg1/v/t13/6354888574171800053?url=https%3A%2F%2Fmedia1.giphy.com%2Fmedia%2Fv1.Y2lkPWJlMzAyMTE3dmU5YmR6Y3N1NXJxZ21lOTlxOHN0OHdmMTcxbmJzdmQwbGdyYnl2NCZlcD12MV9naWZzJmN0PXRz%2FRkMZE0Qca2UzLnsuFV%2Fgiphy.gif&fb_obo=1&utld=giphy.com&stp=dst-gif_fr_q75&_nc_gid=pyaqJb8Zl9YOYqMPlGVztA&_nc_oc=Adqk__by0Btiwb0WJ0JGetR-o0-vslwBLKTpU7icjOelQ5vnLRjr0joBxMnU4yPaxNc&ccb=13-1&oh=06_Q3--AXnwdkri5T8kc2cxNcBLZ3lViI-svPsqJZ2swI3CJYue&oe=69F7F258&_nc_sid=9e3c15"
+            },
+            "animated_image_caption": null,
+            "animated_image_attribution": "GIPHY"
+          },
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "post_id": "1490888553055391",
+      "api_post_id": "pfbid02qTJJ3apXHjGYWhnviomMMCTxkQFWNML2GNXsbA7zGmygHXWWxnb4kkKgctVYrWsSl",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02qTJJ3apXHjGYWhnviomMMCTxkQFWNML2GNXsbA7zGmygHXWWxnb4kkKgctVYrWsSl&id=100064027815481",
+      "comments_count_from_post": 1,
+      "total_comments": 1,
+      "comments": [
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDkwODg4NTUzMDU1MzkxXzE1MTAzMzA2MjM4MjE3ODk=",
+          "legacy_comment_id": "1510330623821789",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1777534795,
+          "message": null,
+          "author": {
+            "id": "100003277915883",
+            "name": "นพพล เกิดคง",
+            "gender": "MALE",
+            "url": "https://www.facebook.com/nphphl.keid.khng",
+            "profile_image": "https://scontent.fbwa5-1.fna.fbcdn.net/v/t39.30808-1/672686230_26559616180397618_1915641352565639626_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=105&ccb=1-7&_nc_sid=1d2534&_nc_ohc=kNKK_vkdE0YQ7kNvwFMlqpY&_nc_oc=Adq-9GvqNzp3iARHp2CwCTYfQTW_3i-SjbckOJ2dCWQ2jZwZvaTAI81VCsH2dqfmXl8&_nc_zt=24&_nc_ht=scontent.fbwa5-1.fna&_nc_gid=y3O_OCwALZPvZA1IEb8NuQ&_nc_ss=7f289&oh=00_Af5ANhTHWrfC-zxp5M69vv1WcAbBSD1bfTVh52JNKuVdzA&oe=69FBFEF2"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzMzODQyOgF_O3a1E0L4BkbXmSlpEHjLuZrVxt1AkTMCTjTg4Gz9oeB74pL0oKUTdvY2QwcEAtZ6pXXEd-X-E_BxIBQeYq3huBIJVenvs1Z4eDqy6xvJv4F_4HAayaeSrOlJ8FqVfcGnreFE9U2fFJdUzRcm4krFSnDKCNsMQKrtR3JH-d6joeAe0mIrOuwUbVoRuijacNxCXK80qNqwpruLYosvvEE5OIizeD3h0q0TFp1ic1V1Um3M3FEoXD-OL_vITkj1K-SALTgAguikhO7FyHwcgALiQAMGML-Oucq4stwWI9_HtFGgpJTF8rFpGoCLhbeSU8zv5aMG9FaGwYQjXKxhxSqI0_4PvuGjEApvFygsO3y1meRbdKywaf3l_DPmAea_xsa0hbIsQZRiAgU34pBuNyZWm2JIXTrgZe_sDD2MS-zIHlxBCqr7uvuSvBka8Y-L9rqbC4GGQCK1KlvbOEODXi6ODCwb3Arjdw0-uvM9MC38OMXEh9xX7E_wizX5taFoK3IpXqNxXrsj3HjzMGBM4yIXxEpVv_j7zGuS5EPtVNr5JDgr81qQ6KHdbqMDVwxjsqRTIhJnexFtD2toedG_P2epZg",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": true,
+          "gif": {
+            "__typename": "GenericAttachmentMedia",
+            "sticker_image": {
+              "__typename": "Image",
+              "uri": "https://external.fbwa5-2.fna.fbcdn.net/emg1/v/t13/2249291935171981678?url=https%3A%2F%2Fmedia1.giphy.com%2Fmedia%2Fv1.Y2lkPWJlMzAyMTE3bzhoY2h3dGN2bng5ZnhwZ3l0b3lnMGo0b3p5dmV2ZWg4MzFic2Y4aCZlcD12MV9naWZzJmN0PXM%2FiOsEji43wPgNv9G80c%2Fgiphy.gif&fb_obo=1&utld=giphy.com&stp=dst-gif_fr_q75&_nc_gid=y3O_OCwALZPvZA1IEb8NuQ&_nc_oc=AdpfodyObpRbQ75Y_JjyeatgG4c-PTmtJDyCWKQiep8WTbrQtztRlUAsJUUouWwGUT8&ccb=13-1&oh=06_Q3--AZI1dLkKnsYbaDjrGjJNeMUYMu3MdudmLz8gSxGo8AgX&oe=69F7FCC3&_nc_sid=9e3c15"
+            },
+            "id": "26667398089619426",
+            "image": {
+              "height": 480,
+              "width": 480,
+              "uri": "https://external.fbwa5-2.fna.fbcdn.net/emg1/v/t13/2249291935171981678?url=https%3A%2F%2Fmedia1.giphy.com%2Fmedia%2Fv1.Y2lkPWJlMzAyMTE3bzhoY2h3dGN2bng5ZnhwZ3l0b3lnMGo0b3p5dmV2ZWg4MzFic2Y4aCZlcD12MV9naWZzJmN0PXM%2FiOsEji43wPgNv9G80c%2Fgiphy.gif&fb_obo=1&utld=giphy.com&stp=dst-emg0_q75_s480x480_tt6&_nc_gid=y3O_OCwALZPvZA1IEb8NuQ&_nc_oc=AdpfodyObpRbQ75Y_JjyeatgG4c-PTmtJDyCWKQiep8WTbrQtztRlUAsJUUouWwGUT8&ccb=13-1&oh=06_Q3--AWe269omiczj-_sh8jr33wyIsXnSbXq8RW9wCBFZWW9X&oe=69F7FCC3&_nc_sid=c97757"
+            },
+            "animated_image": {
+              "height": 480,
+              "width": 480,
+              "uri": "https://external.fbwa5-2.fna.fbcdn.net/emg1/v/t13/2249291935171981678?url=https%3A%2F%2Fmedia1.giphy.com%2Fmedia%2Fv1.Y2lkPWJlMzAyMTE3bzhoY2h3dGN2bng5ZnhwZ3l0b3lnMGo0b3p5dmV2ZWg4MzFic2Y4aCZlcD12MV9naWZzJmN0PXM%2FiOsEji43wPgNv9G80c%2Fgiphy.gif&fb_obo=1&utld=giphy.com&stp=dst-gif_fr_q75&_nc_gid=y3O_OCwALZPvZA1IEb8NuQ&_nc_oc=AdpfodyObpRbQ75Y_JjyeatgG4c-PTmtJDyCWKQiep8WTbrQtztRlUAsJUUouWwGUT8&ccb=13-1&oh=06_Q3--AZI1dLkKnsYbaDjrGjJNeMUYMu3MdudmLz8gSxGo8AgX&oe=69F7FCC3&_nc_sid=9e3c15"
+            },
+            "animated_image_caption": null,
+            "animated_image_attribution": "GIPHY"
+          },
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "post_id": "1490804036397176",
+      "api_post_id": "pfbid0dytA5x7tAhddpQXKudSkmyc97NtbqA3TiGSTDwma17te3g2XVk8KUhjq7FUWhGrbl",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0dytA5x7tAhddpQXKudSkmyc97NtbqA3TiGSTDwma17te3g2XVk8KUhjq7FUWhGrbl&id=100064027815481",
+      "comments_count_from_post": 0,
+      "total_comments": 0,
+      "comments": []
+    },
+    {
+      "post_id": "1490378916439688",
+      "api_post_id": "pfbid0RZrsFm9mRnRv3Azk8B1GgFaWETSfdmDWcPz5qP46XozKwtyDf8fEkQ6HV1eTwhBHl",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0RZrsFm9mRnRv3Azk8B1GgFaWETSfdmDWcPz5qP46XozKwtyDf8fEkQ6HV1eTwhBHl&id=100064027815481",
+      "comments_count_from_post": 1,
+      "total_comments": 1,
+      "comments": [
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDkwMzc4OTE2NDM5Njg4XzE0NzczMDEyNDA2MTY3Njk=",
+          "legacy_comment_id": "1477301240616769",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1777478642,
+          "message": "ช่องทางการติดต่อขอรายละเอียดเพิ่มเติม👇🏻\n\n📍Location\n  https://maps.app.goo.gl/394sUqAp2DNMzGxn8?g_st=ic\n\nปรึกษาสินเชื่อฟรี⚡️\n📲084-262-8878 \nแอดไลน์อัตโนมัติ 🔖 https://lin.ee/HHAC58E\nแอดไลน์ ID : @perfect-house \nWebsite บ้านสวยๆ 👉🏻 https://perfecthouse-property.com\n✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨",
+          "author": {
+            "id": "100064027815481",
+            "name": "บ้านมือสองนนทบุรี กรุงเทพฯและปริมณฑล สินเชื่อฟรี-by Perfect House Property",
+            "gender": "NEUTER",
+            "url": null,
+            "profile_image": "https://scontent.fdac179-1.fna.fbcdn.net/v/t39.30808-1/311191000_558996439362424_6276165546597166861_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=T_LZ_RRcHgEQ7kNvwHjpsNl&_nc_oc=AdqzFw0dY_2JFnntZr560tdhgOGHdDm1danCA0jThFi0MklYexBvTspwvY3pNtDmNgQ&_nc_zt=24&_nc_ht=scontent.fdac179-1.fna&_nc_gid=T4RQgFLamDuAoduEzDsQmA&_nc_ss=7f289&oh=00_Af7tUlIrhr5qXLLQZW5egEcmnVcH18arjXiIVa4sUPmYUg&oe=69FBFF1A"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzMzODUyOgF_qLE3qoARsdGyofvlbh04b8u3BTW2DSg2dFmxBDCmRyfWDf6-aOSmgYGmq4sI70Kf8qn3lMSU8SfrNuOyHEysbKLPvSOI8_zmvAx1Z4JaSPtrfT2zM7C_HZSDhE0zp9uU9226WNY1UPsxkn9uqEwCTtOaghIOFsTHp4luvotDbfZTOLTANL1hZrD-YNhAz0ZF8U0aqKzY-CrHLgqNLo5CeNk9Amq7oYoa9jdJtLUfG5gHBwRNdt5k6SCnoW2cJ3EwvHlEASSefJYTus9I0_5TXrwZcvEJ30WDEEgzVsy-RYlMYNJDfU5l7-QAIhI-F21TXI8hK2AQ1ioyQZudaWGSl2g5l6P1VEmX4TMmj0gsq3sEsOdaqaVJpNanMq2QbS8hMpazD1FZEjyF9eOmPPvJk4pT_-IqgIGzq4m1HW2nEvDuLjDBv5d3GtQeokfPhQXnBFISgAshJs_wC7T-BQY4Gd9r5NJrXhRH7Q3USpWNNp8ouC-ZSlDUb95EK4coKTBdVUyKUFTcA84Otz6RbumWLkdlpMPqjbUylvB_tbpRGF9exHqrbszV7SsEazwtUsjomjDX4g2fGiobJsyIdXWuLw",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "post_id": "1490331393111107",
+      "api_post_id": "pfbid02QRgHoitBQGTxM8bbMD2Ao7cGdid1nkrRq36wwrFW1y3ebY3zQ8ZMDhzg78fZduQPl",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02QRgHoitBQGTxM8bbMD2Ao7cGdid1nkrRq36wwrFW1y3ebY3zQ8ZMDhzg78fZduQPl&id=100064027815481",
+      "comments_count_from_post": 1,
+      "total_comments": 0,
+      "comments": []
+    },
+    {
+      "post_id": "1490193359791577",
+      "api_post_id": "pfbid0BxpNVVC5xL4ebz1FELvSWwdKvqu9CXiFGDzkkZTqGpvTFs6unxhDL9mUQrGDTYyEl",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0BxpNVVC5xL4ebz1FELvSWwdKvqu9CXiFGDzkkZTqGpvTFs6unxhDL9mUQrGDTYyEl&id=100064027815481",
+      "comments_count_from_post": 1,
+      "total_comments": 1,
+      "comments": [
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDkwMTkzMzU5NzkxNTc3Xzk3MjM1OTAzNTM0MTc3Mw==",
+          "legacy_comment_id": "972359035341773",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1777463943,
+          "message": "ช่องทางการติดต่อขอรายละเอียดเพิ่มเติม👇🏻\n\n📍Location\nhttps://maps.app.goo.gl/n4HrhJ95kRimwzrt6?g_st=ic\n\nปรึกษาสินเชื่อฟรี⚡️\n📲084-262-8878 \nแอดไลน์อัตโนมัติ 🔖 https://lin.ee/HHAC58E\nแอดไลน์ ID : @perfect-house \nWebsite บ้านสวยๆ 👉🏻 https://perfecthouse-property.com\n✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨",
+          "author": {
+            "id": "100064027815481",
+            "name": "บ้านมือสองนนทบุรี กรุงเทพฯและปริมณฑล สินเชื่อฟรี-by Perfect House Property",
+            "gender": "NEUTER",
+            "url": null,
+            "profile_image": "https://scontent.fcpv20-1.fna.fbcdn.net/v/t39.30808-1/311191000_558996439362424_6276165546597166861_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=T_LZ_RRcHgEQ7kNvwHMsCFO&_nc_oc=AdrisYDWKg_2yc91qcWlXq-Tytam223SwGVlZBMCyiqClI62uQgyvBasboJmq6l0rPs&_nc_zt=24&_nc_ht=scontent.fcpv20-1.fna&_nc_gid=yMf6dr4RwsC0OpgxYk8s7Q&_nc_ss=7f289&oh=00_Af6UPvelAmT4kFJJOznnWJhKwJ4l0T33EuygKX3WSedarQ&oe=69FBFF1A"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzMzODYxOgF_EPA0xRbGV8SFXYDXJ9IjGa2dp4DWeU06JNuBT566B_Yn327pqfdRG1rslLHVTpzNja0iSdEYUahct5lY47IsjNuOqmIGfeUJB75DnBKd9skrHJrPjO0umg_qVw809oUxDTTuvjHWZUJamW-LwQfzCREjhAz4GtM32z5wTFxRVfVUQKURpf-fm8TJ0-cKqTzdeKggrMvJqv8gTM_SAntOUQ7oFSR42pCmmL-09x7H_CIdi-5iEbJOAXhXUMctB-GBBcm665YpSRigKQafTTHT6ynQwy646Wb2AuS7oyTIbDAfeK9sYPCb4-wqla_TTGz8-y9X1pHvDzQd66LC6tePKZ8OI2pWtlbqGN9N9CE_RinfksVbmz0EjCP3q29HmFJY-UhfrwUWU077lxahuc72L1ieek-ajOEh9GUoD1nfvM8OoHFkxA1czp1ZxtlkTUFQOhUzkQJay-aieNOR8gzGrqU-GxAvUTuIN_aekYXaY0JFC2rhcqRogH4cmFn1ILwK2fgjlffPv2Wn5rWcQew69hubnhLCAGwtX_8_QO3bWVakmBMLb0WXYCS-oLwEA7pU_7YBeyWz2DgDqCT9Axm_Ww",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "post_id": "1489966839814229",
+      "api_post_id": "pfbid037ZGFnoK8i1FWVaMFnT7bunfWewuT5HXLVZnnszYTn6AZGdZEtevCUkazBv7hSabEl",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid037ZGFnoK8i1FWVaMFnT7bunfWewuT5HXLVZnnszYTn6AZGdZEtevCUkazBv7hSabEl&id=100064027815481",
+      "comments_count_from_post": 3,
+      "total_comments": 3,
+      "comments": [
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDg5OTY2ODM5ODE0MjI5XzEzOTk3MDE5Nzg4NTA5Mjc=",
+          "legacy_comment_id": "1399701978850927",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1777443873,
+          "message": null,
+          "author": {
+            "id": "100006641227685",
+            "name": "Tu Pattama",
+            "gender": "FEMALE",
+            "url": "https://www.facebook.com/tu.pattama.2024",
+            "profile_image": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-1/514706290_4182060958691904_8812272600558458206_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=110&ccb=1-7&_nc_sid=1d2534&_nc_ohc=5c3l8_CqybMQ7kNvwGB8A7S&_nc_oc=AdoqcOLXZFYZVaTONx3jWQIjAJmUHQeSQtmU8k9ThQTNwH_dPZl-4Fe_v95u4m03o_M&_nc_zt=24&_nc_ht=scontent-lga3-1.xx&_nc_gid=TcqzQMYI0Tm-ZBEyAHq6ag&_nc_ss=7f289&oh=00_Af4OgDP9BaneO5RHV2WcY-A26oaW2wBBUH7zRcHh7CXsXQ&oe=69FBD17D"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzMzODY4OgF_dKYAHRt5i7vZiUzl7R-UwOhl2c5YQtZm54L6o5GE6EPQ9fIY5kz1hQ7w0DxcPT-04nb6Qc2YEI0qC8i2Uav5eMJk0jdJ2xW9afgDIgzKCWoe3UCfw0LXssgxeT_kLJUsvd-OChUVBJwE9_Sy22Zlrll1vIUCk_W6hpauHG5gsJ2mlPRJ20eJaDrRXC6CQHLsGDDDXoF0yk0JXa2GI9h9KKqI8yUlR2tIOFDVAccrl0dRIUTYg3z37DVygypILXcU7Gqdih8uoY3FfiwgKtehqvSQinm5LYARd8OKfmrSAwezZSRh75IwHzbqOD0LgAI9hTxyNW6Mh3Sx7NUWQWBFFB-yY2CESWwzOtDs4sLD5QYrFuy01y4lnV0VaRhmsGzLe0GLB8AyGfn_QqdwlAdQPKx7RZfseE3-Ac3AqaSmvhXHxutW1DzmZ1C2WPzNa7cfzOlgP1xC8P2KZxz11GgKfLlldbUr_oX3yapbEhp3ZzX-B599kkaP9j0aVJVlUC9jJqJbpDSSYIyoG8TYrZ3ZVqqAwOSd9XC2HA7xzCKSvUZHKu5_lT_FLiWVo3g4FQNCWtIrtyMazI1jQjhDVAy66Q",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": true,
+          "gif": {
+            "__typename": "GenericAttachmentMedia",
+            "sticker_image": {
+              "__typename": "Image",
+              "uri": "https://external-lga3-2.xx.fbcdn.net/emg1/v/t13/2962882461890044735?url=https%3A%2F%2Fmedia4.giphy.com%2Fmedia%2FVFwGxGJLpRiHfnFUjX%2Fgiphy.gif%3Fcid%3D120c0147y22ba3jjyq4ya1odyhswox72qixliqviaif6k5nc%26rid%3Dgiphy.gif%26utm_medium%3Dpaid%26utm_source%3Dfb%26utm_id%3D120245621278240166%26utm_content%3D120247041188040166%26utm_term%3D120247041188030166%26utm_campaign%3D120245621278240166&fb_obo=1&utld=giphy.com&stp=dst-gif_fr_q75&_nc_gid=TcqzQMYI0Tm-ZBEyAHq6ag&_nc_oc=AdrTESg_MRITHpcs-1vc5j-DLaBhm28ghFyeSKU3BecUQOFEQkVipkn-WOODCgsVahg&ccb=13-1&oh=06_Q3--Aa7LB5xXAvtL_lbzyY4cnpLjoD_zaFKkqxTgxI_Ha-go&oe=69F7D987&_nc_sid=9e3c15"
+            },
+            "id": "4482908078607189",
+            "image": {
+              "height": 480,
+              "width": 480,
+              "uri": "https://external-lga3-2.xx.fbcdn.net/emg1/v/t13/5933330806407239926?url=https%3A%2F%2Fmedia4.giphy.com%2Fmedia%2FVFwGxGJLpRiHfnFUjX%2Fgiphy.gif%3Fcid%3D120c0147y22ba3jjyq4ya1odyhswox72qixliqviaif6k5nc%26rid%3Dgiphy.gif&fb_obo=1&utld=giphy.com&stp=dst-emg0_q75_s480x480_tt6&_nc_gid=TcqzQMYI0Tm-ZBEyAHq6ag&_nc_oc=AdocTYdoc706z-cQFGtxmtbbSqCiwVQAhLidqx0DCL2WdloiSPAWMzrU0rfJeW0QOyM&ccb=13-1&oh=06_Q3--Af50hZA0MhxNYzaATDaWcJYlwsH9LsVdjNs_yLUca-Un&oe=69F80236&_nc_sid=c97757"
+            },
+            "animated_image": {
+              "height": 480,
+              "width": 480,
+              "uri": "https://external-lga3-2.xx.fbcdn.net/emg1/v/t13/2962882461890044735?url=https%3A%2F%2Fmedia4.giphy.com%2Fmedia%2FVFwGxGJLpRiHfnFUjX%2Fgiphy.gif%3Fcid%3D120c0147y22ba3jjyq4ya1odyhswox72qixliqviaif6k5nc%26rid%3Dgiphy.gif%26utm_medium%3Dpaid%26utm_source%3Dfb%26utm_id%3D120245621278240166%26utm_content%3D120247041188040166%26utm_term%3D120247041188030166%26utm_campaign%3D120245621278240166&fb_obo=1&utld=giphy.com&stp=dst-gif_fr_q75&_nc_gid=TcqzQMYI0Tm-ZBEyAHq6ag&_nc_oc=AdrTESg_MRITHpcs-1vc5j-DLaBhm28ghFyeSKU3BecUQOFEQkVipkn-WOODCgsVahg&ccb=13-1&oh=06_Q3--Aa7LB5xXAvtL_lbzyY4cnpLjoD_zaFKkqxTgxI_Ha-go&oe=69F7D987&_nc_sid=9e3c15"
+            },
+            "animated_image_caption": null,
+            "animated_image_attribution": "GIPHY"
+          },
+          "image": null,
+          "video": null
+        },
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDg5OTY2ODM5ODE0MjI5XzIwMzMwNTk5NTM5MTMxOTY=",
+          "legacy_comment_id": "2033059953913196",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1777440704,
+          "message": null,
+          "author": {
+            "id": "100003277915883",
+            "name": "นพพล เกิดคง",
+            "gender": "MALE",
+            "url": "https://www.facebook.com/nphphl.keid.khng",
+            "profile_image": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/672686230_26559616180397618_1915641352565639626_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=105&ccb=1-7&_nc_sid=1d2534&_nc_ohc=kNKK_vkdE0YQ7kNvwEHgsOG&_nc_oc=Adq92yhZzlYFO1VWryA1VmP-8I9e0BMy54lqTkda6lYLRTXBHsTrFk6yjjFOXRsjwm4&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=TcqzQMYI0Tm-ZBEyAHq6ag&_nc_ss=7f289&oh=00_Af6Lw7zoyQEytaBiDo1NepHYGyeSCPAGMUNCh_c7nrHlsA&oe=69FBFEF2"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzMzODY4OgF_NEcy9mRjAL2KBE_6oIXOEUI_2ZBxlhnQSWEGy9h1Ym34UldD3zhuV-xdHD4X1OjvVIByIKfMIdvLBwxyqmD7bXl277-iPRnk_6eSDrj1GgBA-vkxS9lstwBBw-FZaZcWxG2ru8jTm_ryJAk4dPT8d5Q5xS4fAI14ShtUhk5SGCPg9crbHfzTQxd-NbHYCgFHTsZHdkoOiHfbmLtU7Jg1EFWAXOS6J4pIRKosW3gx4noqngcuZqpWnXWbQbmdfQleSTkvDECI4mO-1giH3KM3xubLEKfd_AjKRFarmURLPeSy7hEZe1EDTKlxEyknnj-Uv4d08qPUMgp5SXKgTJW9ufoeuIsMjbTv12kZ_SuAX4kmyd_AzV1klqiImkPL3zBD2GP1ZGzZmLClTUjDKxbTbK_ylUs6ViAoxebQukNDz2un7XvRqR9_UVe-44yr53fbYWqoT-Av-xCjDPOcRyK6G65ofGfweftAmRowHJyZ7PrXmWnd-aP9PzEzmwFV50reIyu1E8KYVkG0MKQOPBIszfF9-ica15EXQBxa1kiEuUkW8NLkv3q3QHvHsMNU0CvNmzZdo9vZh75rDcfmeowgvA",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": true,
+          "gif": {
+            "__typename": "GenericAttachmentMedia",
+            "sticker_image": {
+              "__typename": "Image",
+              "uri": "https://external-lga3-2.xx.fbcdn.net/emg1/v/t13/5046706240633595820?url=https%3A%2F%2Fmedia2.giphy.com%2Fmedia%2Fv1.Y2lkPWJlMzAyMTE3dmU5YmR6Y3N1NXJxZ21lOTlxOHN0OHdmMTcxbmJzdmQwbGdyYnl2NCZlcD12MV9naWZzJmN0PXM%2FPx7UlocZmDtf1P5mKs%2Fgiphy.gif&fb_obo=1&utld=giphy.com&stp=dst-gif_fr_q75&_nc_gid=TcqzQMYI0Tm-ZBEyAHq6ag&_nc_oc=AdpYL_UEsPNFzxoW2gOaBu8lFIt8UkEvADOLrK71YXePTh7CRfjurw5xnd2BacOVavw&ccb=13-1&oh=06_Q3--AZ4eisobztmo0h-15O6a2ofuwPY-CTLmCBW68BxOAjX_&oe=69F7DC92&_nc_sid=9e3c15"
+            },
+            "id": "26654742384218330",
+            "image": {
+              "height": 500,
+              "width": 500,
+              "uri": "https://external-lga3-2.xx.fbcdn.net/emg1/v/t13/5046706240633595820?url=https%3A%2F%2Fmedia2.giphy.com%2Fmedia%2Fv1.Y2lkPWJlMzAyMTE3dmU5YmR6Y3N1NXJxZ21lOTlxOHN0OHdmMTcxbmJzdmQwbGdyYnl2NCZlcD12MV9naWZzJmN0PXM%2FPx7UlocZmDtf1P5mKs%2Fgiphy.gif&fb_obo=1&utld=giphy.com&stp=dst-emg0_q75_s500x500_tt6&_nc_gid=TcqzQMYI0Tm-ZBEyAHq6ag&_nc_oc=AdpYL_UEsPNFzxoW2gOaBu8lFIt8UkEvADOLrK71YXePTh7CRfjurw5xnd2BacOVavw&ccb=13-1&oh=06_Q3--AZAdPlQCjSGPKy-QjciBUFGl5hZj_DA-mry0c3wiIGGd&oe=69F7DC92&_nc_sid=c97757"
+            },
+            "animated_image": {
+              "height": 500,
+              "width": 500,
+              "uri": "https://external-lga3-2.xx.fbcdn.net/emg1/v/t13/5046706240633595820?url=https%3A%2F%2Fmedia2.giphy.com%2Fmedia%2Fv1.Y2lkPWJlMzAyMTE3dmU5YmR6Y3N1NXJxZ21lOTlxOHN0OHdmMTcxbmJzdmQwbGdyYnl2NCZlcD12MV9naWZzJmN0PXM%2FPx7UlocZmDtf1P5mKs%2Fgiphy.gif&fb_obo=1&utld=giphy.com&stp=dst-gif_fr_q75&_nc_gid=TcqzQMYI0Tm-ZBEyAHq6ag&_nc_oc=AdpYL_UEsPNFzxoW2gOaBu8lFIt8UkEvADOLrK71YXePTh7CRfjurw5xnd2BacOVavw&ccb=13-1&oh=06_Q3--AZ4eisobztmo0h-15O6a2ofuwPY-CTLmCBW68BxOAjX_&oe=69F7DC92&_nc_sid=9e3c15"
+            },
+            "animated_image_caption": null,
+            "animated_image_attribution": "GIPHY"
+          },
+          "image": null,
+          "video": null
+        },
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDg5OTY2ODM5ODE0MjI5Xzk3ODE2NDUzNDkxODI5Ng==",
+          "legacy_comment_id": "978164534918296",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1777440662,
+          "message": null,
+          "author": {
+            "id": "pfbid02esKUUx4UAD3qRkEV8cqtGXRYiJShaMhpJ8LkdxjYUu5j5btqgPerXwKHpRtutqw9l",
+            "name": "Bella Bell",
+            "gender": "FEMALE",
+            "url": "https://www.facebook.com/bella.bell.858909",
+            "profile_image": "https://scontent-lga3-2.xx.fbcdn.net/v/t1.6435-1/106105463_106181547818647_6110903266016100688_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=101&ccb=1-7&_nc_sid=e99d92&_nc_ohc=fvK2sxsjP_4Q7kNvwFrAT_h&_nc_oc=AdqT8rAXtieAGUlg-4KsNvz2G9YlDc1__g5wY1Fb_mxi7d2MUCQv_3nWli7xHEJDbWo&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=TcqzQMYI0Tm-ZBEyAHq6ag&_nc_ss=7f289&oh=00_Af5W5p5WkbNE4kxwGPVeFOksNFzKZ9gdESAEZhioUB50iQ&oe=6A1D7167"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzMzODY4OgF_OmfX2hRyEjyFVFR34UqvCGpqS-CZG_IzmOCmJc8K5yt3n1BcJKDptYO-eGfooclVhbWv3a0W3u894Flm8S1ynC_rcUf358Xxfut--P3S2G48EkwHCvnyghMK3suEggeT0Vv9lBbLEz9hoo0GRswIhIzNhqIR6OR_-2850mmvABTXJuZQOoM3vM2w7vTi9Htguoe079pAgbVdXbENDExWf4t5qWmMzsMsNzpi8ykuOwBUQMjgF7dDWVN_wKIKXruoWCut5jouT_6a13pkjAsYASRChDsaH-3FYj6voeGXepS8QPYO0Sg1uNvXhLmb-2WYDS_n5yHqqSxSimymxsXgoeYvl2YoPyFCWmXe_ppMxbShhuA5k0bSNamTaCiCVq5iVMKh6jp7B_rlTnrfNOQicineDbYsiMHZp0q3mdLh7RXDcvNhViPjkqfrr2D3HzFDf0n9lAWJMwOY6DVOVUZmYJxTL3X8TtZltDcdZ2bHCmBrQSCLV_EdjjAr-wGYm_wzOhpkrdnukoCt67JeIrQzVgnYPgGf72mFoUsflHTxRwVhd1H8FeS8A1hU4XeWKBn6Cbwl2PLqauwvqpIGZmLQQQ",
+          "is_sticker": true,
+          "sticker": {
+            "__typename": "Sticker",
+            "frame_count": 1,
+            "frame_rate": 83,
+            "frames_per_column": 1,
+            "frames_per_row": 1,
+            "label": "Love, girl holding heart",
+            "pack": {
+              "name": "Hacker Girl",
+              "id": "114487328748554"
+            },
+            "sprite_image": null,
+            "image": {
+              "uri": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.1997-6/47270791_937342239796388_4222599360510164992_n.png?stp=dst-png_s160x160&_nc_cat=1&ccb=1-7&_nc_sid=23dd7b&_nc_ohc=XFnzRxZBbE4Q7kNvwHe2qtq&_nc_oc=AdpZzNi7sOzyb38hqTZOqCEqMXTFSl7e8OlYTu3AEodMDczOvTvbeY7HShmEiwHEe48&_nc_zt=26&_nc_ht=scontent-lga3-2.xx&_nc_gid=TcqzQMYI0Tm-ZBEyAHq6ag&_nc_ss=7f289&oh=00_Af7Q4R9YTSHbH4rrrL1QFxH-wC32PCPbmid2ZH3kH1x3gA&oe=69FBE1F2",
+              "width": 160,
+              "height": 160
+            },
+            "__isNode": "Sticker",
+            "id": "167788116751808"
+          },
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "post_id": "1489523853191861",
+      "api_post_id": "pfbid02KUM3eWB8rsn3tuN871d7wZBTH5Ww8BtCeDbcfdFuGvY9CZs1ZC4D6p9pZBz3PMvGl",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02KUM3eWB8rsn3tuN871d7wZBTH5Ww8BtCeDbcfdFuGvY9CZs1ZC4D6p9pZBz3PMvGl&id=100064027815481",
+      "comments_count_from_post": 1,
+      "total_comments": 1,
+      "comments": [
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDg5NTIzODUzMTkxODYxXzE1NDQ4MjAzODM3MzY0NDk=",
+          "legacy_comment_id": "1544820383736449",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1777393071,
+          "message": "ช่องทางการติดต่อขอรายละเอียดเพิ่มเติม👇🏻\n\n📍Location\nhttps://maps.app.goo.gl/Hu5XzMzRuUNrzc9M7?g_st=ic\n\nปรึกษาสินเชื่อฟรี⚡️\n📲084-262-8878 \nแอดไลน์อัตโนมัติ 🔖 https://lin.ee/HHAC58E\nแอดไลน์ ID : @perfect-house \nWebsite บ้านสวยๆ 👉🏻 https://perfecthouse-property.com\n•✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨",
+          "author": {
+            "id": "100064027815481",
+            "name": "บ้านมือสองนนทบุรี กรุงเทพฯและปริมณฑล สินเชื่อฟรี-by Perfect House Property",
+            "gender": "NEUTER",
+            "url": null,
+            "profile_image": "https://scontent-for2-1.xx.fbcdn.net/v/t39.30808-1/311191000_558996439362424_6276165546597166861_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=T_LZ_RRcHgEQ7kNvwHY2y-H&_nc_oc=Adq9jvtI_Ce3EDkl7XV7RWImCT9dtckiY_FQijgZ_xEvCie0ohjm9Pmwwv8aeT_suEc&_nc_zt=24&_nc_ht=scontent-for2-1.xx&_nc_gid=lUfIK8cy9Rn9Xc3EIloSQQ&_nc_ss=7f289&oh=00_Af7JvkA089K1aB02h8rUtNgx9KhWSlCPbJFXdqBqQNYkIQ&oe=69FBFF1A"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzMzODczOgF_7lUxqnkOUJwiih68-BZZlanzu44ICVYZR1ctxVLdLIUv3fF5pTW5bBKdL3jF-EmogTVh_5SsMwBTpeNxKKrVKxx_YSlaURRkX8gti5pjOfaY7K7BpLHGFdWDcakgQCdWmS4Arxg6LEBDJlTSFFPQxNBVG5omHe1HuMDSdfvo_UE2d5vinoUd7PrYfgVI9aBugxKbW2ZPE1npMXU6jpZgS1d_xP8WQTGgi_ozlgflj2zjxAtuOe04UpsXeO2HV9pelo2y1aip1g5VMV9Xp_jWEDpIDvcBVsdprwJaOM7PH-6JBMdMPQ2LblyK-XDudz0ogl9rO4RXsogbalxr2aoeviku2gqEArdEuopD_OYCUtajKsNuv1P9_igXB8Jbmy6jbxs2O9-Qlo9bK45xKqdsl0oe_x3GkFuAYnpTpJyRCkv2ZVtiaKcHIA6muKCTpEVcCI1BGeFqpCAM4ephLKwourzNqSsXS6tZoy28NlpZEgLhjszJrQE40K1bl0rnxzHiSf0iEsjMx20DNpYBrq62a4i1qqOxJ2vBkJS1WA69eSuQWN31eWv3B_bmugo_1-mLaqtGcWdQIpZ4veI_bSXvsg",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "post_id": "1489494349861478",
+      "api_post_id": "pfbid0L9t5h6HiMxm8iPwSgCnaX1c8MwfAD1pBfXxapF8cte2fdiS1E3uLYw2j1dLrTXAnl",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0L9t5h6HiMxm8iPwSgCnaX1c8MwfAD1pBfXxapF8cte2fdiS1E3uLYw2j1dLrTXAnl&id=100064027815481",
+      "comments_count_from_post": 1,
+      "total_comments": 1,
+      "comments": [
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDg5NDk0MzQ5ODYxNDc4Xzk1NzMyODY3Mzg1OTQ1Ng==",
+          "legacy_comment_id": "957328673859456",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1777390654,
+          "message": "ช่องทางการติดต่อขอรายละเอียดเพิ่มเติม👇🏻\n\n📍Location\n. https://maps.app.goo.gl/WasuUoHWoXgcSeX7A?g_st=ic\n\nปรึกษาสินเชื่อฟรี⚡️\n📲084-262-8878 \nแอดไลน์อัตโนมัติ 🔖 https://lin.ee/HHAC58E\nแอดไลน์ ID : @perfect-house \nWebsite บ้านสวยๆ 👉🏻 https://perfecthouse-property.com\n✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨",
+          "author": {
+            "id": "100064027815481",
+            "name": "บ้านมือสองนนทบุรี กรุงเทพฯและปริมณฑล สินเชื่อฟรี-by Perfect House Property",
+            "gender": "NEUTER",
+            "url": null,
+            "profile_image": "https://scontent.fgru19-1.fna.fbcdn.net/v/t39.30808-1/311191000_558996439362424_6276165546597166861_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=T_LZ_RRcHgEQ7kNvwGVkOiJ&_nc_oc=AdoA21xbUBwcTAFmY23OH0g5riRJF-gasTRtD9DY2-ClVww5ewSesRZFQt85PCCSQkw&_nc_zt=24&_nc_ht=scontent.fgru19-1.fna&_nc_gid=jSnkNuNGeVGRGqaUFkM87A&_nc_ss=7f289&oh=00_Af4dNCs6BCZg1Lv1gnrc_Y7cYOj9PdFert1Vz8dSrDa5lQ&oe=69FBFF1A"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzMzODc5OgF_p6tHXDaLavLOBTFGHeKrB9_a7WtbAnl_7Yaxy7rsOpwmXbkxAD8NvHJJ07Gq7lLDlVfT1MiDZpMK6fjTZFIEWq_MQ9iUUMEdGH7aDgpU4Ul3MvY0ko9uY7zYqGNCT_xuxB0yMko0dqQ41Xiave7cMM0H0x7nEE7nGw1mvOxwQA37-wJSbApmyJeCWrdC3W4dEhxZ93c_PNLXhZeQDBpVyWyxFL1rFEfv-lCYgycpM0NJOlkZ7TgOKbKendQPqSevroh7IiLrbbiq0X0IGT1HNxhMcfx0yzGR6RWk38v8Xo8Y45WOwoeT0kYpYFsJvBkG6kWrbKq7egAokZqr4KM9G0-Ew-UBAZT6R_7mlqORcf2CttFjODqzQKIeg0AfKzBTYRGkDwJeGjhraTfJ3UFr9K1CesUAGdes_wkoIvMJrVAvWjRSpELw1DOeHQkKJKRxdvtrKm-npV1J6bMHUUekZw3kb5p-jWaxvPLF6Agug89BkEz7eE5ydjebcDB0p_KPJVj_3KGS1zmoqZdmliZTml33_S43pmhb1moKFHn951N1uTfT_q5mt1MwvUucPtlvXBRZ7s4BOBEDfJhubQjlRg",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "post_id": "1489434806534099",
+      "api_post_id": "pfbid02yasJzhmMzPPvnyPrzbCFFXG36WQN56EkPEd1T2Qu7PpxAxhBbkZtcWXGi9jGWXopl",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02yasJzhmMzPPvnyPrzbCFFXG36WQN56EkPEd1T2Qu7PpxAxhBbkZtcWXGi9jGWXopl&id=100064027815481",
+      "comments_count_from_post": 1,
+      "total_comments": 1,
+      "comments": [
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDg5NDM0ODA2NTM0MDk5XzE5ODA3NjE5NzU4NTk1OTM=",
+          "legacy_comment_id": "1980761975859593",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1777385851,
+          "message": "ช่องทางการติดต่อขอรายละเอียดเพิ่มเติม👇🏻\n\n📍Location\nhttps://maps.app.goo.gl/aKQ4ymq8HuhxeAvm7?g_st=ic\n\nปรึกษาสินเชื่อฟรี⚡️\n📲084-262-8878 \nแอดไลน์อัตโนมัติ 🔖 https://lin.ee/HHAC58E\nแอดไลน์ ID : @perfect-house \nWebsite บ้านสวยๆ 👉🏻 https://perfecthouse-property.com\n✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨",
+          "author": {
+            "id": "100064027815481",
+            "name": "บ้านมือสองนนทบุรี กรุงเทพฯและปริมณฑล สินเชื่อฟรี-by Perfect House Property",
+            "gender": "NEUTER",
+            "url": null,
+            "profile_image": "https://scontent.frbr4-1.fna.fbcdn.net/v/t39.30808-1/311191000_558996439362424_6276165546597166861_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=T_LZ_RRcHgEQ7kNvwGY6Fkn&_nc_oc=AdpZjl0cZDGtraAWNvi9pOQGLHqt-AFZRrCRl0plyF-fM9M6zLxk4YXuPovr-VtiaIE&_nc_zt=24&_nc_ht=scontent.frbr4-1.fna&_nc_gid=-PojEnjy9wNWPw66-kWoPA&_nc_ss=7f289&oh=00_Af50aZpnuam9mEF7of3V00CBD1KDPXxyOWTqw16MIwFx0A&oe=69FBFF1A"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzMzODg2OgF_u8t8a9XrP6Tpn1TCVIE9AzxZ0C3PUpgwzdDGznDCYdda8srjW0aNAZGO02ZHb3UjxdGM8AppMMZS_syJIh5oV5gMP6NN8nkJ0k0-c_dTiETigqtcsurrQA3tcGpaQ04NyD2BtDf8du76nGPmre4Wo_BHPLZxZ8px09HccTpmdtV77_gE1zj8e_1HAmDEGZFLGmuP5i2t-P_ufpLvssj8bHyLeN4JPSR37PPvLZ5lxViCLCHMlss4B7QZGxliDBe6mmo-Jep0PFOSWbiOWYU0jA_rY8KK6w_RioW7RulrKfOSd-qwPKgRjaoD8e5fXaQnS5_2YUhYpLRsvvhOJCtGsjWUZUSI69GjrtCbCcsTbk12xjpiztDE-GCprMF7Q__tGkx_9r_g0_WTA5RnEjWqhVikWLFg9obd3tWpYrw5LtwBiRf7MH3e81CvOHuQSJk8wsy2y5m6MrZK2_HgzLvKGVqId8Umkd9nA6q327BgyoL7DxTrDUe7b1YC5MPsjha8eu4-FcfI6AFYK0ehazsaNSbMxoFD33HiJOWOhDUuyW-YlAhaKeq59yM2GSy0PaMm57Bvu3-qFlrvdyP66UYpdA",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "post_id": "1489282509882662",
+      "api_post_id": "pfbid02VvTnDJxKK6jhmYRjWabwi7TMFDXrR6CHXCLayN3fYfM2Rh5hu9ZzFd1g33LFiVdsl",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02VvTnDJxKK6jhmYRjWabwi7TMFDXrR6CHXCLayN3fYfM2Rh5hu9ZzFd1g33LFiVdsl&id=100064027815481",
+      "comments_count_from_post": 1,
+      "total_comments": 1,
+      "comments": [
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDg5MjgyNTA5ODgyNjYyXzEyODU0NjQ3NjAzODEyNzA=",
+          "legacy_comment_id": "1285464760381270",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1777372117,
+          "message": "ช่องทางการติดต่อขอรายละเอียดเพิ่มเติม👇🏻\n\n📍Location\nhttps://maps.app.goo.gl/k2ug1BzTbxPo4Gie7?g_st=ic\n\nปรึกษาสินเชื่อฟรี⚡️\n📲084-262-8878 \nแอดไลน์อัตโนมัติ 🔖 https://lin.ee/HHAC58E\nแอดไลน์ ID : @perfect-house \nWebsite บ้านสวยๆ 👉🏻 https://perfecthouse-property.com\n✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨",
+          "author": {
+            "id": "100064027815481",
+            "name": "บ้านมือสองนนทบุรี กรุงเทพฯและปริมณฑล สินเชื่อฟรี-by Perfect House Property",
+            "gender": "NEUTER",
+            "url": null,
+            "profile_image": "https://scontent.fbsr19-1.fna.fbcdn.net/v/t39.30808-1/311191000_558996439362424_6276165546597166861_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=T_LZ_RRcHgEQ7kNvwHpfDxT&_nc_oc=Adp2isfAi9nsqWJ_9tZ2LVZdtzSNKHqrThnTVs6voKDEggxwZ7xkmyog3k4EEN_ff6o&_nc_zt=24&_nc_ht=scontent.fbsr19-1.fna&_nc_gid=y6r-dDA7PQ09Y9Scrr24rQ&_nc_ss=7f289&oh=00_Af7zXQ0DmdyOkHPfSK00-sO_wrOwCiCe_Jhw-glxI7VMlA&oe=69FBFF1A"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzMzODkyOgF_JTzXfq-nBD7yH5hD5EDtTWAuNLElpMH0BM0AXkHF7g_8UmIwMvRoX-xsxZZI-WqEOALVMCSugmv_8UP2Exgc5crmv6pk-lZvPuIO6YJ1EmjVAWDVeRytlhD9FU48eBU5Ntw583c769zrogUzMavakNm6nDUnE2B4GF_HVn6_0qV5-AyN-kOPFyx-1xQx7hjBj4fa2_YyS4GrpOpQm93iPXM_XiTZZ7Iw89vTCBN06msk3XNJm_0J1GpjRaBknWLX02sSPRHsvsno3zvxa7-yxUbiMwnry4AfLUdGYsEwRNfGStq0dIdbh28qIp_9xHuvZuhmnRBlU_2QTLenmoH9KkCKcq84n4J-ytIrVybqiboWQmtOKJ9YmVvQBb83hRduw2DEvY00N8E3ZPOGbgQI01OSCc3cIgRu_Tk3llA6q_Y0l9KRKCHZHimwWW3SrkOVTb6o3plS7aYSZCrkSu9b_4XHSUJ1aLJRGWCc5nDqz6_0YuTA5R1DBcQcK6ivNzapaLD7A7Xi3PGRCLolbTaPU4UAOGKLtld-sNjkgG2cXTWlo0043bChbHMuQC7oZwstwpfyzDzQxkbkRn7QIqaCSw",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "post_id": "1489270956550484",
+      "api_post_id": "pfbid02XjCGKfkBcrps4m9jLWjVJ36wGFgkd2Mevqr5UEgqoi8M9uBgfRxRjS3wrUexW5vrl",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02XjCGKfkBcrps4m9jLWjVJ36wGFgkd2Mevqr5UEgqoi8M9uBgfRxRjS3wrUexW5vrl&id=100064027815481",
+      "comments_count_from_post": 1,
+      "total_comments": 0,
+      "comments": []
+    },
+    {
+      "post_id": "1489151966562383",
+      "api_post_id": "pfbid02SnxLZEwnXGFJpcauPnmbcp5xka3bSD3Fbu34gKvPAonnEDnhZQ8asovPo2bAjCo1l",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02SnxLZEwnXGFJpcauPnmbcp5xka3bSD3Fbu34gKvPAonnEDnhZQ8asovPo2bAjCo1l&id=100064027815481",
+      "comments_count_from_post": 1,
+      "total_comments": 1,
+      "comments": [
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDg5MTUxOTY2NTYyMzgzXzEyNzM4MDk0NTc3MjA3NTc=",
+          "legacy_comment_id": "1273809457720757",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1777360026,
+          "message": "ช่องทางการติดต่อขอรายละเอียดเพิ่มเติม👇🏻\n\n📍Location\nhttps://maps.app.goo.gl/S7X3NS3uPzgQQqti6?g_st=ic\n\nปรึกษาสินเชื่อฟรี⚡️\n📲084-262-8878 \nแอดไลน์อัตโนมัติ 🔖 https://lin.ee/HHAC58E\nแอดไลน์ ID : @perfect-house \nWebsite บ้านสวยๆ 👉🏻 https://perfecthouse-property.com\n✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨",
+          "author": {
+            "id": "100064027815481",
+            "name": "บ้านมือสองนนทบุรี กรุงเทพฯและปริมณฑล สินเชื่อฟรี-by Perfect House Property",
+            "gender": "NEUTER",
+            "url": null,
+            "profile_image": "https://scontent.faae2-4.fna.fbcdn.net/v/t39.30808-1/311191000_558996439362424_6276165546597166861_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=T_LZ_RRcHgEQ7kNvwH9lXTp&_nc_oc=AdortMjVrtTTiZP26RinVHCSLFHnD8WEw01PD1c5oilDIQ33OuYbM34jyYJfeChcGzM&_nc_zt=24&_nc_ht=scontent.faae2-4.fna&_nc_gid=LgVfAp6G8RBZgYNE0_FNMg&_nc_ss=7f289&oh=00_Af6rJH7YfT8kXw6Ny5Ar4kOpjqbpv_khUj9ifLRVq6q-dw&oe=69FBFF1A"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzMzOTAxOgF_UaiDhLtc9FwC9c1qmLhZatAqsT9Uf9Rc3sBpLjW801q0YdVPiKXa6bNTfcxqjUSqASfEWOMOXOen9Sg-4f-6-qj3C6l2Y3yRLyYcbVCGk9_AqrdYH_jQ1IzNXv-ygcvDzPXgqkItBHW6kiD-Q63I-UQvn7umqV8dBFPR0mQW34VIM09bH_Y1MoYy-lCPuQTfZYhufszFrnlZBICXq8xFxw-rBLHZGctujSGO5mv-HQ05WR3OLJrhJJPBYhp7sjJ7RNy-hvotNmDgqDZn5t2xJTou83fevCazySYhjIOVB7FCf3_8RixmuusRUfYwaJozUX-93sns2nfThNloVLD8bmoCQdu4YTU7uNZ9qU28ysO9XaOdf75H5MirJ1kQGcNjRmh0Xvw7sxJLo2PpIdwY9F6Z_XLpgsCp6pLUpmGBLa9hIpUGH3vZi8TUtMg4EtaykB4q6o5oawKzoAa5TjOi9KB1NtSW5ZTe_gNoZ9IbI6kPTr4sX8RPDDKA42jFngyxTA_n3Cea_NOfQgbVZ2XB-xrSO09UY2QLOj538fwgC7IYFb0o0gRbSOJl6tRoHpUElLe9zRK-fhcH61BtMtHZNg",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "post_id": "1488563043287942",
+      "api_post_id": "pfbid0d8QkEuasn1XP4nP7hTo8Cn2xwNA8hZbT1XmE8Bq1XmimuMiRYSvYZuWhqedQxGrUl",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0d8QkEuasn1XP4nP7hTo8Cn2xwNA8hZbT1XmE8Bq1XmimuMiRYSvYZuWhqedQxGrUl&id=100064027815481",
+      "comments_count_from_post": 1,
+      "total_comments": 1,
+      "comments": [
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDg4NTYzMDQzMjg3OTQyXzExNDI5ODY5NjEzMDIxNjQ=",
+          "legacy_comment_id": "1142986961302164",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1777298174,
+          "message": "ช่องทางการติดต่อขอรายละเอียดเพิ่มเติม👇🏻\n📍Location\nhttps://maps.app.goo.gl/y4V7sYvSVd2ojgcy7?g_st=ic\n\nปรึกษาสินเชื่อฟรี⚡️\n📲084-262-8878 \nแอดไลน์อัตโนมัติ 🔖 https://lin.ee/HHAC58E\nแอดไลน์ ID : @perfect-house \nWebsite บ้านสวยๆ 👉🏻 https://perfecthouse-property.com\n✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨",
+          "author": {
+            "id": "100064027815481",
+            "name": "บ้านมือสองนนทบุรี กรุงเทพฯและปริมณฑล สินเชื่อฟรี-by Perfect House Property",
+            "gender": "NEUTER",
+            "url": null,
+            "profile_image": "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-1/311191000_558996439362424_6276165546597166861_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=T_LZ_RRcHgEQ7kNvwGCoLGh&_nc_oc=AdrjytYW9ldrtZVbW8nz2m3_1MECrizFUYsmjaBS7kMQIQqWUDBLZmKwJn_GEBE25x4&_nc_zt=24&_nc_ht=scontent-lhr6-2.xx&_nc_gid=aZvRN6ZsjLq5rTB26FlneQ&_nc_ss=7f289&oh=00_Af5PqguGxW8UjDJm42f7hdsSxwdd80_wsPE50jGEUkEXjA&oe=69FBFF1A"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzMzOTA3OgF_ieI_VJZ8YsTXNT_DKA78dyOovi69MNjC99CwLLszWZU3E6i-NPh_gviH5LkHmQuEIZgFYh83e-fON7v3Lymj9lg4pY3DjbctVKzxsS5blEYsIhAAEqQy0bmcagGcEPSThW-c90gV98VbGR_dYD_qd0M8qJSA0wXsD-T0N-qH_5k-VB95fF3KF5WiHq-qHxdidQ-TuYphd87WQBqhRreNNpg7zVA-CFigqpVtbcWJYAoJP2YLYQ3WtQyzINVyZ0G07P58CewN5nX-rft5TU0cdxJctXeUoMhZikRKtwTJtIKsYccfcu6NggRqdHhoxFS74Atfz-zD5VilhddZS-k1EaK3Oxvlp7XY4EeVfXETUJOzh5LVnVDIyWRoOw6Wr7Y9eVmZ6rqJTFkDiLf51j-_nZQWE6IavpdkUbgPmqSsp3LODcLBGBbO640kZ-DC5vKyNlEe4-1SJy1cmGGpp2QVrV1zFEpICVRoE8KsgFoxJKgwfC23yg9XzTk6ztZzItKLPEbfknfHwEFvHHKPfbMBdDcdAf1DJ8Se0BEcTZRpkYCQD9LkYQD27_YoY5yHQJu8tM4iGDxz-OxVkYL4B1-m4w",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "post_id": "1488480689962844",
+      "api_post_id": "pfbid02da5FAYgrMDskKDVFo7gTuQqWWmvYgn5yAffVeGFH823TfejAkbVoU6j2VdkknpoFl",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02da5FAYgrMDskKDVFo7gTuQqWWmvYgn5yAffVeGFH823TfejAkbVoU6j2VdkknpoFl&id=100064027815481",
+      "comments_count_from_post": 0,
+      "total_comments": 0,
+      "comments": []
+    },
+    {
+      "post_id": "1488295589981354",
+      "api_post_id": "pfbid02pzeke8fWmZ87hZPunrUbi9UB9jrgRZncsLM2PZN8iubap1kCaw7TKbJm5hyTFpjDl",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02pzeke8fWmZ87hZPunrUbi9UB9jrgRZncsLM2PZN8iubap1kCaw7TKbJm5hyTFpjDl&id=100064027815481",
+      "comments_count_from_post": 1,
+      "total_comments": 1,
+      "comments": [
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDg4Mjk1NTg5OTgxMzU0Xzk4NTUwNTc3NDQyNDIzMg==",
+          "legacy_comment_id": "985505774424232",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1777275853,
+          "message": "ช่องทางการติดต่อขอรายละเอียดเพิ่มเติม👇🏻\n\n📍Location\nhttps://maps.app.goo.gl/V1pchoHrz5tW69Yp9?g_st=ic\n\nปรึกษาสินเชื่อฟรี⚡️\n📲084-262-8878 \nแอดไลน์อัตโนมัติ 🔖 https://lin.ee/HHAC58E\nแอดไลน์ ID : @perfect-house \nWebsite บ้านสวยๆ 👉🏻 https://perfecthouse-property.com\n•✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨",
+          "author": {
+            "id": "100064027815481",
+            "name": "บ้านมือสองนนทบุรี กรุงเทพฯและปริมณฑล สินเชื่อฟรี-by Perfect House Property",
+            "gender": "NEUTER",
+            "url": null,
+            "profile_image": "https://scontent-fra3-2.xx.fbcdn.net/v/t39.30808-1/311191000_558996439362424_6276165546597166861_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=T_LZ_RRcHgEQ7kNvwEEpucW&_nc_oc=AdrdX3_5fFcU6YgvF9kpspGiQs_vmS77ghLZV_wt22D4uTsKdfvJe57CZJtnJehImpc7kNoggzsNX5hO3Xi0Y-pF&_nc_zt=24&_nc_ht=scontent-fra3-2.xx&_nc_gid=Uj1rWNPVdfXqKYAmXznY2Q&_nc_ss=7f289&oh=00_Af4nxuyPjRHE9ps3WQM3lHcrzdeRXRnos6TBfULVIVKOGg&oe=69FBFF1A"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzMzOTE1OgF_EoM5O3jr5TduQ4TBB59uhI4yGh6K8Q0Vcw-wSMaQKOzPpuYuza1MPNQqZ2zYAWW3RNqk-XYtrl-XH2I3Phh0INtRXUmI12lBbHc9qO2B9L0brYspS-ZTdii0snifMbRVdTwClAMgb4cmobyezeB2BFsVBgdGgfpkJKxrUq5jOxK3rwtth2F_ad2I_AX2F9gThNuOJX2qiD1QDoq0EwJrLWKiQ_mQg1vwBCSCRjcPmZaOfFhsZMXghcSfoLXGYMdQ3sbGuCEC8WWJzVLuFl49X65nRwPnw-tIAoUGcrurJNIVJCrnH1A5-Txt3yBB7SAuEk2q7b88z2chrv6k8r8BKerJEnfMeNEUIoGDNfc4y_DPE_yet03Oln_AYO1Hclg_d1X4CeFzTvJWUgavLbvZlbiCEAM7fi_zCyu6b0JaK2UgbFsnFr-tnGY2TiaEcb1V17-heZ14tqndBCCWvYBorvtAskTMpfRYxzveyWzzd2rJZVTPGcJ4i7GLX2mQIBZfcVjtVQEW5Ipq2-UrC6kfiAe7OyVYojc6NHH-psO8SQX_crneiyZKPGgVDQd0HrW2_T27D-lrde9fkn2e_5NhHg",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "post_id": "1488099350000978",
+      "api_post_id": "pfbid0W83GG1rb9tDxDJ6eQceS7yruEJsFFzXYjMGZk6hfeHjiSDKQzm9ZwXdUCmNqnkcul",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0W83GG1rb9tDxDJ6eQceS7yruEJsFFzXYjMGZk6hfeHjiSDKQzm9ZwXdUCmNqnkcul&id=100064027815481",
+      "comments_count_from_post": 2,
+      "total_comments": 2,
+      "comments": [
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDg4MDk5MzUwMDAwOTc4XzI3OTI5OTI2MzEwNDk3MDc=",
+          "legacy_comment_id": "2792992631049707",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1777257696,
+          "message": "ถูกมาก",
+          "author": {
+            "id": "100000703479961",
+            "name": "Sukanya Sj",
+            "gender": "FEMALE",
+            "url": null,
+            "profile_image": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/503284372_24244527111820734_8019804285496951735_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=108&ccb=1-7&_nc_sid=1d2534&_nc_ohc=_-9ff0ag9x0Q7kNvwH6tu-O&_nc_oc=Adpav9lwhBYZsJcD3YX7hzg7puRjMQERgSRJcEDosr3gY_rU_d_f1_k9gcxGyy3sCRk&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=M8cQ-E1H4ld5coPDa577uA&_nc_ss=7f289&oh=00_Af7KbzJRIlAIiFRGwDgU9c-4NfCLV7DsadJJ20MR1xEZrg&oe=69FBDBC9"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzMzOTIxOgF_z1fQ1Aiosrs3tlQUGV6oCyX5kYfPrufT6Ahd0tS8jmz5TYp1FrHl3C9fWk_Hm2yxEfpp5eMZ7X7WYmB53TyD4llo2PMBeQh62ZvBzcdCL1_grAKuxheXhJJcle9Uq1HPXxk9F4khgoMTJK35lLuac_IJNx56E_O-WOkJYF3ZdPWEN_QsFiJ2f0fYqqnBAgMmLmR0yLhHW-sNoFKt2_XSY5PTyvLcMDW401n5y7Ohv-iP2rbKxNfTInr07FN94ELvaEgUNRMyIjgmiHyT4BAySOpgIqH_sqlA2y8PRjBRTxcc-9FiTwk3xUufeN0-HwOjiNuBNViiQLPxosnQtyZV1AJhOPtOsOEIFWHrSdc2sMuSPC4yLEvKPdQKwVlTmoXQfkEfMHU84qtpemFDvSk_2ZSi7Cc6oXyiS2maRkvwFFfRbsb7GXq4vz833zpUx_mk-FIDdjdMUu4X6AXwU_FOMn0Xz4SgaNDL_V1_QwzJKBT_MOFEUCZuQAFaexnoJpkK9tRsnSxKW0mRo_vjeNWDmC_F5KwO95n2mQnB1hblOGQQey6BEH-eJPgvBwWGYhv_ZKj-D7NLBmM1XBXWQYgyTg",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        },
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDg4MDk5MzUwMDAwOTc4XzIyMzQzMjQ2NDczNzIwNzg=",
+          "legacy_comment_id": "2234324647372078",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1777256578,
+          "message": "ช่องทางการติดต่อขอรายละเอียดเพิ่มเติม👇🏻\n\n📍Location\nhttps://maps.app.goo.gl/S7X3NS3uPzgQQqti6?g_st=ic\n\nปรึกษาสินเชื่อฟรี⚡️\n📲084-262-8878 \nแอดไลน์อัตโนมัติ 🔖 https://lin.ee/HHAC58E\nแอดไลน์ ID : @perfect-house \nWebsite บ้านสวยๆ 👉🏻 https://perfecthouse-property.com\n✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨",
+          "author": {
+            "id": "100064027815481",
+            "name": "บ้านมือสองนนทบุรี กรุงเทพฯและปริมณฑล สินเชื่อฟรี-by Perfect House Property",
+            "gender": "NEUTER",
+            "url": null,
+            "profile_image": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/311191000_558996439362424_6276165546597166861_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=T_LZ_RRcHgEQ7kNvwEd9b1o&_nc_oc=AdrjGQS6ocjw8e9vOT8qF9mFQ1MTY9X66XuPbY9MlhfwphF_YJqtaBwRTQ36CO6G5kg&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=M8cQ-E1H4ld5coPDa577uA&_nc_ss=7f289&oh=00_Af5wjBfvoGF-Odi4mAoxIt-T2UmMWCCTFbQ4iHqyds8Zzg&oe=69FBFF1A"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzMzOTIxOgF_Y31H6xhf6Q9K5q6Q4DtTTkBIb1Xdx-Dj1p1sg4N5Qz8TiCa45ZE0rii99eQLNwwMyVwjPMIYwf4NDd6aumVfroaogiSXsMAjtvvaTbQae7DtPB2MyyDnnz0xofTx_M0F60R2MA4y4G17tw-npj9aO47yCWAmk574bZwW4AmkzQLtBclJay23Yon16nLEyDgo5mnOOYJDoS7v6s4R5Yyvliu1oUUdg4EM1X9sFA4vrq_ttKrrStexfVT7mqWlJcijdC-7bUr8Zaem_ZwYtNuoyPsA6fsDuRt8DdIN-fUW3-O-zrlcKxOTrSBv62owxg7Uc6lBbcSl4_PGXVgdIRHDcrbBv8OX3ZWaWcyJFT6deQ8EgE4WADgutGUDDkWU9NzJwPOpyeuhd8EtHodWuKEn_GVuV274BqwH31jdMgnm0lQMC5V3mQC6jC48C3cxbCymA_DtfCt0s9qhENMtXif9Nc73lmx5IxHJpfgr-NDOnF_ubgn6YN3rYVcfAA_Hb4xLorHhfHUMp4B-xa9SjfOEqHe57WP85X-lhV8WxGkXs3sDAW4eiWzAV6XArlAWkCcPsBrsKDJYRrmBi56XkubY6w",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "post_id": "1487621253382121",
+      "api_post_id": "pfbid02SBMRCQYMiWNzKgN5RxgFn1YtLqv8HAqLsro9R21smL5iad71b37VD1wwGTbERAM9l",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02SBMRCQYMiWNzKgN5RxgFn1YtLqv8HAqLsro9R21smL5iad71b37VD1wwGTbERAM9l&id=100064027815481",
+      "comments_count_from_post": 0,
+      "total_comments": 0,
+      "comments": []
+    },
+    {
+      "post_id": "1487453693398877",
+      "api_post_id": "pfbid0VNaEU7qBpXSTV4DR8Eb6fADEAqQPxE16aUeaiYUXRoyyvuwmgWVZdDhhDTMGrJmzl",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0VNaEU7qBpXSTV4DR8Eb6fADEAqQPxE16aUeaiYUXRoyyvuwmgWVZdDhhDTMGrJmzl&id=100064027815481",
+      "comments_count_from_post": 1,
+      "total_comments": 1,
+      "comments": [
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDg3NDUzNjkzMzk4ODc3XzEzMzYwOTAyNzE4MDU5ODI=",
+          "legacy_comment_id": "1336090271805982",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1777195075,
+          "message": "ช่องทางการติดต่อขอรายละเอียดเพิ่มเติม👇🏻\n📍Location\nhttps://maps.app.goo.gl/jxPVQDdodjMHqLvu5?g_st=ic\n\nปรึกษาสินเชื่อฟรี⚡️\n📲084-262-8878 ส\nแอดไลน์อัตโนมัติ 🔖 https://lin.ee/HHAC58E\nแอดไลน์ ID : @perfect-house \nWebsite บ้านสวยๆ 👉🏻 https://perfecthouse-property.com\n✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨",
+          "author": {
+            "id": "100064027815481",
+            "name": "บ้านมือสองนนทบุรี กรุงเทพฯและปริมณฑล สินเชื่อฟรี-by Perfect House Property",
+            "gender": "NEUTER",
+            "url": null,
+            "profile_image": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/311191000_558996439362424_6276165546597166861_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=T_LZ_RRcHgEQ7kNvwHYRZPS&_nc_oc=AdrK67BzTd3lwKmqflsgipirtm8H2g8JvHFWs2xW65uLV5xM3DMQHpXRagZ6RxEPlLE&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=kn1RecsNkxjSHLVZ17b8CA&_nc_ss=7f289&oh=00_Af5909d3EO43ruh7URI-46u6a4zEjzq9vmuLmZgo4li9xA&oe=69FBFF1A"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzMzOTMwOgF_5SGP-zaoI5VBAVxvgIMwNS6XHcCy3MunzwbvUVtnCtQurce2fsMR4CNLaVUyHpobo0zIBUZ4wdOhKe_Xpl6O1a00sXBSG3TDX03pEbxkH98NBto2b6w8zgyv3kBTwju_GvZ8UzKJRdZeGA4QOasNkLaF0ffRuHuM3VliGxin8fgWL9PUSZAxVho_pkF1l5pNAj3vAO0jFWjHe-UTEESzE7-ZyR3pyqXRk77nx17udtkesrU2Be9lGkdPf7lj2yIGCM43EHjzKyWY4747ZBKX9SqKadZh9T-3uKTHxYHThWvVTwUbFY4a_St-uYex24i_oE-3jzOPjaCJOL0jDbccnGiHsvR4zXvIYdkKmhir8uB58zKTmUlbJCuwOVtV5Lwrlr4wwrMMHSUoyyFCqz64kLDOxkIjxK9QArVzEfXYmYsHvzYcnAsDIalNOPiEkPPPl4Vi-iLyALs6ehp0fuNYKd2YfyZjhipKaysCzmqzdrv6z6J43IQlIDbs2YTiW8ORqdmHuEikyxetVIKNUNJrXjsEBxWP7xA2SCCuSojblsuuRoCSHLFJNjAIkMDXz41ULxEmRPP9rm90qzBDgHQmEQ",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "post_id": "1487395226738057",
+      "api_post_id": "pfbid02QgXjsHXXfJe6m3wBnRYEcU3Vb5CS5VqcEPaGpZFZuGQhJ2uEbZp6NZjeGnuUHL1kl",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02QgXjsHXXfJe6m3wBnRYEcU3Vb5CS5VqcEPaGpZFZuGQhJ2uEbZp6NZjeGnuUHL1kl&id=100064027815481",
+      "comments_count_from_post": 1,
+      "total_comments": 1,
+      "comments": [
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDg3Mzk1MjI2NzM4MDU3Xzk0OTk4MzMzNzg4Mzg1Nw==",
+          "legacy_comment_id": "949983337883857",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1777189581,
+          "message": "ช่องทางการติดต่อขอรายละเอียดเพิ่มเติม👇🏻\n\n📍Location\nhttps://maps.app.goo.gl/myg38rgaA6a1YVXu7?g_st=ic\n\nปรึกษาสินเชื่อฟรี⚡️\n📲084-262-8878 \nแอดไลน์อัตโนมัติ 🔖 https://lin.ee/HHAC58E\nแอดไลน์ ID : @perfect-house \nWebsite บ้านสวยๆ 👉🏻 https://perfecthouse-property.com\n✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨",
+          "author": {
+            "id": "100064027815481",
+            "name": "บ้านมือสองนนทบุรี กรุงเทพฯและปริมณฑล สินเชื่อฟรี-by Perfect House Property",
+            "gender": "NEUTER",
+            "url": null,
+            "profile_image": "https://scontent.fopo6-1.fna.fbcdn.net/v/t39.30808-1/311191000_558996439362424_6276165546597166861_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=T_LZ_RRcHgEQ7kNvwH4E7Oy&_nc_oc=Adp5MQu8sDHOsCu87ncf3MVOili4z_tGwoiga2AnZWQCBAspwczZoEbun4mfMySbknQ&_nc_zt=24&_nc_ht=scontent.fopo6-1.fna&_nc_gid=u5PyUapqYSM8Ipr3o7MduA&_nc_ss=7f289&oh=00_Af5pyViwMOgRUsz9ZYN1PexgZFMUwKU-dnZiNKGpl3vd5Q&oe=69FBFF1A"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzMzOTM1OgF_kDi_EMMKp4XhbjPZwgN-uAyn_7s4FhChqwiG1qBrvPCJmWGO5Xq5LnW8UAX-JT3VUBYv0BJXDDfWORZttM3CvO-swA5fIoWyquo4FBh7J8Gs_Q6jm1Q3fPQILCbEk8wPSSBB6oqoBiXOrJuD3rnmwVc7yVabJslYWqJQ0yiNttfOyAH7--uVgzrQK7VDMo06dBcxdU59invcAVo-s3aZArkygpQuebiPKmoCjTNS3GcdaJeLsVq73-ZsX4JxH7iSV1XX7TwG5hBjMfe9KytlJ_HIjQuE9IbgpU0roCvOteRTEcv82mHqp1w5x2JR7BS_SlGYHn1EzzbAsrstgPK2xX33BbdzaFIuL4m0HLuW_Ckgr5Z5wkkA1XvPhhsbY-8WqwKru5BW3bx8M9IrvGluE4u0hC5fD7zLXl3By5nbm8pLFFJpnnPK5fH1mMZ0_zYfwyp-WSlGaC3VKQFpJnk1RjknZAjoZqVHbkq1LD5gBKndJ5YLNyTqKx-jhFbm108D3fbyL-crXMucJh1IWtpJ5p_0qZX0EMuFmiMHSIPNFAihfSvBZllgMd_GYHLXD0JkwW3NdwLmSpI2SrYiYKDUZw",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "post_id": "1487305236747056",
+      "api_post_id": "pfbid032xMUnF6qw2ssGfneUKWUgdQ7kM2x6KJpywWeHy2XHrwaYDANMDLVLde9FUVM4WXWl",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid032xMUnF6qw2ssGfneUKWUgdQ7kM2x6KJpywWeHy2XHrwaYDANMDLVLde9FUVM4WXWl&id=100064027815481",
+      "comments_count_from_post": 1,
+      "total_comments": 1,
+      "comments": [
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDg3MzA1MjM2NzQ3MDU2XzIwNTA3MTkwNDI5OTQ3NTg=",
+          "legacy_comment_id": "2050719042994758",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1777181017,
+          "message": "ช่องทางการติดต่อขอรายละเอียดเพิ่มเติม👇🏻\n📍Location\nhttps://maps.app.goo.gl/2PsUFzoRfXv3Dr1LA?g_st=ic\n\nปรึกษาสินเชื่อฟรี⚡️\n📲084-262-8878 \nแอดไลน์อัตโนมัติ 🔖 https://lin.ee/HHAC58E\nแอดไลน์ ID : @perfect-house \nWebsite บ้านสวยๆ 👉🏻 https://perfecthouse-property.com\n✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨",
+          "author": {
+            "id": "100064027815481",
+            "name": "บ้านมือสองนนทบุรี กรุงเทพฯและปริมณฑล สินเชื่อฟรี-by Perfect House Property",
+            "gender": "NEUTER",
+            "url": null,
+            "profile_image": "https://scontent.faep29-2.fna.fbcdn.net/v/t39.30808-1/311191000_558996439362424_6276165546597166861_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=T_LZ_RRcHgEQ7kNvwFlCh_V&_nc_oc=Adr7nrQGanC-uGaTLbjicqob-SjsNPoRufNPvDi23TjLeAKD3Q37M7ov8HnOCRAvgzY&_nc_zt=24&_nc_ht=scontent.faep29-2.fna&_nc_gid=XV1WESEZsYcYMteEfG8ioA&_nc_ss=7f289&oh=00_Af695gqSsTdB8btF_opjsBpV-ouXegKO3y2yLmHGzUEAYg&oe=69FBFF1A"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzMzOTQxOgF_AAzSBMJn6Tx0o-VgETncNx908Ws5WmJONzgj-4ZzxWinW6EIpDzfE14d_2WDCXVXdaKl3mNLFn_gCQNNXp8SV19ROEhDCTHXAxa35xP4ay5fmXGCWqEnjiTT4V1cU5c7ZJW7ZHVlnAinVTZtyhY6jmOMScliem0EAMoVfWK735X_FS_7Q2kmK3cem-AmL8LupavUHhBJZneEquoqXtf2LlaPbdw5E6EpYWvdY332NUBwurOVH1XK0_vCof9WfR-hTwbIZzSPuDkdbcXbZdkKsV_reQjctOHGDqkk74xJG-8Qgz_Vv39Y2HGppy5zXEyPjjF1hJfuCNNh38yUzE6776cjSgY2hs_DiRMWTqb3ESjNWGKYEvmVKNPhsvubXh1w8ZxytdOCQfqgPl4S21Sn_N1r_SBCK-PxqWc3jDnAF3krAESPmfyrXAR_1pJ8wGQZUgVSzxlPWxeN_CdJUqWAOuOEKuCuTZKKdrJ6FINTeNXG1s7k0tsbnThfnIPMzXDXcMFaOgMdtPs9FqyW8LrMFZ5iC7SkQq98KbGhLIUku6T_zUWaqriT2qmsS7MB6F69luDgm7hB3YWKbZoUkYZ5MA",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "post_id": "1486792320131681",
+      "api_post_id": "pfbid02wQqfEpoSeiasE5Rs3v1TBFLrxMiad2FJTJjqX66e6yGUjtXYD8uy4b1zD1hLBuxGl",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02wQqfEpoSeiasE5Rs3v1TBFLrxMiad2FJTJjqX66e6yGUjtXYD8uy4b1zD1hLBuxGl&id=100064027815481",
+      "comments_count_from_post": 1,
+      "total_comments": 1,
+      "comments": [
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDg2NzkyMzIwMTMxNjgxXzE3MDEyODA0OTQ1NTQwODY=",
+          "legacy_comment_id": "1701280494554086",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1777128275,
+          "message": "ช่องทางการติดต่อขอรายละเอียดเพิ่มเติม👇🏻\n📍Location\nhttps://maps.app.goo.gl/2PsUFzoRfXv3Dr1LA?g_st=ic\n\nปรึกษาสินเชื่อฟรี⚡️\n📲084-262-8878 \nแอดไลน์อัตโนมัติ 🔖 https://lin.ee/HHAC58E\nแอดไลน์ ID : @perfect-house \nWebsite บ้านสวยๆ 👉🏻 https://perfecthouse-property.com\n✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨",
+          "author": {
+            "id": "100064027815481",
+            "name": "บ้านมือสองนนทบุรี กรุงเทพฯและปริมณฑล สินเชื่อฟรี-by Perfect House Property",
+            "gender": "NEUTER",
+            "url": null,
+            "profile_image": "https://scontent.flhr3-4.fna.fbcdn.net/v/t39.30808-1/311191000_558996439362424_6276165546597166861_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=T_LZ_RRcHgEQ7kNvwGNK32t&_nc_oc=AdpL-huB1q5jT-f9gz0UIVBT7M2oL6h0bQg_M72YG9otgdEU_lH3f8vQaJ8tqDpEbnM&_nc_zt=24&_nc_ht=scontent.flhr3-4.fna&_nc_gid=XHRX-Y5Jh6z6SFwCMvEZWw&_nc_ss=7f289&oh=00_Af4-IkaD2bjC1gXWdYX0CHwUEesXaPibbXS0V-YqKj0jnA&oe=69FBFF1A"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzMzOTQ5OgF_FT2qkQBn0THICrvAC2blH5-owRoo_tnmP7cmk5EmRvwXjx24BAeohMzmSm0Kf_bDFcyvt0_BcSTG28Kj8kyL3RaQ817RqizvTT3N1efm7ZZ5tglpXZF4PAfE5GLHcERxA0w6ZbSwtuC5tJcBR1uTLRIT327pZ8Y0Dd7cwr8SR7JGdg2uE0uRF2GMvimrlJa5YJ_L8v29DNaTIu7sfI7FPsQRDv0B24BZZPWXbQcqk2QLIR_Fn0_poWsXJD70Khjzd6wziEr9CBcYFG07xF3obTEjzQPu4V9iirUPLwpyLeThzQkT9YYBWLeIdjA8bgXF9Z2VpK3FIhgD2cwxTCnCB2mk78YF-yg_xb77vId_-uZjJxFKMvel09bek4CD0L6TmF5Xx1GMyDAIJER0NoyXVj1AKOoetV0vvaBcjDYJnnAv-UrSpDkfVJdtf80NusCKzIkDW0MLfkwx7vc8Go6pIm6c9saVm6-zdV7hYeNV9zGX7iGT8_BVrF9WJG9vD4DOcWuXplyu9iPcRUVUlGbwlc4y0sXbM373Yd73l8s0dxJsQXbBFcV7JpmKgdViJuKIcOx-lLJJobx7I72ZJrMziA",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "post_id": "1486368980174015",
+      "api_post_id": "pfbid02UcZXATQx6dfZnpLuSvAP55pRuMeigzZuFhtNKqPfmNAbaQorf1KrACMeTSXkNgSrl",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02UcZXATQx6dfZnpLuSvAP55pRuMeigzZuFhtNKqPfmNAbaQorf1KrACMeTSXkNgSrl&id=100064027815481",
+      "comments_count_from_post": 0,
+      "total_comments": 0,
+      "comments": []
+    },
+    {
+      "post_id": "1485866436890936",
+      "api_post_id": "pfbid0ybxiHxDGhq6QTpQFGbTn1AxPFvBfGWfwhi2DiT9TDuGSMxwZ7y5gG7eB9Mmp9XV4l",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0ybxiHxDGhq6QTpQFGbTn1AxPFvBfGWfwhi2DiT9TDuGSMxwZ7y5gG7eB9Mmp9XV4l&id=100064027815481",
+      "comments_count_from_post": 1,
+      "total_comments": 1,
+      "comments": [
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDg1ODY2NDM2ODkwOTM2Xzc5Nzc0NjM3NjQ2MTU5Ng==",
+          "legacy_comment_id": "797746376461596",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1777039410,
+          "message": "ช่องทางการติดต่อขอรายละเอียดเพิ่มเติม👇🏻\n\n📍Location\nhttps://maps.app.goo.gl/C3m5drXWxxWGbbvWA?g_st=ic\n\nปรึกษาสินเชื่อฟรี⚡️\n📲084-262-8878 \nแอดไลน์อัตโนมัติ 🔖 https://lin.ee/HHAC58E\nแอดไลน์ ID : @perfect-house \nWebsite บ้านสวยๆ 👉🏻 https://perfecthouse-property.com\n✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨",
+          "author": {
+            "id": "100064027815481",
+            "name": "บ้านมือสองนนทบุรี กรุงเทพฯและปริมณฑล สินเชื่อฟรี-by Perfect House Property",
+            "gender": "NEUTER",
+            "url": null,
+            "profile_image": "https://scontent.fhan3-4.fna.fbcdn.net/v/t39.30808-1/311191000_558996439362424_6276165546597166861_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=T_LZ_RRcHgEQ7kNvwE6vz4L&_nc_oc=AdrhOj46L_wcH8aWuhH2LJZ_Cm4SBwSNDEiQTo4bmsJS3d449Coi9SquqhGNZeuweYY&_nc_zt=24&_nc_ht=scontent.fhan3-4.fna&_nc_gid=8y_RArLJrzIBaDEKYO_n5Q&_nc_ss=7f289&oh=00_Af6hjd_OheeDun9DiEst7GLzA-LJv95Onz-ePX27bXmHbA&oe=69FBFF1A"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzMzOTYwOgF_QriOttkQ5eN6gZbz_gKm5qDd2LGPueXp0Vqk8bXvQln4Zh79hakiN7UU5AOd1zyyX_AK1M7dl_4WxeOSUGf5JTBiR6zi08UBvTP3Dqk4JF7Xv7ebxAMN10YGJbbI_0mwqnpqgKYXI-ro7DNHoUKd_shbERMhYhX-YKlC8gdIU1HH475gYhOajlHr6PjAb0Tl_WkbDtCRR0IdDqI80Tqb8qMkLcHRn_5GlqLY-Hv7mbqOLd0hQFDRHqrLsxET-YWiLKn3me5gxsXpx9LubnKXsvT8lmWCXZd7SMRQ79XGhPxicPajUC7JBQCrVEzPTU0m4nEmqaxfAyEaGQp5oXG8eNw_L2x2UbFXZ-X4jWuQXkFXpdLPQet4j5qnI1GfFct75rpJphKgbffE0eTuKCa4m3WSkivXfwFsqu-EMGWPgRP4mBI_KeLRUtPiMbCaHpb5mCi1Pq8sqxaucoUHdW0cnobDm4wK7PejFnxUK8EN4Xg9UVcBOxC5PfyC9mRGskPGNHxyVa-XYKD-1Afs_ktJMftUXmEcdLUxmv_OPWRtnQZ-oWZ3gKTTa85NNTnmzbmVvcC0MuZuIyww1wXnJu9yOg",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "post_id": "1485831183561128",
+      "api_post_id": "pfbid04F4CzYn7eAPHcKHpR7RVwgj81VcmycdPV5aa9NWyuJoPKY3zYVFSSZKfNt6WdGRNl",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid04F4CzYn7eAPHcKHpR7RVwgj81VcmycdPV5aa9NWyuJoPKY3zYVFSSZKfNt6WdGRNl&id=100064027815481",
+      "comments_count_from_post": 3,
+      "total_comments": 3,
+      "comments": [
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDg1ODMxMTgzNTYxMTI4XzI2OTI5NDg5MzM2NjQ1NTEw",
+          "legacy_comment_id": "26929489336645510",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1777355787,
+          "message": "ซอยอะไรครับ",
+          "author": {
+            "id": "pfbid03NGozJpux48McRc5UUGai29qh7dX7zgjTh8AtvhLaehtrsgU3xgHB8uxBFbYYY71l",
+            "name": "สิงห์ทอง เศรษฐศาสตร์",
+            "gender": "MALE",
+            "url": "https://www.facebook.com/people/%E0%B8%AA%E0%B8%B4%E0%B8%87%E0%B8%AB%E0%B9%8C%E0%B8%97%E0%B8%AD%E0%B8%87-%E0%B9%80%E0%B8%A8%E0%B8%A3%E0%B8%A9%E0%B8%90%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C/pfbid03NGozJpux48McRc5UUGai29qh7dX7zgjTh8AtvhLaehtrsgU3xgHB8uxBFbYYY71l/",
+            "profile_image": "https://scontent.flhr1-1.fna.fbcdn.net/v/t39.30808-1/577797064_122147246078419783_5090615454192667027_n.jpg?stp=cp0_dst-jpg_p64x64_tt6&_nc_cat=103&ccb=1-7&_nc_sid=e99d92&_nc_ohc=0cBnw8B5pjIQ7kNvwHR5OPQ&_nc_oc=AdrOuCE21qq12H7lm-XwVcYM6l1MPwZZqFHHNJuQ8hq0GGps2YL1mvFtB5TSVqy56WI&_nc_zt=24&_nc_ht=scontent.flhr1-1.fna&_nc_gid=PWgulyvu5YgQqZ6TG-ukyA&_nc_ss=7f289&oh=00_Af7XhaGGSrKK75zuSOrgCCs3ldepkg8H98lamlAermvRPA&oe=69FBC9C7"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzMzOTY2OgF_j4XVwtxyRPe1pZV7KR1urMnTOmY5TyG_ZUi-gpZ1UyLWG1_tgu0eWC423SxGiXqvhWDxUi0SPJO6nVlgFiAFmnklw74xcINxDnrcrS60nQVMdlEjaM9xW0ZpD4J96nC1P8Ba9cC0BDb6danzqCv7DnKDFt_1z6DZSCr7Onrv4apBaFOnFslbFaSLNBGA6y1xC7tPa4QobAX7GPxKLfEKifAykEBNtRpCHMah-tR_cZsH8lEwAWdZrBIBhxi1usKt3cBM6xQ5mJpopJB5IlYj76rBUlxFliqs5tMjGJcx8jx4MxT3nmDEzFWT8KlNxLHy03pN3WOvRkbwS8kdawTOKdvNDmHvzs4TJiy6tLRYWz9Sky4xWLL2C_YVt89-ujK_NUVcKkS_1YSoLvC6nsefihT-HfC377vIDizyXrVoYL_u03i8TqFPoC6dTsCkl30Qy8qg3wtvluk2Q_zXDkfeqNBI2Y6ERdVWcPLd5CSckRVa5iMOWhHiBpZt7lM-ftxiyrPfp0GOp0JCY5LhDzP2YD6JN3php-pAWi3V4YVWJmmg0cv1zBVmKawNWcm1o2X6SOxskGgo-HICRW8Tp_D3Vwe-",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        },
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDg1ODMxMTgzNTYxMTI4XzIwOTc3NTcyMTQ5NTY2NTk=",
+          "legacy_comment_id": "2097757214956659",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1777267002,
+          "message": "ซอยอะไรคะ",
+          "author": {
+            "id": "pfbid05GFK3ACryZuqN3MrdMruq1sfWBXuMf7bxG3nWJUbuPYBgLQm1nrYSisuvAVtVtYyl",
+            "name": "จุฑามาศ สุขเสรี",
+            "gender": "FEMALE",
+            "url": "https://www.facebook.com/people/%E0%B8%88%E0%B8%B8%E0%B8%91%E0%B8%B2%E0%B8%A1%E0%B8%B2%E0%B8%A8-%E0%B8%AA%E0%B8%B8%E0%B8%82%E0%B9%80%E0%B8%AA%E0%B8%A3%E0%B8%B5/pfbid05GFK3ACryZuqN3MrdMruq1sfWBXuMf7bxG3nWJUbuPYBgLQm1nrYSisuvAVtVtYyl/",
+            "profile_image": "https://scontent.flhr1-1.fna.fbcdn.net/v/t39.30808-1/672688248_1940168313279955_3596041416858898041_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=103&ccb=1-7&_nc_sid=e99d92&_nc_ohc=JsAeIMAIszAQ7kNvwGLdmCV&_nc_oc=AdqmqOI-xuXT7GEDRyHWY7GJ65gmgHHsnQt6pxJDYVNAuSwbO4e1oiytbK0S3uF2Kdc&_nc_zt=24&_nc_ht=scontent.flhr1-1.fna&_nc_gid=PWgulyvu5YgQqZ6TG-ukyA&_nc_ss=7f289&oh=00_Af5G8gSJ1bavp50G6K36KPtdVqlJfZzt3ApCwbXsPdbS6w&oe=69FBDEE5"
+          },
+          "replies_count": 1,
+          "reactions_count": "1",
+          "expansion_token": "MjoxNzc3NzMzOTY2OgF__TUkLfXsY_cfwp8p6Ik7W2sPyorhag3Xih_w9iKDp1FCXHy-Ul3UFXaatxCDdw5Wugx5nGe7P2x95OFmR1_0SX7V_41qjzetHiwbx2gDupUnWfuEG1KqGAOIQJajfXvbnUV8Ehd6cuNyqK1Zt--uGjiJ7p8iYEU0jdo1GlEobeenfdIvIS2_wgHIpGpsrR95mFvObbtQ_ya-pwY3238RjoBlpPMHFCvg402bu7nNpvLeHSbJqI8weww3nDxo-JAjd_fXoxLvqthywb6Cubf0idmpnFOgqV3W5kYn__0x00VtJr1-JRo-4UdcBoTDNfNxFYkYOlRs82ZeQgkrzUwkDlj5HnPEoQi-DYwa5DifQGmiIK0m14eOAUSGJPFildwBFfSGRmtbm0gnrCiXAthYrGwb2tDN1F5oKYBGX0tG0y3tCH-sUDGffGz3634wp6OVjk9UFDUuJNgyHZ2KsOggXpUklXwQbLEPiFESofOK2ARhux8xXych6EXiks58mj35PxsjyYgZaxTKDKrYXnuOviVfnFO4IiaIR7QnF6J7YtARMyH62fyE113QO6CwNNKOatXkcH0C9Bo39-7ySqnRuQ",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        },
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDg1ODMxMTgzNTYxMTI4XzIxMDc0MDMwNTY2NjAxNDQ=",
+          "legacy_comment_id": "2107403056660144",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1777036528,
+          "message": "ช่องทางการติดต่อขอรายละเอียดเพิ่มเติม👇🏻\n\n📍Location\nhttps://maps.app.goo.gl/czJRFj6npbCfgCor8?g_st=ic\n\nปรึกษาสินเชื่อฟรี⚡️\n📲084-262-8878 \nแอดไลน์อัตโนมัติ 🔖 https://lin.ee/HHAC58E\nแอดไลน์ ID : @perfect-house \nWebsite บ้านสวยๆ 👉🏻 https://perfecthouse-property.com\n✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨",
+          "author": {
+            "id": "100064027815481",
+            "name": "บ้านมือสองนนทบุรี กรุงเทพฯและปริมณฑล สินเชื่อฟรี-by Perfect House Property",
+            "gender": "NEUTER",
+            "url": null,
+            "profile_image": "https://scontent.flhr1-1.fna.fbcdn.net/v/t39.30808-1/311191000_558996439362424_6276165546597166861_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=T_LZ_RRcHgEQ7kNvwGiqXWT&_nc_oc=AdrVV8QKuW5e3yn0pBQRHSQJAxHB8qINdpW9F19T433aNbTklQSMe-_8zwUFDGP4D-I&_nc_zt=24&_nc_ht=scontent.flhr1-1.fna&_nc_gid=PWgulyvu5YgQqZ6TG-ukyA&_nc_ss=7f289&oh=00_Af5dZ4grIJd2m6a4R-Ch1IimrB9sJrmCKGRGjiwCpCHx4w&oe=69FBFF1A"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzMzOTY2OgF_dQZi6uMViHThQnXKrzV63BJFmJcHtETtumx9XmfXyU24XC0_EVEOKZFHjNZkIMSDk7bcflf70eu7-1Rmsw29pwZgtoKzwFk8kVmouPKjdLPZqPW46sBLFLdOAPFERo8MMBU8rcHW4FGgQmTwjYkfUXjx8Ck4MED-V5DnMJ30O1oidxfFASOAZX4URxmHkXEa5Aw6s6zX-MYSX-XLSOgbyH9F0y0ZT1jVcipHVnQ_WcvH5CwrJPsLNuIK6r_1wnG0h85Q-BPzCrXEfUFCjyy-xNOex3HUPz2eazcNRHfbyOi2GZwWa84Mjfp36LBhUCsuiNnhKx8GTAg8G59FyCGpbt_Wk6owV0iaBV-E3wkCBkh4IBYPs4omP8FwrZRUMPummTMrsbNTO9psqO-ntoAkzYB2s75jLQpymm0BV7fQBAiLE9ovHTTJA_N3c9yZsIryqS8IEgMLp1SYcHZsGiN3FKS7TbhR31wba-a3B-cDEWbpF-XOnnSA4GkVDgzypIcLV0FseqKk6-fqZE271wecxXKELByAer_8ZoRIdV4_uCeDlP7DbVnHX9WHCwmgTUnXkTPMjYZo7JtOxo4hotNb1Q",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "post_id": "1485751833569063",
+      "api_post_id": "pfbid0t4tCr7HsJN2VDvWkLD6vyKQJ64WBmbjphQ8Ey5Upp5qY8vvArR7TVHWRrtntQcm2l",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0t4tCr7HsJN2VDvWkLD6vyKQJ64WBmbjphQ8Ey5Upp5qY8vvArR7TVHWRrtntQcm2l&id=100064027815481",
+      "comments_count_from_post": 1,
+      "total_comments": 1,
+      "comments": [
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDg1NzUxODMzNTY5MDYzXzgzMDQ0NjM3Njc4NTk0OA==",
+          "legacy_comment_id": "830446376785948",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1777029996,
+          "message": "ช่องทางการติดต่อขอรายละเอียดเพิ่มเติม👇🏻\n\n📍Location\nhttps://maps.app.goo.gl/czJRFj6npbCfgCor8?g_st=ic\n\nปรึกษาสินเชื่อฟรี⚡️\n📲084-262-8878 \nแอดไลน์อัตโนมัติ 🔖 https://lin.ee/HHAC58E\nแอดไลน์ ID : @perfect-house \nWebsite บ้านสวยๆ 👉🏻 https://perfecthouse-property.com\n✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨",
+          "author": {
+            "id": "100064027815481",
+            "name": "บ้านมือสองนนทบุรี กรุงเทพฯและปริมณฑล สินเชื่อฟรี-by Perfect House Property",
+            "gender": "NEUTER",
+            "url": null,
+            "profile_image": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-1/311191000_558996439362424_6276165546597166861_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=T_LZ_RRcHgEQ7kNvwEfy-Ax&_nc_oc=AdpQgXCw5OKlEGeohiE37eDTzU7IuzHBxVbtyKK25BAVZzI8h4s_rwnyAE_wGS3fwBM&_nc_zt=24&_nc_ht=scontent-cdg4-1.xx&_nc_gid=1B89vPhyHesRvjox-24u9Q&_nc_ss=7f289&oh=00_Af7i6Wwys8nagHU2S6fpYcHt6zaDeYl85TxTgXUtL6ENhg&oe=69FBFF1A"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzMzOTcxOgF_7I-TcMa0_X80Dg3VyF767xS6B64tZNzf0mBPqcrLPBdkyPbyb5-i2Awhfk93JcavKWhqYu08oi8epbddmOkz_qOXaM9UL25-OHVvQNUDc3Y2G2OmFYYnuyx_ep1W9elID6b2PyFSBYTFjMawEwr0XbOM9hMnjwvlgXOdLf5a1WkRbhmH08fsWSsB2zbJtbVufxiKDqffsQWTTHwWSn-rvD_4dtSQ0SO1MB4g1XvcuDRvNGYCIex6Y-9DA6dr-DqTLK0CsX29m_W7pyZ-KhpA98lR7NHEbo-NjwTw_FkgZhAZvbiLJ3ZgZgovK6z6KnRT7fFLUW3X8LkHyXW5E-NipWAzgYuinvSBUO_b9sU8q7lXTEEHvY7Cf7dRyRwhmHibwDuuxoJ-B315n6BXNj0f1VUN334cIT10iBjGRMNcDz-E-S-0JPSklOzbh9rrDcSrA8XrP8um2B2qSrfnAHdOZ4ZSgLjTSHhBGJ422h4DI8UeE1q9V8VdfenwtY9fI2nWZ8RFB4wZUTSn_3-pmvj0n6aD9nB2ObfDEHDFmg6xkUnEANEM-d-rui47larUSkA6ThEXbQe2ViwBTwPMhyWHIw",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "post_id": "1485590460251867",
+      "api_post_id": "pfbid0336mEh5rbFpH2MXodgh4pDXKATLSJd4ajEKpqEMmjirecDLYTEF4p7ve5rJWT5cw7l",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0336mEh5rbFpH2MXodgh4pDXKATLSJd4ajEKpqEMmjirecDLYTEF4p7ve5rJWT5cw7l&id=100064027815481",
+      "comments_count_from_post": 1,
+      "total_comments": 1,
+      "comments": [
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDg1NTkwNDYwMjUxODY3XzEyNzY3NTEzNTc5OTQxNzA=",
+          "legacy_comment_id": "1276751357994170",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1777033961,
+          "message": null,
+          "author": {
+            "id": "100003277915883",
+            "name": "นพพล เกิดคง",
+            "gender": "MALE",
+            "url": "https://www.facebook.com/nphphl.keid.khng",
+            "profile_image": "https://scontent.fyto1-1.fna.fbcdn.net/v/t39.30808-1/672686230_26559616180397618_1915641352565639626_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=105&ccb=1-7&_nc_sid=1d2534&_nc_ohc=kNKK_vkdE0YQ7kNvwGyvgHS&_nc_oc=Adr-tEAklgRgyIzyCEocgD1myNissUBuiKJ1Mx2dJNCfrqvbeLjF2E9AuTJtHt-AUNk&_nc_zt=24&_nc_ht=scontent.fyto1-1.fna&_nc_gid=Jtn6dr_Vy2rh_A6OYm54xQ&_nc_ss=7f289&oh=00_Af7xY6IdE_vOG_p7MDM3Mcw0qOpDGynGhc8ztnHABiVJXQ&oe=69FBFEF2"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzMzOTc3OgF_3n1oT4Zi4rXtJdzi9QLqePWKiXw_NbTvu5DxRc3Vk-LLQX2PudjMY7Unnq9tQXN0LKOG91vOQuksg3Xz93usw669FNqto7dj0uRCWdPWCTxA2Mg6bpRyuGsbK7ucibha56xxCMvuOk-0m4zgmrr_8BLVrCSaSf-Kj82G4uwUV70MtJ589er5BE_qvBVmXxMP-QOa_fbIsTnG_Nf02QBQknCNHcYNc7HzH7cFvbV4FuLjFmFfA9GcMPcnTYyEK0pJM46rq-mthJ-liJX2Z9XK745IzvActkvtQQR9jkxj9BJ_TRTKXyfQ7-QivuHUy4YAvibZn7UalxwLf8dTYxhvOv2xQ241gqMxyQOC7keZjMZIRF__WozP_358UZNdqhDfIJvrARz1T5KrrMDcXovMxX6lDkQF53UeZbk9x_e86LHV8QoFowWJytW8ALzc2o5iKsrJyMkbU7gL3qrCFz9UUBEKUBabcPnBHkJ6WunTlatPrkh5-aoqZ-mwUwgsesGyVLg2xdO1ELL6MAlP3cOgd_5OxJ-tv6MIk_x7yd4DWpaLNq29OtdrTIvXTQaYxnCutue7EWr1dd1e7VjjFNrarw",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": true,
+          "gif": {
+            "__typename": "GenericAttachmentMedia",
+            "sticker_image": {
+              "__typename": "Image",
+              "uri": "https://external.fyto1-1.fna.fbcdn.net/emg1/v/t13/2071634961494530922?url=https%3A%2F%2Fmedia1.giphy.com%2Fmedia%2Fv1.Y2lkPWJlMzAyMTE3aWIxdHpkMnhlYXQxdWJjY3I0M3h4emhyejlvN285anZoMmdjYTAyciZlcD12MV9naWZzJmN0PXM%2FiOsEji43wPgNv9G80c%2Fgiphy.gif&fb_obo=1&utld=giphy.com&stp=dst-gif_fr_q75&_nc_gid=Jtn6dr_Vy2rh_A6OYm54xQ&_nc_oc=AdqD52ZDU1MN77f27zc1RLSoOY6_EJ0J07cA5NuYkAR5-zQOGFUeLhvbJxTYotH5GQI&ccb=13-1&oh=06_Q3--AWYDUgS2F44TvPrb4lHhDL7SkgCE-mX3-aUIqT822FDW&oe=69F7D8EB&_nc_sid=9e3c15"
+            },
+            "id": "26597022799990289",
+            "image": {
+              "height": 480,
+              "width": 480,
+              "uri": "https://external.fyto1-1.fna.fbcdn.net/emg1/v/t13/2071634961494530922?url=https%3A%2F%2Fmedia1.giphy.com%2Fmedia%2Fv1.Y2lkPWJlMzAyMTE3aWIxdHpkMnhlYXQxdWJjY3I0M3h4emhyejlvN285anZoMmdjYTAyciZlcD12MV9naWZzJmN0PXM%2FiOsEji43wPgNv9G80c%2Fgiphy.gif&fb_obo=1&utld=giphy.com&stp=dst-emg0_q75_s480x480_tt6&_nc_gid=Jtn6dr_Vy2rh_A6OYm54xQ&_nc_oc=AdqD52ZDU1MN77f27zc1RLSoOY6_EJ0J07cA5NuYkAR5-zQOGFUeLhvbJxTYotH5GQI&ccb=13-1&oh=06_Q3--AbVkl5p2ze51-V6Q4kt6xxV7lQ1GnHXBBmkYJ5Yk-huy&oe=69F7D8EB&_nc_sid=c97757"
+            },
+            "animated_image": {
+              "height": 480,
+              "width": 480,
+              "uri": "https://external.fyto1-1.fna.fbcdn.net/emg1/v/t13/2071634961494530922?url=https%3A%2F%2Fmedia1.giphy.com%2Fmedia%2Fv1.Y2lkPWJlMzAyMTE3aWIxdHpkMnhlYXQxdWJjY3I0M3h4emhyejlvN285anZoMmdjYTAyciZlcD12MV9naWZzJmN0PXM%2FiOsEji43wPgNv9G80c%2Fgiphy.gif&fb_obo=1&utld=giphy.com&stp=dst-gif_fr_q75&_nc_gid=Jtn6dr_Vy2rh_A6OYm54xQ&_nc_oc=AdqD52ZDU1MN77f27zc1RLSoOY6_EJ0J07cA5NuYkAR5-zQOGFUeLhvbJxTYotH5GQI&ccb=13-1&oh=06_Q3--AWYDUgS2F44TvPrb4lHhDL7SkgCE-mX3-aUIqT822FDW&oe=69F7D8EB&_nc_sid=9e3c15"
+            },
+            "animated_image_caption": null,
+            "animated_image_attribution": "GIPHY"
+          },
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "post_id": "1484765450334368",
+      "api_post_id": "pfbid02gdW2jrix5VYhZu6Q1FTFxigr3eqZi9F3t3DgTUuKE6DnxKif43FQG7HwHjNic7Gl",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02gdW2jrix5VYhZu6Q1FTFxigr3eqZi9F3t3DgTUuKE6DnxKif43FQG7HwHjNic7Gl&id=100064027815481",
+      "comments_count_from_post": 1,
+      "total_comments": 1,
+      "comments": [
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDg0NzY1NDUwMzM0MzY4XzgyNTYyODI3MDU4NDg4Ng==",
+          "legacy_comment_id": "825628270584886",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1776930038,
+          "message": "ช่องทางการติดต่อขอรายละเอียดเพิ่มเติม👇🏻\n📍Location\nhttps://maps.app.goo.gl/jxPVQDdodjMHqLvu5?g_st=ic\n\nปรึกษาสินเชื่อฟรี⚡️\n📲084-262-8878 \nแอดไลน์อัตโนมัติ 🔖 https://lin.ee/HHAC58E\nแอดไลน์ ID : @perfect-house \nWebsite บ้านสวยๆ 👉🏻 https://perfecthouse-property.com\n✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨",
+          "author": {
+            "id": "100064027815481",
+            "name": "บ้านมือสองนนทบุรี กรุงเทพฯและปริมณฑล สินเชื่อฟรี-by Perfect House Property",
+            "gender": "NEUTER",
+            "url": null,
+            "profile_image": "https://scontent.fbgw9-2.fna.fbcdn.net/v/t39.30808-1/311191000_558996439362424_6276165546597166861_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=T_LZ_RRcHgEQ7kNvwFb6KgK&_nc_oc=AdqJq-K3yafQurZmEfHakP6MpjYYg6h5QhQcCT6SYfm79cIVjlVkOyEb1uXme3wd9i4&_nc_zt=24&_nc_ht=scontent.fbgw9-2.fna&_nc_gid=6KNw1I2e5DvCG3i954MKJQ&_nc_ss=7f289&oh=00_Af4ANTkolj4ATmy1ash6ygHwcTgwR42GGriHVPrXxFXucQ&oe=69FBFF1A"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzMzOTgyOgF_c0CMpza1wyRFcDuLNHEjij4DJ6pZ5kJffJC91ynwRmvJrockZ7d3pNANJp3hYawb10aejTQd1XiVSUwvei2HdjS86tYiv9WgSQvZaPCLPuGqOL1e2H23GqrONRF5jE1vHPhQz2kFyJJIyUCE_G6pISWgRcUgdRHh2h_PMLoStUJJvvKzWWeaojtRkG0z4TvBqCSdEc-_0-xIq3VaOqQu5cD7N87ARmzECEfUkLQThzvHASGwM8r8phlPnAyN7BmHJnyfBLjd3pG8wpPSJ8IN5_LqXPruusb0OhOHfU-ghMUCW2_-d3sowpv94HsCg_12y6oJj2qbYQ--ArpvDx3RsX9lbyj5yy7kzPj48IMde3vtw3pEEV_LfdS3uiah9e_eth76-4CUr6uKYUh-wrNZa-Jv3SknngPOzu-lFT-Oge-8OYZxDrrZjlPM75rxHaX_50DtqRl7ZANVqV8FKjjnM0J11413JZ-P3zNWssekexki8F2f0bCrSJqcmXNEWdHPS_E2Buv884FQlzg9MADspcEp_QiclYojvKZb5OFbLkIQ3IypWiUAgpUOHwikNk8pJ0NtY3oTgpmsBI6qverX_Q",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "post_id": "1484136273730619",
+      "api_post_id": "pfbid0Q7SYM6jyo75jcfTZgrJTjK6odrM5MbLHsJTTTBZTKo8QK4XqSTvcbYRfeAhkWk9Dl",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0Q7SYM6jyo75jcfTZgrJTjK6odrM5MbLHsJTTTBZTKo8QK4XqSTvcbYRfeAhkWk9Dl&id=100064027815481",
+      "comments_count_from_post": 1,
+      "total_comments": 1,
+      "comments": [
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDg0MTM2MjczNzMwNjE5XzExNTgxNjMxMzY0MDgyOTI=",
+          "legacy_comment_id": "1158163136408292",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1776867319,
+          "message": "ช่องทางการติดต่อขอรายละเอียดเพิ่มเติม👇🏻\n\n📍Location\n  https://maps.app.goo.gl/9c4DRuX97gA5ZMwQ9?g_st=ic\n\nปรึกษาสินเชื่อฟรี⚡️\n📲084-262-8878 \nแอดไลน์อัตโนมัติ 🔖 https://lin.ee/HHAC58E\nแอดไลน์ ID : @perfect-house \nWebsite บ้านสวยๆ 👉🏻 https://perfecthouse-property.com\n✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨",
+          "author": {
+            "id": "100064027815481",
+            "name": "บ้านมือสองนนทบุรี กรุงเทพฯและปริมณฑล สินเชื่อฟรี-by Perfect House Property",
+            "gender": "NEUTER",
+            "url": null,
+            "profile_image": "https://scontent.fldb3-1.fna.fbcdn.net/v/t39.30808-1/311191000_558996439362424_6276165546597166861_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=T_LZ_RRcHgEQ7kNvwHHUJkD&_nc_oc=AdpwmRX6hNGmC34F4UaLhlSnJLdtv5nwpV-afBpqRp9WqW2afUImCDDgxI0UI9mh_c4&_nc_zt=24&_nc_ht=scontent.fldb3-1.fna&_nc_gid=8EaDfhSl8msaSiBh38daXg&_nc_ss=7f289&oh=00_Af7WD41S36EO_H8nW4pCg-gx1YGTNLdKO6sHk_dpDZ4v4A&oe=69FBFF1A"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzMzOTg4OgF_Z3A7pM5XuyGhHo7Jk742UAn0qqfah18oEtNWpgGD_nluwkpf9kioI9FuVIZnjkvt9ta5NMyMRygGlCwHfQHuI5WumLQTeFIL9KlcbFqnDIiS22UHU9Fv_su6z2oibt3JRD5jt_jOESCTio4MmB_K1PSPfkc1cUQEUVCFXgUyXHCgMo8yj9PM9a4IEvzjxkzajWvkr3v1RxacaR5UpLAKgFx6S8IpSKo95yvEgQrgnMm7TGA9TK651c-HlXq3UpmT5VJjAEgHtfMF_gLyxxCHimfWefI9U19OWv1eXgprwWjeP4F9qvL-QHKx0qUdrqLXRUSCVysSWyGPaxZUNpQyCjTbDCXZ4cN0sbf7JxRFR4PFDxvujyEEGgX7JtG7CXiuQnvQ4flDgYwNRP0bl-ZZH9b_Xw1bGOtPuIFRAqyzOBRLF9hg2RR4qzprthBLeFEGdvdcegBB4uuUfWDFgHnQ94j1UH50F90G00kpFyd6Hju9OrAiWBM8PeXZCvj1FGCwQZZCtIqYU72r-qtRjtENFx0OMJsW3IwZzaCqVkCaj7RX43Q_Dg1kHpeIwlf-AFxumfVJg4mIl9dRCuA7LGoMhQ",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "post_id": "1483980277079552",
+      "api_post_id": "pfbid02XbmYHtRWVQVuFU5Y2JbsFLnrqgtqLN3rnrAzzjCPAfHTuWmnBwXhY3aQwEatvqWXl",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02XbmYHtRWVQVuFU5Y2JbsFLnrqgtqLN3rnrAzzjCPAfHTuWmnBwXhY3aQwEatvqWXl&id=100064027815481",
+      "comments_count_from_post": 1,
+      "total_comments": 1,
+      "comments": [
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDgzOTgwMjc3MDc5NTUyXzIwMjc4Mjc4MTQ3NzY4OTc=",
+          "legacy_comment_id": "2027827814776897",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1776853127,
+          "message": "ช่องทางการติดต่อขอรายละเอียดเพิ่มเติม👇🏻\n\n📍Location\nhttps://maps.app.goo.gl/JdKLujU494ivbEic9?g_st=icา\n\nปรึกษาสินเชื่อฟรี⚡️\n📲084-262-8878 \nแอดไลน์อัตโนมัติ 🔖 https://lin.ee/HHAC58E\nแอดไลน์ ID : @perfect-house \nWebsite บ้านสวยๆ 👉🏻 https://perfecthouse-property.com\n✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨",
+          "author": {
+            "id": "100064027815481",
+            "name": "บ้านมือสองนนทบุรี กรุงเทพฯและปริมณฑล สินเชื่อฟรี-by Perfect House Property",
+            "gender": "NEUTER",
+            "url": null,
+            "profile_image": "https://scontent-mia5-1.xx.fbcdn.net/v/t39.30808-1/311191000_558996439362424_6276165546597166861_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=T_LZ_RRcHgEQ7kNvwGlbBrG&_nc_oc=AdoBWp8QBK2eX684GbP75agVZTAvy-olAcJH5L8FKWjVQPgnhGx-FRxN3WQnJ2N6vE4&_nc_zt=24&_nc_ht=scontent-mia5-1.xx&_nc_gid=K1NCAwTom1Uq2jOyR9_8MQ&_nc_ss=7f289&oh=00_Af5PyLhRwbxtHouRAHzRl24zkdnIm03JcJZQOUVMKiQeFA&oe=69FBFF1A"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzM0MDAxOgF_9630JmpQe7mGi6J4tQbFZvTITOsql9I9wQqM9pg8utEbvygXIiTIHzLRQSShZAJa8AwlvU4ioBcfmuK6GynRoMOWnihx0wNhGT9VjPTabBxVt9KT4x90whkpaGWZRKsqz2ICJP4eoCLwqr5QQhNS-wc7qldn39_RF86xDnW9zqj9e6M-Mq8Ardq-1Yc824ofmX9Hy3Dy4reeyfhqSlQJJxPYaBlgeoE0x3GEL4NdwF1mskNJEbgNaJfUOvRvjwhukdEPB-303pDiWjxu1DLIOKeuCbh2tJm9grn-Pyy9BWHk1G290Wi7VRpGoyf6SxoWinTimAQ8Y9aRq_lkZ7qUbCUY8QA-UKs1RytIVIs6Xl5FSacPnwVKVYXFC7Nzekkc0fwPpi2WJFXAS02oaJmTOnG4T8gnwfGj_Y7e2iZH63f2qkmjxxQxi0ePVk15TXHha4Qv_IX-zZEK0DpXIQDtI1mP2iZjuN2uTld7TlOkWVeU6aZpCt2lNsNKrxV2I4I_TnZUZ0ZE66ZajWfFmbqaiLGsoE5rdzYGMI8E5J3WI8LbWLe7Le729r4r6Rigbg7fcGr4ozlC4CFzx9Nwdhr5bw",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "post_id": "1483719413772305",
+      "api_post_id": "pfbid028Yvjwo5CUqZRHS3kd3ARuagJDAbFvxVpQb1TBwm5Lma3sFUoHLc6VkCfibpSiiqxl",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid028Yvjwo5CUqZRHS3kd3ARuagJDAbFvxVpQb1TBwm5Lma3sFUoHLc6VkCfibpSiiqxl&id=100064027815481",
+      "comments_count_from_post": 1,
+      "total_comments": 1,
+      "comments": [
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDgzNzE5NDEzNzcyMzA1XzEzMzY4NTg5ODQ5NzMzNTI=",
+          "legacy_comment_id": "1336858984973352",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1776825762,
+          "message": "ช่องทางการติดต่อขอรายละเอียดเพิ่มเติม👇🏻\n\n📍Location\n  https://maps.app.goo.gl/9xpqKddZKybX93k36?g_st=ic\n\nปรึกษาสินเชื่อฟรี⚡️\n📲084-262-8878 \nแอดไลน์อัตโนมัติ 🔖 https://lin.ee/HHAC58E\nแอดไลน์ ID : @perfect-house \nWebsite บ้านสวยๆ 👉🏻 https://perfecthouse-property.com\n✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨",
+          "author": {
+            "id": "100064027815481",
+            "name": "บ้านมือสองนนทบุรี กรุงเทพฯและปริมณฑล สินเชื่อฟรี-by Perfect House Property",
+            "gender": "NEUTER",
+            "url": null,
+            "profile_image": "https://scontent-bog2-1.xx.fbcdn.net/v/t39.30808-1/311191000_558996439362424_6276165546597166861_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=T_LZ_RRcHgEQ7kNvwEzg2kM&_nc_oc=Adq3cFbTaWvxOLUtiYlK4Su92oOAowGssmTggDdDqCr4HT0wguPknDR1044osH0qMAA&_nc_zt=24&_nc_ht=scontent-bog2-1.xx&_nc_gid=6xsuREfGjCF6ZJ0Su-4Klw&_nc_ss=7f289&oh=00_Af65PGv4pN7eCxGDdsjUTztx39vdEUcc_Tx6eFTsipwZRQ&oe=69FBFF1A"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzM0MDA2OgF_Oz9tLH3POPc47V-CZ4fo-SoeidHOFzUdtbBCYtjPTSYuZjaX0F8PvhBmUor7aeZ60xv3LPKG6LoGXXZT5L9mo7aj6Y6mRtZ7hf6SzPTeC2Uhvqg3e60L9_mlQvRRP5ZvsoLxiFTMnmWSI4BJ7gChVrI-nthAlRUje5ljFV9qxHMc1Ljr-rlz07CClnIyznHWHSulU-tj03NCSHbWvSRD9N5b9U17t4vqUCqcpQtvFhlq0u8-GgKcRQiSE_kBdAMyXgwpsoL4UI-EW3LgX-xUi-eP-5zPGGCcUY0a4Je4YKKEVJBGD2-SlHdtBe00S8suOZz5gi4eQWyGC1H2rodqvow5H1XtMCZ98EjF5WnW1ST7fsxV2SFaBmH2295BQJcpGdV0AtbajzQEQZ7Ut0VJS5l8HEhaGMuXF0Ku-RmosxtdR_JR4jMVVQus4RnHAjDiNUAhBx_yNIu1kTC0zL6LvhEoN7LbIO6cOWcgFCmZekyBzhpofRcHC5pwf1-Ag8Z_pb8BctgZYcb4JP_eY0siAu00JqolrVxtJehOZH-ubRCfscj2NsSSW3msEcZhmY-jNBa4cPFhH8qO7VJIuHLXeA",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "post_id": "1483371910473722",
+      "api_post_id": "pfbid0C9X81M9zwCsJhdgJtFCV29BbG4ZbGLFXnJapipYvkb1dzdmMUDHfShYYAF8igMHdl",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0C9X81M9zwCsJhdgJtFCV29BbG4ZbGLFXnJapipYvkb1dzdmMUDHfShYYAF8igMHdl&id=100064027815481",
+      "comments_count_from_post": 1,
+      "total_comments": 1,
+      "comments": [
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDgzMzcxOTEwNDczNzIyXzEzNzk2ODU1NDA4NjA1MzU=",
+          "legacy_comment_id": "1379685540860535",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1776787033,
+          "message": "ช่องทางการติดต่อขอรายละเอียดเพิ่มเติม👇🏻\n\n📍Location\nhttps://maps.app.goo.gl/EBS6ySW6whaJrMtGA?g_st=ic\n\nปรึกษาสินเชื่อฟรี⚡️\n📲084-262-8878 \nแอดไลน์อัตโนมัติ 🔖 https://lin.ee/HHAC58E\nแอดไลน์ ID : @perfect-house \nWebsite บ้านสวยๆ 👉🏻 https://perfecthouse-property.com\n✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨",
+          "author": {
+            "id": "100064027815481",
+            "name": "บ้านมือสองนนทบุรี กรุงเทพฯและปริมณฑล สินเชื่อฟรี-by Perfect House Property",
+            "gender": "NEUTER",
+            "url": null,
+            "profile_image": "https://scontent.fosm8-2.fna.fbcdn.net/v/t39.30808-1/311191000_558996439362424_6276165546597166861_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=T_LZ_RRcHgEQ7kNvwH086_N&_nc_oc=Ado56pw3aTeZzo-M1_xdMXnBGY6jN9myf77OMAStpBf4u_l30a1gMoB1wx9inDptMl4&_nc_zt=24&_nc_ht=scontent.fosm8-2.fna&_nc_gid=iaLylPjk6-IKKvqobHerKw&_nc_ss=7f289&oh=00_Af7h46lMPV-B4tN5mcFsL-ZmJHCbIYQNgpOifoyY0gACEw&oe=69FBFF1A"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzM0MDEyOgF_NR16BuPOrPvPeytAmpSiY9-gYbR4i-UZyeA2xG2N1ap5gUB-5sSe7i1f1C6yb8-wiTonU6xtddeiRpBQXPzeNgGXuYk_cZNugyw5dN-BJYG9I71ZFvb3nNpQyLa_gghvBpueXQicFTH71brsW-bvM5MWxJyQcH-0BnKDG1UKcxl-NgmsgmQBrGDAw9JWoPLF-BWRBD2p0WD0iRLdoR2-GXAtp2BIUBeeWYtOnM48xop4oE5fADwKSg_m63c3GhWLpEaGzF8tN_t_-oU8-bLc_JbBJEkE9UCQ5nR5iKuVskqaOIN3hNi9rFhmj-BUUPHvlLdIQPViEDuov1Ihs1qABUGD123P2GL6sCCyG7Pyq94hFlJd9hA7aTA6fp6BTq4Ds2fN1edSCjsNqz8870ZdMl1sRi4_gw3whKKsDrSEKu4OSJrStVswKdjWWvtH8krUcSLVIIze-pYeixVIJxJA823QuxDQNw0MYIHxc4DRYIRl9IBc27XQ3VTr7sxYsYBbhD4qApUhb8gxIbLfLRFbypgF9tFKUiZiLtRuamPKyRauEzrZ3wL-x6o5Wx2PGy8JfDWFw6gNVSVBTLTG2ATtCw",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "post_id": "1483325170478396",
+      "api_post_id": "pfbid0JrCVQeFu1C6KWrzT8RDFVCpdy9TvdJhxafzQYAuJLgUBRyUxZvPVufdSX8Q5UMBTl",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0JrCVQeFu1C6KWrzT8RDFVCpdy9TvdJhxafzQYAuJLgUBRyUxZvPVufdSX8Q5UMBTl&id=100064027815481",
+      "comments_count_from_post": 1,
+      "total_comments": 1,
+      "comments": [
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDgzMzI1MTcwNDc4Mzk2XzE5MzUyMTIwMDM3OTg0NTU=",
+          "legacy_comment_id": "1935212003798455",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1776783091,
+          "message": "ช่องทางการติดต่อขอรายละเอียดเพิ่มเติม👇🏻\n\n📍Location\nhttps://maps.app.goo.gl/6g8upRQ1wLjaUnsz8?g_st=ic\n\nปรึกษาสินเชื่อฟรี⚡️\n📲084-262-8878 \nแอดไลน์อัตโนมัติ 🔖 https://lin.ee/HHAC58E\nแอดไลน์ ID : @perfect-house \nWebsite บ้านสวยๆ 👉🏻 https://perfecthouse-property.com\n✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨",
+          "author": {
+            "id": "100064027815481",
+            "name": "บ้านมือสองนนทบุรี กรุงเทพฯและปริมณฑล สินเชื่อฟรี-by Perfect House Property",
+            "gender": "NEUTER",
+            "url": null,
+            "profile_image": "https://scontent-iev1-1.xx.fbcdn.net/v/t39.30808-1/311191000_558996439362424_6276165546597166861_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=T_LZ_RRcHgEQ7kNvwGt8Hoq&_nc_oc=AdrEOGMR4AMHzjYu5wFIySixKG-Oz7-wnZEzcZ74A6GvJpeMNJ4UuRCrgQWx_tIBRvo&_nc_zt=24&_nc_ht=scontent-iev1-1.xx&_nc_gid=wQ9lnPKrFv-ry4rapGvdzA&_nc_ss=7f289&oh=00_Af5SoTXclDETDOwnlUO8Nt3AFvOff5wiWeKmrSefFKzbnw&oe=69FBFF1A"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzM0MDE4OgF_BInfRESin3I4zstGu0Zs_ONoi3iH8UwxjgzTY7EifHgSlO0yB8AIQyaBstu_NT0aG1fkNDsA9mRUJvHANcdUX2IubcBrtXzi6ynkE-pEAdJB38c4qGf_KZBN32E9LVfaCvHDXxX8syTPjr7kRMWrZx44yayp6S8-crsbYOoWDz7YcyUnkpn5v3sTQ8xYz5PEMa-efQRKYCMehVgW_xcrbP5zav2UsgfWdPZPc0vYXrRQKnrvjd2L82dsMBclQFy40LOM6zNoFKCnjh8ss7u9KAnWf1jI_XSah6ug2keYT98DR3k7uOpwUMOR2k6AKr4FcmZEi4u2EmJ8OMohmErB_-rZ7naP8xuQVPJ0yestdvTH081vP2eF4PqK943eCKINQxde22LL11XON1snxCimUnBcjGKyoC6Xy2PrSTRBHMbbFh4bMQRGPsvlK73_Qh2lzuy65V3Zpko2rrMRllhPOp_QnveaRGpZ0bw9dDcS0AjkmmXoFn5dnXnhCi4WW3O2LGNO6we1n4qbJFEYodh1ef3OVVjMMAJoh5ofdhQYW_qkbneoKhso6PcExjtye9NDnQpf_cMOyY_VJAmRGE4i9w",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "post_id": "1482428667234713",
+      "api_post_id": "pfbid0TJszMEHJAgR2y4yvJpSHe3RtzF4vpPetdUHJ8akVM3yuTXN5zFfHcZKvhxQ8WY7el",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0TJszMEHJAgR2y4yvJpSHe3RtzF4vpPetdUHJ8akVM3yuTXN5zFfHcZKvhxQ8WY7el&id=100064027815481",
+      "comments_count_from_post": 1,
+      "total_comments": 1,
+      "comments": [
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDgyNDI4NjY3MjM0NzEzXzIwMjAwNTcyODU1NjMxNDk=",
+          "legacy_comment_id": "2020057285563149",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1776690102,
+          "message": "ช่องทางการติดต่อขอรายละเอียดเพิ่มเติม👇🏻\n\n📍Location\nhttps://maps.app.goo.gl/ruXnXGf269jAcz6z8?g_st=ic\n\nปรึกษาสินเชื่อฟรี⚡️\n📲084-262-8878 \nแอดไลน์อัตโนมัติ 🔖 https://lin.ee/HHAC58E\nแอดไลน์ ID : @perfect-house \nWebsite บ้านสวยๆ 👉🏻 https://perfecthouse-property.com\n•✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨",
+          "author": {
+            "id": "100064027815481",
+            "name": "บ้านมือสองนนทบุรี กรุงเทพฯและปริมณฑล สินเชื่อฟรี-by Perfect House Property",
+            "gender": "NEUTER",
+            "url": null,
+            "profile_image": "https://scontent.fiev6-1.fna.fbcdn.net/v/t39.30808-1/311191000_558996439362424_6276165546597166861_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=T_LZ_RRcHgEQ7kNvwHkn4BP&_nc_oc=Adq2NEhoCG-fJnaemm8iJ_vGPJuRByB9vvt3k0A-bWlz4BZooPh16ZgGSjC8js8-9y4&_nc_zt=24&_nc_ht=scontent.fiev6-1.fna&_nc_gid=Jkdt27qmS7598KPGXgHXfw&_nc_ss=7f289&oh=00_Af6DypzgiRenud-92-2rVpvuqodv02LHYDjzKIpRTpbN0g&oe=69FBFF1A"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzM0MDIzOgF_e_vtPDL49ec8Mi8s0ifl7cjCUiJsnWg284Qkh9kyim4DwtXYxZyRvAgmkYMJkxBGV3Edz6GeeWchq8Nw8BHwfr_DXRlVC6BShiv_gskzGKF_M3J9XoquWQ13hpbeljS7FrD8HIFqlkKCibDHBR4aE9kVvCSEwniL_-FjqwbqBQRqrvMzEEeQ2HbGAesQEX1TlhthY1m_pg7iiAbiAACPh1dSjpHrqf7_hQHa-Rvm6ZWELvA2ht_O09zDWAqterX2jYxh25Xo0NmdLD59sS7RDHvj1ZID2m7IMD8lV-gXBGkX0Y2OKlN_HDRXhBtLdvT7oJP9cCz9gNNB9j5qTB4NHpPWUv2ya9tmzY1gZIUPn8vH8WBrYBOsX1eNKyVLx72PUkNIMySYD6d97XEQgmcYPCZMh9cAKruzBOmLKkajib01xxKiPHmYL9f-tGbTXd6qn_MovoBgxpzbdvdVQkrA7aVw6eXZ6GJuSHNJwQlDb6V-wCbmGb51zBIYu85-TYfeg0EX0hJXliXDf7z_OYFb1Jkke66cp8AwYhH74-tTH_WsX-Va1IzEuT0EmXjHbqDYW06_rOWL__XxmgXSELhX_w",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "post_id": "1482368833907363",
+      "api_post_id": "pfbid034mrL1FpEaWj1pKAYeKCKxgKdqEFqqby2NM79WMUH8Pn2whLjimJ9Q3At6XwnMxDpl",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid034mrL1FpEaWj1pKAYeKCKxgKdqEFqqby2NM79WMUH8Pn2whLjimJ9Q3At6XwnMxDpl&id=100064027815481",
+      "comments_count_from_post": 2,
+      "total_comments": 2,
+      "comments": [
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDgyMzY4ODMzOTA3MzYzXzk1NTc5NjE3NjgyOTUzNw==",
+          "legacy_comment_id": "955796176829537",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1776684679,
+          "message": null,
+          "author": {
+            "id": "100064027815481",
+            "name": "บ้านมือสองนนทบุรี กรุงเทพฯและปริมณฑล สินเชื่อฟรี-by Perfect House Property",
+            "gender": "NEUTER",
+            "url": null,
+            "profile_image": "https://scontent.fdac184-1.fna.fbcdn.net/v/t39.30808-1/311191000_558996439362424_6276165546597166861_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=T_LZ_RRcHgEQ7kNvwGvc66h&_nc_oc=AdrSTUdN0I8fQ7htAVRAB7IPmRpfh7XFPVPF9pCSNyQ7X65tLKjHQ42_Om90kPnDj4c&_nc_zt=24&_nc_ht=scontent.fdac184-1.fna&_nc_gid=hja_yfcUp6MaK65pb7buiQ&_nc_ss=7f289&oh=00_Af4WwBhc2t_XSwiuYPE5Q3dW97FZ4SNJVPEaBssvQRrPEA&oe=69FBFF1A"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzM0MDI5OgF_DvTvtO4erzK682I24bFAjB7YppRPWkX0sfKIiPrlwxlkbGr7oZPzp-wpSGU3KcWw9AqYCzRvdKhaABBny8-yIK-sAYqsZzWXnYMcxGSixcK-0nNDIQxAT9HCjoAYBu4ddgx9QFZTpDzqRzOC5Ewwbew6u6un-S_x530yp9SFrhSBw3qziC9-qFhh0F2bErtFBlrq541ylUOcsrQr1X7tn5BObNAlf6g6tmMszBh_BRX8EvDzeKyMUCu9OWeqZYaXW6YwwokRkadt8LzOj-8oiu5bIBOyri_yp6UVyYf9XZwNADz1vs8ZY-6bHojOaz-Vyblt1sly9a9m6m7SB1wgD-EZGWcy0GXPclJfLIe3sQPgPbjQZBRlzm6jOK58AqrM-PNbTI4GrMYBAW3pO__4myFGREcpJyftSCvZDTRlzxiuNyQns6QytPa17Ot4mJiUwmqayoYDg-FD8IgKQLSJtGN1CWidV02QRjpVxrApmT6g8w9JR-_ruiOo60lP_mvONgO2XbP4rNmwP05sTy42MdIvGEvjPyYJYyis868eB2dvs16fN1QeGL2rhREnSJuYsoiv86QRbiCy0me6a_VaQA",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": true,
+          "gif": {
+            "__typename": "GenericAttachmentMedia",
+            "sticker_image": {
+              "__typename": "Image",
+              "uri": "https://external.fdac184-1.fna.fbcdn.net/emg1/v/t13/13325595102600935327?url=https%3A%2F%2Fmedia4.giphy.com%2Fmedia%2FosjgQPWRx3cac%2Fgiphy.gif%3Fcid%3D120c01478ivg7anq79e40j369sgc3wymxypvouev4q6fd6qz%26rid%3Dgiphy.gif&fb_obo=1&utld=giphy.com&stp=dst-gif_fr_q75&_nc_gid=hja_yfcUp6MaK65pb7buiQ&_nc_oc=Ado9tKXqpqGu2J3I0T7vZLwmpTn_Q2ZURQERtG7Eu9z_Sko6f4UvpzENF-agxWQRd3Q&ccb=13-1&oh=06_Q3--Af2sI4sdMPohR371nR8mAB4QD45cVxCCntHwYWJuaPdd&oe=69F7FACB&_nc_sid=9e3c15"
+            },
+            "id": "1482371010573812",
+            "image": {
+              "height": 500,
+              "width": 500,
+              "uri": "https://external.fdac184-1.fna.fbcdn.net/emg1/v/t13/13325595102600935327?url=https%3A%2F%2Fmedia4.giphy.com%2Fmedia%2FosjgQPWRx3cac%2Fgiphy.gif%3Fcid%3D120c01478ivg7anq79e40j369sgc3wymxypvouev4q6fd6qz%26rid%3Dgiphy.gif&fb_obo=1&utld=giphy.com&stp=dst-emg0_q75_s500x500_tt6&_nc_gid=hja_yfcUp6MaK65pb7buiQ&_nc_oc=Ado9tKXqpqGu2J3I0T7vZLwmpTn_Q2ZURQERtG7Eu9z_Sko6f4UvpzENF-agxWQRd3Q&ccb=13-1&oh=06_Q3--Aay8U8VNtisZtXXfJ3C0jSzJFNX0bnSK6ZtqS1uZZDhc&oe=69F7FACB&_nc_sid=c97757"
+            },
+            "animated_image": {
+              "height": 500,
+              "width": 500,
+              "uri": "https://external.fdac184-1.fna.fbcdn.net/emg1/v/t13/13325595102600935327?url=https%3A%2F%2Fmedia4.giphy.com%2Fmedia%2FosjgQPWRx3cac%2Fgiphy.gif%3Fcid%3D120c01478ivg7anq79e40j369sgc3wymxypvouev4q6fd6qz%26rid%3Dgiphy.gif&fb_obo=1&utld=giphy.com&stp=dst-gif_fr_q75&_nc_gid=hja_yfcUp6MaK65pb7buiQ&_nc_oc=Ado9tKXqpqGu2J3I0T7vZLwmpTn_Q2ZURQERtG7Eu9z_Sko6f4UvpzENF-agxWQRd3Q&ccb=13-1&oh=06_Q3--Af2sI4sdMPohR371nR8mAB4QD45cVxCCntHwYWJuaPdd&oe=69F7FACB&_nc_sid=9e3c15"
+            },
+            "animated_image_caption": null,
+            "animated_image_attribution": "GIPHY"
+          },
+          "image": null,
+          "video": null
+        },
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDgyMzY4ODMzOTA3MzYzXzE5OTk0NjI3MTA2NDA1MTg=",
+          "legacy_comment_id": "1999462710640518",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1776684639,
+          "message": null,
+          "author": {
+            "id": "100003277915883",
+            "name": "นพพล เกิดคง",
+            "gender": "MALE",
+            "url": "https://www.facebook.com/nphphl.keid.khng",
+            "profile_image": "https://scontent.fdac184-1.fna.fbcdn.net/v/t39.30808-1/672686230_26559616180397618_1915641352565639626_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=105&ccb=1-7&_nc_sid=1d2534&_nc_ohc=kNKK_vkdE0YQ7kNvwHo2kEg&_nc_oc=Adq-iiKiPGbbSVMH1o_WidyZs4t2GM6ZRLEEiJVGGeBaaZ5P_qVWiPKk9LjgHVfIlSM&_nc_zt=24&_nc_ht=scontent.fdac184-1.fna&_nc_gid=hja_yfcUp6MaK65pb7buiQ&_nc_ss=7f289&oh=00_Af5sGswE4FfMfrHOGYSQ7YRWLNeIUQnGsnj9TjqMUSLg0g&oe=69FBFEF2"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzM0MDI5OgF_Sb_E-V-18q2VhlpCLcU6E7vEosP0kTwIVoBWGkI1qL4sk_OdUjUEvWZUBhUryo7eIgMnkf0X8DxGE1SC42OnjHob57eaOL8dAUgRB3zrHjI3CBWRaoC77CpBp0EtdMdxGSrY5ehfcZbJfKiB3AykXgHSeYYHAXx3OnSwDJNISG5cdry7EvDv1gFt_YsXNAeSS0VI1ySwAgQjHTbssyfl-gEzvcEqe-X0jba8RrnNt30XOA3MjeMTsnQqxGWcyioO5Qa5veTuNMZdAs4uQYyVdghY3Xz1a0TYeTtjh_c8BtQDzNunsM2lSlwHX3TIwPc01PJLAg7jrn5tgNpIAHtOgoNLa_44p7YfuuMIJ-wa7nTYjoKHzHkDScgnvGCMbfT3YDXkzYHY-PXv04kchfVaQ6o0-jBfAixTAV78ysIQbA8xEAAa360JJsFm1xgUZDY7gXCH4kZ7zcBYPMRUKQmDJM4HOOuLyGHTKVrjl328BztcTOKwfdTda_dc8BOuHKgF_UNHDeI0-eeuc5rRVXzJiXFHKPILMowMzIHt3XzCrE52zn30W7TwCfERHo0Sv1mdxjatEbGl0h8yLWgQzmw2Zw",
+          "is_sticker": true,
+          "sticker": {
+            "__typename": "Sticker",
+            "frame_count": 0,
+            "frame_rate": 83,
+            "frames_per_column": 0,
+            "frames_per_row": 0,
+            "label": "Mango, an orange and white cat, is excited. They have a wide grin and their arms are extended outward and up in celebration. Ten blue stars are floating on either side of their head. ",
+            "pack": {
+              "name": "Mango",
+              "id": "582402521770727"
+            },
+            "sprite_image": null,
+            "image": {
+              "uri": "https://scontent.fdac184-1.fna.fbcdn.net/v/t39.1997-6/851575_582402828437363_2024634816_n.png?stp=dst-png_s160x160&_nc_cat=1&ccb=1-7&_nc_sid=23dd7b&_nc_ohc=kGxcBhiXJeEQ7kNvwGTq5pv&_nc_oc=AdrqgFtg8sDdYYiDFaxZtQn7HhZEx2AgnTslxmuRZHYq7IDz93hZ88GDVbsgmJOE2_o&_nc_zt=26&_nc_ht=scontent.fdac184-1.fna&_nc_gid=hja_yfcUp6MaK65pb7buiQ&_nc_ss=7f289&oh=00_Af4eB5Zk0gYfIuaz7lT9V4eWTWFFwvCcY7UAUxKgNqOW1w&oe=69FBFA5F",
+              "width": 160,
+              "height": 160
+            },
+            "__isNode": "Sticker",
+            "id": "582402825104030"
+          },
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "post_id": "1482209147256665",
+      "api_post_id": "pfbid0yjc5euQPrKW19EPUS9jNGdFcMiV1bJQ6kLT6GDf74498jmAdxrDk7xvAM2LpzxKEl",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0yjc5euQPrKW19EPUS9jNGdFcMiV1bJQ6kLT6GDf74498jmAdxrDk7xvAM2LpzxKEl&id=100064027815481",
+      "comments_count_from_post": 3,
+      "total_comments": 2,
+      "comments": [
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDgyMjA5MTQ3MjU2NjY1XzE3MjMyNzkwNTg1NTU1MzM=",
+          "legacy_comment_id": "1723279058555533",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1777055651,
+          "message": "พื้นที่ใช้สอยกี่ตรมค่ะ",
+          "author": {
+            "id": "pfbid02opqDvGyUFatvN2oggY993xS629pfy7vAVfQ514EgReRAZYqbGjccehcgywoddqkMl",
+            "name": "SumaIee Sripongtong",
+            "gender": "FEMALE",
+            "url": "https://www.facebook.com/sumaiee.sripongtong",
+            "profile_image": "https://scontent.fgye23-1.fna.fbcdn.net/v/t39.30808-1/579103630_2015618492527722_5258366688435733491_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=109&ccb=1-7&_nc_sid=e99d92&_nc_ohc=HxzcD2Sn27AQ7kNvwEbwwSJ&_nc_oc=AdqKJTLIdmHLJmPIGLP1dsNPQSALLvCNdYhEOTWi9rYBMNaUAcUMPeBjvk8oL13QvLs&_nc_zt=24&_nc_ht=scontent.fgye23-1.fna&_nc_gid=CmJQuGtRAGdm5MJ2rl_ZcQ&_nc_ss=7f289&oh=00_Af6XxK-hp_FrRylY4KrJLH5U6AR8yeFQEEellnV-QMXtqA&oe=69FBD9D4"
+          },
+          "replies_count": 1,
+          "reactions_count": "1",
+          "expansion_token": "MjoxNzc3NzM0MDM2OgF_iVp3_ZK4G3QMPOcyZT3kJxYRYxEfCHtKtLAxfFySH0YzsC6e6Xh0_r0K8gHiZmfDjks5HI7IfHyA2S7Y1Jiqddh3iPSvhx6JE5qUWZDnozSEMVjiy-eGP2YrezNBkIIz5yeWvJhQTTbHM2-CYHa8cyS4z-Hfg-gJlnMW3CfOL7wWAHafOgaVBcGGIE8bhs318kK8V36FnuxPkJCZVF5dfC8ynNm9T5Ha68cvlxsYtfGpQ07LC-HAYM7rH3N89PbEqOaY5fn0xGZ84zfpxZDzRY2uTon-qHuKx2FDCNDWlU8XmRGZHJ3LXyyiCnZezjwru0BmQEqdg5olHASdFrOs0povuTrAI3_2zNzoJxwxR-nRYS_mQ8VGtr89OxFCD0Izi1DmGdKAwqeM8QASpS7eugZMfrGCeSKzoyTJbDbTdvOUisd91EdnyTA6BYvKreGYhXw-MF4NsjdOQQgi4DtRTNGDD3vCKTQFuOftTdqMbqhoo45RV7vMr3Sgzh2xeb60947O14D2Rn9kmG_WSQfkn07dXBzN6IVpLxAmwL6qVFKzO_oyGknPLWpiXNRxTkTQcWCZfF_5OxQgEYCkU94aDw",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        },
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDgyMjA5MTQ3MjU2NjY1XzEzMjU1MzYyMzk0NTE4MTM=",
+          "legacy_comment_id": "1325536239451813",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1776668586,
+          "message": "ช่องทางการติดต่อขอรายละเอียดเพิ่มเติม👇🏻\n\n📍Location\nhttps://maps.app.goo.gl/NDR3rmJJ2Fq8QrmT7?g_st=ic\n\nปรึกษาสินเชื่อฟรี⚡️\n📲084-262-8878 \nแอดไลน์อัตโนมัติ 🔖 https://lin.ee/HHAC58E\nแอดไลน์ ID : @perfect-house \nWebsite บ้านสวยๆ 👉🏻 https://perfecthouse-property.com\n✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨",
+          "author": {
+            "id": "100064027815481",
+            "name": "บ้านมือสองนนทบุรี กรุงเทพฯและปริมณฑล สินเชื่อฟรี-by Perfect House Property",
+            "gender": "NEUTER",
+            "url": null,
+            "profile_image": "https://scontent.fgye23-1.fna.fbcdn.net/v/t39.30808-1/311191000_558996439362424_6276165546597166861_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=T_LZ_RRcHgEQ7kNvwHwS9mc&_nc_oc=AdoD0JH8NHmqUDX-yrDm422zUGkNXzSeEY2vlfprjETMYfXOWce9BlLGfmakN2nJcoU&_nc_zt=24&_nc_ht=scontent.fgye23-1.fna&_nc_gid=CmJQuGtRAGdm5MJ2rl_ZcQ&_nc_ss=7f289&oh=00_Af7RsVuXSPQWueZMROU_PRp_VhpmnuCn-7CX-iu4RxVHIw&oe=69FBFF1A"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzM0MDM2OgF_BTtTPiBUdKRcb7qhxxrLhvdfVMNlONuM6zzycH9P1J5JkQFLbHMIRB6tS0AtIZhq1TNgg5XE6c_glPQLrHU4r5ECNXGC156bf66DbaAWEZ9XJfG1gWwrJjTFGYbbWPeASD9yOBP6cJPswAUPDm7rq-xzgrktKSAlQ32tHwksBB0UcwzOCPUGKw4BV3yYNajY-7b9m8g086cKzoTzloqa08BA3332LxOZr6aAwMlTUKEx4lTQKkTMuOIKGnd1ZirSJbYnXggsLs3f57lzOqqqXW66LFfPQNng2IaaosiJKnsaLo84rTaObsA7rMagWSfhXAo3234dUXRJMkr8sqhNYqPAEMa1JfSjDSMRnzRyCa-K1YLUMXPHAI8nJU5Q-7eCKwJoWGf4d_RicDZ0bZNdu_VMYHgYKVgPJNFhM37D_5ZEGQ4jQPWnuWPaZk7A2Pg0m8xlLqJeYYGtUBvalsluifz0PKDPrwDuOVEENaxa8fFqjFgRGPVYWLaDd1I1mRH_jKHDROpa105zed06bLk4EOOD14epdgUrN36KmUyHVKPaIMZbnCeXGJiS8yw2smFKaFoz03EW3yaEQRlI79X0Tg",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "post_id": "1482195057258074",
+      "api_post_id": "pfbid0sATo6q23gbo95FHAwrdvK6RK6ViSRGgyxkrP6NeBDCQvPDzpTNWhxxGK4pdBZ4gcl",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0sATo6q23gbo95FHAwrdvK6RK6ViSRGgyxkrP6NeBDCQvPDzpTNWhxxGK4pdBZ4gcl&id=100064027815481",
+      "comments_count_from_post": 1,
+      "total_comments": 1,
+      "comments": [
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDgyMTk1MDU3MjU4MDc0XzI1MDQ5NjQ0OTMzMDcxMDA=",
+          "legacy_comment_id": "2504964493307100",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1776667725,
+          "message": "ช่องทางการติดต่อขอรายละเอียดเพิ่มเติม👇🏻\n\n📍Location\nhttps://maps.app.goo.gl/EyXn9o8765nnFnas8?g_st=ic\n\nปรึกษาสินเชื่อฟรี⚡️\n📲084-262-8878 \nแอดไลน์อัตโนมัติ 🔖 https://lin.ee/HHAC58E\nแอดไลน์ ID : @perfect-house \nWebsite บ้านสวยๆ 👉🏻 https://perfecthouse-property.com\n✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨",
+          "author": {
+            "id": "100064027815481",
+            "name": "บ้านมือสองนนทบุรี กรุงเทพฯและปริมณฑล สินเชื่อฟรี-by Perfect House Property",
+            "gender": "NEUTER",
+            "url": null,
+            "profile_image": "https://scontent.ftas2-1.fna.fbcdn.net/v/t39.30808-1/311191000_558996439362424_6276165546597166861_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=T_LZ_RRcHgEQ7kNvwF4QXXZ&_nc_oc=AdprqruvZC7JkE1G9xfbix5L0Beyxu798pA3NRMcx18AiTSGh0H4jOqp1tF6vlLPLqs&_nc_zt=24&_nc_ht=scontent.ftas2-1.fna&_nc_gid=-EE3VoptbUhAa7zcmgF0Mg&_nc_ss=7f289&oh=00_Af7k8bhEpZ-OpiEodE4EESQFHP5Vrfxyqr-W9u-7Vj3XJg&oe=69FBFF1A"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzM0MDQzOgF_vvO12SE0A0PF1lqXAY1Ra1FdLUgUbFoG6bMXcQeOOLcYNA4gfqG6mBE1Ka-x_8beR4av6KhakfQfWz1V75XYhO_VJ1aW3XAQ83tdp9DJpBohSa-n7hRvjuWT9KWPebLqcyJjWT7xLC9O_fYe3Y_BG6Fh24aFeqe7i5n58be7DYcxkO2ijHUKT-V7QjASlMdttKkBQdz0UdULp1VwIbgXb8KAIzpY_669e-dVbrCpw5Skh11apIu1d-kH8yzMlomyl17sqOcXSZTBK3Q5IuLjwkSjegh2aIIuoa0It36xF9oG9B_OJv3-oQvTjBluWQuPgfT734lQgDL_CmFmkNUzkbuXT0cuIuPNz_oLwOkadEbcekVlGwAQEPOu41OtBjauIScCrd9XPU1bixH3ZS0mimYuCY8QwDY2D25zCjKaRI5QuKT5wnbVr9xDOPNveBaWzNh8Z1UISpsN7LCqdAyWCuMx2q9m_T1W2DrGME7CRKL-WQznaMwm9h5hFM0ajZxQwku7nIfDgRAvziP4aMF1lDwrINN8WP8YGQkLkKn5z2ojPEcZVZh_enFsRZpQBejlaC4cEU0jqgZxKjt97sy4zQ",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "post_id": "1482180783926168",
+      "api_post_id": "pfbid022nxpmGjVN4kHHb2GShfVUf18Tj7pzhrtaRS2QX3M56fkx94uqrpiZzdfi9eYSJayl",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid022nxpmGjVN4kHHb2GShfVUf18Tj7pzhrtaRS2QX3M56fkx94uqrpiZzdfi9eYSJayl&id=100064027815481",
+      "comments_count_from_post": 1,
+      "total_comments": 1,
+      "comments": [
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDgyMTgwNzgzOTI2MTY4XzE2OTg4MjE3NjQ4MTY1NTc=",
+          "legacy_comment_id": "1698821764816557",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1776666866,
+          "message": "ช่องทางการติดต่อขอรายละเอียดเพิ่มเติม👇🏻\n📍Location\nhttps://maps.app.goo.gl/UDzqp87MxaaNT41D6?g_st=ic\n\nปรึกษาสินเชื่อฟรี⚡️\n📲084-262-8878 \nแอดไลน์อัตโนมัติ 🔖 https://lin.ee/HHAC58E\nแอดไลน์ ID : @perfect-house \nWebsite บ้านสวยๆ 👉🏻 https://perfecthouse-property.com\n✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨",
+          "author": {
+            "id": "100064027815481",
+            "name": "บ้านมือสองนนทบุรี กรุงเทพฯและปริมณฑล สินเชื่อฟรี-by Perfect House Property",
+            "gender": "NEUTER",
+            "url": null,
+            "profile_image": "https://scontent-gru1-1.xx.fbcdn.net/v/t39.30808-1/311191000_558996439362424_6276165546597166861_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=T_LZ_RRcHgEQ7kNvwHTHG5o&_nc_oc=Ado8PE-_nlBFg1NlVvQN73W_9WGuG5nlAoOCyP6uu3JrmcWW48CQqHHabbOs7LVzuXo&_nc_zt=24&_nc_ht=scontent-gru1-1.xx&_nc_gid=rL0zs6V3Pc3gcPwjdYTpaw&_nc_ss=7f289&oh=00_Af5Tx3CDzEEZHM_vj99JGxGGA629Y6x6iad4_6-DFDDXYw&oe=69FBFF1A"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzM0MDUwOgF_Lc798RszNUqGRpyhl0e25ph-IuXulHVub16WIAvpi4sVVTJKwDMscnwPGL7Z_QOU7A6wZe0yW2jemyusJdSz1xCVYQkgflGkkM6HjiGo2My8g4omPfcSw4mlLGihLWwCGBFPEtdMrae2TVZfVEeUCI1MXCsNfrpPXs_1nZ9PbiF7_LPWtFz-ZfcKTw4CfVUQpwsXBXqzM1_30URpenDpN5xzfwpWE1-WltkvGb2V2T9rVLiAJagr1REz5UgTANYbSVkpoBE9vidL3wP7HU8gyeAtnXZ5BD818XhgUlnbaF3L6Q5FTKukkAAPgrmD9pzBmk8zFa9Wn41x-2aCl-qa2wntG2EWbi_T-ggrQH1XTSxDNGmvhAvAkvt0IZni_4UiEWdAtQVBpZLWl_Md9g1ltZ_k8TY4HkKiKxIRGNzpkcO0KA1MIb3oDIzWFSDrN8gfcx711e4mQI_cOoFjOCC3EC9XsNmWDpa2KqnxG-TUE7An-H3pDWkwE4t_ruK84pIb0BuQLDZb5wNJqpYH1fKcIZx3M9jANGWqg7Q9r3dsGlHBdFzHwWLCBgSPZLwNdSGUfk2PHNYOYKUix7WoSXR7_Q",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "post_id": "1482169620593951",
+      "api_post_id": "pfbid0BznMwu8vpqyXygLu4v5fzitiLvq3B4Kxp4565LokmQL94q2iymCcgGHGXaAWC4Rml",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0BznMwu8vpqyXygLu4v5fzitiLvq3B4Kxp4565LokmQL94q2iymCcgGHGXaAWC4Rml&id=100064027815481",
+      "comments_count_from_post": 1,
+      "total_comments": 1,
+      "comments": [
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDgyMTY5NjIwNTkzOTUxXzE1ODc0Mjg3Mjg5OTU4NDM=",
+          "legacy_comment_id": "1587428728995843",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1776666406,
+          "message": "ช่องทางการติดต่อขอรายละเอียดเพิ่มเติม👇🏻\n📍Location\nhttps://maps.app.goo.gl/oHVaosQquWfLHC2K9?g_st=ic\n\nปรึกษาสินเชื่อฟรี⚡️\n📲084-262-8878 \nแอดไลน์อัตโนมัติ 🔖 https://lin.ee/HHAC58E\nแอดไลน์ ID : @perfect-house \nWebsite บ้านสวยๆ 👉🏻 https://perfecthouse-property.com\n✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨",
+          "author": {
+            "id": "100064027815481",
+            "name": "บ้านมือสองนนทบุรี กรุงเทพฯและปริมณฑล สินเชื่อฟรี-by Perfect House Property",
+            "gender": "NEUTER",
+            "url": null,
+            "profile_image": "https://scontent-bog2-1.xx.fbcdn.net/v/t39.30808-1/311191000_558996439362424_6276165546597166861_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=T_LZ_RRcHgEQ7kNvwFU3ILY&_nc_oc=Adr2-7tqgBRFL-7wktPGK6qwGIzCUbmBmDRQX6fAG2DxALbnyUhB8wDehg3tMFK8CoQ&_nc_zt=24&_nc_ht=scontent-bog2-1.xx&_nc_gid=DAeMUMSUviGMR9yqA8aM_Q&_nc_ss=7f289&oh=00_Af6WnDYXppsb6ukVBmLBmTrV3BcyXWwbmtD8eV-hTwe9QA&oe=69FBFF1A"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzM0MDU2OgF_bptd_TAbC-wobqHr__66zWedRRSEft5VSrB7w3-Kub5rl7cfI0kstbf1ikXAl_iePBurYv7Uodk-xm6tj0SLCWfjIAkNXuiqjeAHej19NmoDvVyiEzdB5lc2l7QzPYpYgo9GggBxBc7SQUWaUKU5oYbxKjFX8-FUUuP6q7Firb6uCZUQhr0O7aX4DSuvzyyvkcfSN40u6t6jzxdEFC3KhyGjGK08i_PxnBRDV9nmwSD9TBFydgZ-FZv3lVLQFoVigMj_ZGWyC2ccyerl5CLAQjbax3AbhGfPwsfAs93n3q_nV8nDY7j7ibZOYKcCvuqAP73tAaBU6SPkdsGfTviUYq8fH3uigIq5aREpnu4jiz0_ErN5M5ptpTG5subCFJsf4rsLoqVN1uKmcBCu9l7AkeKJQ2R_Zld9Dq76K_PcguCMfsDWDJ_qXKeEyvLNZmZqAlOkAHOMjhDt6cCdAVzDXA4k8UvvxSKhnwWLt5aSwMNEnFJ2FnKCtBxfs5AmWBeL5Os2rw0XLE4-ZfUwrG8m1ferML-pPK_FHYmBWg6C7ZYdQw1SH77d9he9pNWhSZ1iEP0rH5dQkDoS8wEB2MgjWg",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "post_id": "1482132633930983",
+      "api_post_id": "pfbid0FkL5vrD5yezZzdmwP7iBjAGULUL74NqxoULwV36qsssjAomVjVTCHR1f4xgG9Zf3l",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0FkL5vrD5yezZzdmwP7iBjAGULUL74NqxoULwV36qsssjAomVjVTCHR1f4xgG9Zf3l&id=100064027815481",
+      "comments_count_from_post": 1,
+      "total_comments": 1,
+      "comments": [
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDgyMTMyNjMzOTMwOTgzXzIyMTg3NzI3NTg2NTg4MzY=",
+          "legacy_comment_id": "2218772758658836",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1776662493,
+          "message": "ช่องทางการติดต่อขอรายละเอียดเพิ่มเติม👇🏻\n\n📍Location\nhttps://maps.app.goo.gl/NDR3rmJJ2Fq8QrmT7?g_st=ic\n\nปรึกษาสินเชื่อฟรี⚡️\n📲084-262-8878 \nแอดไลน์อัตโนมัติ 🔖 https://lin.ee/HHAC58E\nแอดไลน์ ID : @perfect-house \nWebsite บ้านสวยๆ 👉🏻 https://perfecthouse-property.com\n✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨",
+          "author": {
+            "id": "100064027815481",
+            "name": "บ้านมือสองนนทบุรี กรุงเทพฯและปริมณฑล สินเชื่อฟรี-by Perfect House Property",
+            "gender": "NEUTER",
+            "url": null,
+            "profile_image": "https://scontent.flwo1-1.fna.fbcdn.net/v/t39.30808-1/311191000_558996439362424_6276165546597166861_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=T_LZ_RRcHgEQ7kNvwHiID-y&_nc_oc=Adrkq6cQMBpQe5orORCGAw_5XbrH01kKHKg1CvkuIi-oLWzikBqHO9adEEN9-soEczI&_nc_zt=24&_nc_ht=scontent.flwo1-1.fna&_nc_gid=oLff-thOKoxKgDUdgsRYag&_nc_ss=7f289&oh=00_Af58qW8H6UUzpZq44uQTXiahbpTiYOVS1LzamU-P7X_4wQ&oe=69FBFF1A"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzM0MDYzOgF_rNiXfEk_ZajqvwNoDuDuA85a7iXzwpIG7TaUcqqvCE2t52A8BJbBYjfZwSN1JFkZph5BWWN4Jcb7c3c_KZC614wGQ8PSwGdZRwY4U5Km0QtQgsjKg5Ctgm-n48czBhDgCZ14hzVWvSTe5x3jTsgQW6Opn2KJXq4uYkKvnBf-pasyU3xdTB_zaXxVAz3DfN9Irf8cxtSqxg0Avw29fpwyRXJQwWOadTn4K0aaMUcfyIJLFvJow7M4g0aDqNPnI95zEIWtL8DSHkRbPrif_31EjeDN4aodOaOIIeReGaNLBxmQ_v7cpdPDgIKVTuvGmB0BZV6nQeH7zJSUVRkwgmOB8-Wp84PmGguqpxKJixC3jLaWqPJZwFd_jQfjI3a6y74u8DnpsaXVY90jkaczuDbF0ANuy0MKrcgql2cLuW6oxWXuKBM4Y5okOdM2CvaqjA5SEMXVHEknoBeOTCC_rvYbhF7NquyvI6eJE4AV6cK0HPcM4M-C_2sJ3b6dE2g5Vn6ItiI29IlD4faRrD9VS7rWBP8e3qr_2XWDb36OEr2xkIl0HlMojg8bB3WtvIgSXlz4bxxq_upFz3tAR12PbsMEhw",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "post_id": "1482082320602681",
+      "api_post_id": "pfbid0qAGDoByqtuuVxEGgz2jum2hkd173sCxMtcf865nyzRUfVnnm5b3xJ9H5CAiDLrKkl",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0qAGDoByqtuuVxEGgz2jum2hkd173sCxMtcf865nyzRUfVnnm5b3xJ9H5CAiDLrKkl&id=100064027815481",
+      "comments_count_from_post": 1,
+      "total_comments": 1,
+      "comments": [
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDgyMDgyMzIwNjAyNjgxXzE0ODE4NDE3OTMyNTI4MTM=",
+          "legacy_comment_id": "1481841793252813",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1776657724,
+          "message": "ช่องทางการติดต่อขอรายละเอียดเพิ่มเติม👇🏻\n\n📍Location\nhttps://maps.app.goo.gl/GWVeP8WSwBh2cvfu7?g_st=ic\n\nปรึกษาสินเชื่อฟรี⚡️\n📲084-262-8878 \nแอดไลน์อัตโนมัติ 🔖 https://lin.ee/HHAC58E\nแอดไลน์ ID : @perfect-house \nWebsite บ้านสวยๆ 👉🏻 https://perfecthouse-property.com\n✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨",
+          "author": {
+            "id": "100064027815481",
+            "name": "บ้านมือสองนนทบุรี กรุงเทพฯและปริมณฑล สินเชื่อฟรี-by Perfect House Property",
+            "gender": "NEUTER",
+            "url": null,
+            "profile_image": "https://scontent.fgye14-2.fna.fbcdn.net/v/t39.30808-1/311191000_558996439362424_6276165546597166861_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=T_LZ_RRcHgEQ7kNvwFXrAkk&_nc_oc=AdoNXQHtcfV-soEoUTYCrBSwRcZoC0Y3NaQv3MIHD-iwcDMVuHZ63-UzM2aStOx9-TQ&_nc_zt=24&_nc_ht=scontent.fgye14-2.fna&_nc_gid=oIvT6moJ-V4NxSyIdNR1og&_nc_ss=7f289&oh=00_Af4Ds1-5j5-Nbg87IB8bYLL0einHJleFF1b3vmNBfOFvuQ&oe=69FBFF1A"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzM0MDY5OgF_qF9Xfy68B4hNfkmry4Q8n0rY97TvNqJ5VM6bIMQKCTp5wKi8NBtKtaGAw7aaPfIGvY7o7OnwUC7_jse9M-10u1ZkfqyHMxJ-SzDuykjDyxSvfWOkAZmgtmWcsFwQ4bKnCI2BXgS0hjY0hqxeldDlKV1YtIUStgcS_e_zssoiy9p-XCOa9CmxQWkUmNta6jQd9AIBKMxm3HgrQjYoifAE6qVweKZ1rBV3_IIMOF4bUkg5aBmrE56Gnkfp7Uv3x3Hp5mbu-UXHeNbzZAo2quZY9vKd04iszXiZtXnQ8zbVQ0RNdUKGhUmoaeRuh8M6Oa21EbWBm-nsIhcopAvOYjTbgASSIySGBPXVxawDpnZ-PvUQUYDZhEhg7eDFf6at21rw87gf0vynY7K16ZrNS-LjBz8PTYPGjG-xNFLD6dXo5JO_F0e2UtqVwlRzgobt7k1KDvxeNcfe4InBaHnkkE0g5MD3-A_kB0YUIUvui-z_dx_tWIkvsCgGK80gEUlSqrYMrtRyIFD8_0QehokK-jlpM12CO5krDp7thGZDXRjjGjYgie3MC9caiR9VUOCfx81kPpO-gDMoFgJImvTkkSl44g",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "post_id": "1481426020668311",
+      "api_post_id": "pfbid0aWwFj3QZxx4Maz7yVEvoAXaySe5pLWXqUA84ZqDke9jKg8f9zmZLke5qj9Sbrc4wl",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0aWwFj3QZxx4Maz7yVEvoAXaySe5pLWXqUA84ZqDke9jKg8f9zmZLke5qj9Sbrc4wl&id=100064027815481",
+      "comments_count_from_post": 1,
+      "total_comments": 1,
+      "comments": [
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDgxNDI2MDIwNjY4MzExXzc5NjEzMDM0NjU5NjQwNA==",
+          "legacy_comment_id": "796130346596404",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1776588050,
+          "message": "ช่องทางการติดต่อขอรายละเอียดเพิ่มเติม👇🏻\n\n📍Location\nhttps://maps.app.goo.gl/LrTMuciuJRBdgehh7?g_st=icส\n\nปรึกษาสินเชื่อฟรี⚡️\n📲084-262-8878 \nแอดไลน์อัตโนมัติ 🔖 https://lin.ee/HHAC58E\nแอดไลน์ ID : @perfect-house \nWebsite บ้านสวยๆ 👉🏻 https://perfecthouse-property.com\n✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨",
+          "author": {
+            "id": "100064027815481",
+            "name": "บ้านมือสองนนทบุรี กรุงเทพฯและปริมณฑล สินเชื่อฟรี-by Perfect House Property",
+            "gender": "NEUTER",
+            "url": null,
+            "profile_image": "https://scontent.faga1-1.fna.fbcdn.net/v/t39.30808-1/311191000_558996439362424_6276165546597166861_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=T_LZ_RRcHgEQ7kNvwF4FSfV&_nc_oc=AdqX4s3sY8-dGNmEZyJpMp9XlTXIO_yKgi3a9WMvaAkW4MaoevMJ6qY4DnjTgGN_6uI&_nc_zt=24&_nc_ht=scontent.faga1-1.fna&_nc_gid=t9PV6zda7_j82YzMsZvK8A&_nc_ss=7f289&oh=00_Af7Mso_TZiTNiL0qN_zba0w3i9vxQIQybnW2-IjC63A2nw&oe=69FBFF1A"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzM0MDc2OgF_l8Rl5bTfB-X__fo8aTtDurNEyK8O1zeM845LNRQvEaPBeyzNoG0cpMnf40n2r8a-UN4QBdREHTBVJ7fSotbBt7iekqs3f9bbhgAYJLb2aaoRwf1LigQSf8XCJTFcbBjcAhlkP5lK6EY2HE2tr3kqEfnwzOUzhTZ5yklVoyK6HATO_PsPgI7N0nF6UGeMUkmH1Tm4nmtNA-GeHshr92d4ycW2o0xAQ07aZMxogQgDQXc1GQZZbFsZkx-B1AqyCbhQy6YdD3uYAUR_2YmntimIutq6NaatWbkDw_YbpRT_garLR6rganK6h5EEx3cWULJzygdEoAICk3aWjPRdzJE0dbenxY2RO3e6okypK6WP8n2eDsdLJwWqNyB4JiOHa4-sy2ruDLpcAjhOHkmpHLIJZFksRZE41dNRuGUbAcUDAvhbNkqNa7QLOrd7Rhvi1fo4wi37sZDLVySRfjhaBLR9H6bNiJMC-OfESwbEVr-yB4vEjukteolm2bxRDPE0JbYmlVsyhjXk1JrZjjDaUstq4IK0WkdkQw4eSz6xHQ0WMpWKmEQdAqpEMTzzpT8q1sor-thK05Q1Trei7YSUqUvhmA",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "post_id": "1481391100671803",
+      "api_post_id": "pfbid0xqd1SS9fwuqWbScvSKoyAAk9fbi2erppqmQKdGUHWARBKygNN6rUDf71agSR64F7l",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0xqd1SS9fwuqWbScvSKoyAAk9fbi2erppqmQKdGUHWARBKygNN6rUDf71agSR64F7l&id=100064027815481",
+      "comments_count_from_post": 1,
+      "total_comments": 1,
+      "comments": [
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDgxMzkxMTAwNjcxODAzXzE0Njk2MTM4MjE2Mjg3NDM=",
+          "legacy_comment_id": "1469613821628743",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1776585271,
+          "message": "ช่องทางการติดต่อขอรายละเอียดเพิ่มเติม👇🏻\n\n📍Location\n. https://maps.app.goo.gl/SxXXWV5LzKw7SyXB7?g_st=ic\n\nปรึกษาสินเชื่อฟรี⚡️\n📲084-262-8878 \nแอดไลน์อัตโนมัติ 🔖 https://lin.ee/HHAC58E\nแอดไลน์ ID : @perfect-house \nWebsite บ้านสวยๆ 👉🏻 https://perfecthouse-property.com\n✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨",
+          "author": {
+            "id": "100064027815481",
+            "name": "บ้านมือสองนนทบุรี กรุงเทพฯและปริมณฑล สินเชื่อฟรี-by Perfect House Property",
+            "gender": "NEUTER",
+            "url": null,
+            "profile_image": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-1/311191000_558996439362424_6276165546597166861_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=T_LZ_RRcHgEQ7kNvwHHM2IA&_nc_oc=Adr8v5YD_bk0qt919nNjaoN2I34epvSSAfSyBBTw3pQLofy7Vr-ZXgU7h_csUcOteW0&_nc_zt=24&_nc_ht=scontent-cdg4-1.xx&_nc_gid=HZ-qepTHhzZm3ReVY-bi5Q&_nc_ss=7f289&oh=00_Af6yRiRCRYgua04dPLVZkf5xlC0VGxau8UkA4LmLsmjJSw&oe=69FBFF1A"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzM0MDgyOgF_NI5Ee9kBvVdbHLHgYpKPPrhZUj6E4d1bBrGPVA78TKsgSUZVEgH8nV9L0JmkAVV6XMeqcfv49KbZx3uYMDQUY4qHlAUtiTagFjXvgj5R4NUEpjtLprBtKYmmOkCYOrKwy8Z-MIn7iglh-vYFHiETAyGxkKp_-toIbpSOWrwJcZALHrm46CcF6c_XkA-632IBRWRV5v4o_2ltW19jj6giL6Q-w5rBRns18XyQPIpcyoXUUMROW7MZWPLZgeCJtNIOZ7i8iJGWAFCi8w9ZKUP2m7omyCAJb74HFn4YbVgrxGna8HMrKZFiKrfUcHOFeIHckwZMOxOei_ENv2TUjRDtiyfUWo_MNIenzGokJsNEmymqxzhDWIw6X2UMK0CN-Df7vjmdvb6A-s4S0VgNTY9KIovVFQqlIlr3BN2iPuL4FrJnSQhjPeoe2596jgItEJQBalz8tYKUtTLBJHHgk_299FyPcmhkdXTV2PGedglp1MhlXIs98ZKVJHeHQ9k-6YwGV1uOmm3gy_SpPjXYSfYa2cWPDN9ty7yQC3VQ6HrAGit_rpOTmzeKuI_qKJ6GS2UPizj0bXLbpmTGnKtYi8GRtg",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "post_id": "1481300967347483",
+      "api_post_id": "pfbid0kpKEEQAgJys8U9d3A4isPDJof3tTbj2GH5E6RP6dG7rgV685tooaL4rHDj1hd1Y3l",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0kpKEEQAgJys8U9d3A4isPDJof3tTbj2GH5E6RP6dG7rgV685tooaL4rHDj1hd1Y3l&id=100064027815481",
+      "comments_count_from_post": 3,
+      "total_comments": 3,
+      "comments": [
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDgxMzAwOTY3MzQ3NDgzXzE0MzYzNzQ5OTQ5NjIyOTI=",
+          "legacy_comment_id": "1436374994962292",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1776830400,
+          "message": "สนใจ",
+          "author": {
+            "id": "100001483011036",
+            "name": "Ya-ap Susing",
+            "gender": "FEMALE",
+            "url": "https://www.facebook.com/surerat.susing",
+            "profile_image": "https://scontent.fdxb1-1.fna.fbcdn.net/v/t39.30808-1/516196968_24152250711074359_6911023760104346336_n.jpg?stp=cp6_dst-jpg_s64x64_tt6&_nc_cat=109&ccb=1-7&_nc_sid=1d2534&_nc_ohc=ugJhih76hJoQ7kNvwFHPKJn&_nc_oc=AdrC3axPbjsWHhMLTvP5LfqlzeFTGPeVUDDHKos8WMK6ov6YFWyAZn2oemgaCugW16M&_nc_zt=24&_nc_ht=scontent.fdxb1-1.fna&_nc_gid=Y9i4RTu_hCahaRU5UysdXg&_nc_ss=7f289&oh=00_Af5_MFyjlqphx4BBV3kNEi_6M7oVLZpr7_ssTtPPziQ5tw&oe=69FBD9B1"
+          },
+          "replies_count": 1,
+          "reactions_count": "1",
+          "expansion_token": "MjoxNzc3NzM0MDg4OgF_xCeyum2cTbtfOGUJOFilAbdfiz_75Nek8GGQrk2mx8tAoDfqrJElzg9JLsQ1CvV0k49PUNHUb9bSkYb7hdY6XT5DmMTR6p4nDdzbKw2-7HIFHw2KMRklPjVlMuM68KzOWhByB2oLgcslZoZK9mJ_pjMZzYXbZaRmH1seUalhl0w6sBFTi_rbMgPmjPuFOCV3uLGqYUy875LWtBdc4aMY-y1sRkbrGw2o-DPRg6Tm3msxfdN_5_y3wEOcnAqtSmv6iIoF8BevWmV5NK9M6FJMMLERNbsokWr4-eZPMtJ9Lc-CyoxYb1Ce9GoE3Dnka4WUbm6CKz2udw1XfT6lj-XTcD-D22XkS_eONBHQun2x1kr19mGnzQXQHooQMBFY_orC5DgDsijhOgpPNsjqEcxDya6YQKGJpyK4gJgq0CsxZS5UubFDA0cLZJzIbTBP6G_hw1cQ3elEcGzijDUol-ampADxaFck20H5s44U5gxdhPK_-Gm-smUrWZE495BgzPp3dRTVr8ffX1mpN_-ep__mIgheZ_bQ-lr7qVDLQF9YRlKWVHSjkpN019VEkziRK41vL7yJt8HExKahhv-WCcw-rg",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        },
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDgxMzAwOTY3MzQ3NDgzXzE0MDQ5MTA4MTE0MDY2NzI=",
+          "legacy_comment_id": "1404910811406672",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1776584911,
+          "message": "ดีค่ะ",
+          "author": {
+            "id": "pfbid0zkgskYiU6pcjPPVe4Q9Mapp971SezHQZrUPiGVUc1ftZYZMpc3SYEZqRsyc1weH5l",
+            "name": "Rojana Chob",
+            "gender": "FEMALE",
+            "url": "https://www.facebook.com/rojana.chob",
+            "profile_image": "https://scontent.fdxb1-1.fna.fbcdn.net/v/t39.30808-1/461950090_1201554341060855_3300444800872829346_n.jpg?stp=cp0_dst-jpg_p64x64_tt6&_nc_cat=100&ccb=1-7&_nc_sid=e99d92&_nc_ohc=5Ts3no5G6S4Q7kNvwFVjhR2&_nc_oc=AdqL70qdKFRdih7diCeASxxllA0-ohZYePa-mgUKHLFfmpO_rUajnuXbVBaKGN-esn8&_nc_zt=24&_nc_ht=scontent.fdxb1-1.fna&_nc_gid=Y9i4RTu_hCahaRU5UysdXg&_nc_ss=7f289&oh=00_Af549lrFAmAWSkGh_rWPxX30HHegZi2TOxyKX0HKXqa3fg&oe=69FBE20E"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzM0MDg4OgF__yIAlItpXNrOSbo9L7ae_NtkZSY-ejiNSyvu0dPA01yJh1Z3MrvQR0qIMmXgSWAqX4Vqe1qdz6WeLZHSrpuFUA_k8joWGyZKFPEpwOwTh5n3qKXrgmV14CxNCY_LnB5FvsdIW54r_16YszyCKKLnGKCYBIJFNsBbjw3Qgvl8g1IgyGYTx--NKStE403Y6Mawkla3WAqkeagkQXJ7LFi_9UN56MvESJDBs_TZ3-uCgB3Vpb3hDSZ-BkWgG6YIbzOn0QpwtvoXDB2uUXf7LDcxembBja_81WSRj7MtVFhyBR2bdzRJl_MnDW59kq_5YnZpsxLmKNxe4dhuh0amZB-dQ_oR3kCquijtMEOxKR5dyq9orRbYGBqWNnGS6824OJRhXd8owrxAdt6jB4tUswJrZbq6DZBxuHmrlGWh_WQ64lL6JYM8YTn7nAxHTWGUSIrD-T4DJqqFdIo_C2cBgK3jcoBdZxCFDNK9MochFF908a5flOVUhSrSa7S3_HcZFCad-YvXSs7vek3DWxdT-kazoq_jPuv5mx1_Th2zVlChAd9V4MwOfebfH3bWJsesFQYfH5pdvWjqbX0TK-4xotgWXw",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        },
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDgxMzAwOTY3MzQ3NDgzXzE3MDA5MDAyNzc3NDMxOTA=",
+          "legacy_comment_id": "1700900277743190",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1776575218,
+          "message": "ช่องทางการติดต่อขอรายละเอียดเพิ่มเติม👇🏻\n\n📍Location\nhttps://maps.app.goo.gl/Da9bGuwikta3v2Dh7?g_st=ic\n\nปรึกษาสินเชื่อฟรี⚡️\n📲084-262-8878 \nแอดไลน์อัตโนมัติ 🔖 https://lin.ee/HHAC58E\nแอดไลน์ ID : @perfect-house \nWebsite บ้านสวยๆ 👉🏻 https://perfecthouse-property.com\n✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨",
+          "author": {
+            "id": "100064027815481",
+            "name": "บ้านมือสองนนทบุรี กรุงเทพฯและปริมณฑล สินเชื่อฟรี-by Perfect House Property",
+            "gender": "NEUTER",
+            "url": null,
+            "profile_image": "https://scontent.fdxb5-1.fna.fbcdn.net/v/t39.30808-1/311191000_558996439362424_6276165546597166861_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=T_LZ_RRcHgEQ7kNvwH_9s68&_nc_oc=AdpgMdkjjQDExJeFcA_iDJ4IaLbkRe0deSdoUezDtiqaT2X5hO-qbtHDF7dKq_yKLDk&_nc_zt=24&_nc_ht=scontent.fdxb5-1.fna&_nc_gid=Y9i4RTu_hCahaRU5UysdXg&_nc_ss=7f289&oh=00_Af4FPSzdDpbfL52KoIAXwgPpzdgQ_eQuOjsfUcFaWqosmA&oe=69FBFF1A"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzM0MDg4OgF_oK4-q33kruhk3h3C05VjqaRv1ZbxwZvPLGzXuma-5s_x9jf8OfdHcJWAoiQyetmB-q__-Dr0cHf9eJ1D1f57KCEm1uhjuXPRNzc9WxNDKWPyIKy3S3l4dbgVCpJG6RWMeAfIYOPF1Toj1RfFa5wqbY1UHictzDVtnOkMn8pQ9WhZmt6BO-cPtWya_B4fM4LTpvCkBqI4fd5qygW-ppEwBaMT-tR8lNpmPwucpprk4zby_KA8DQTrdklnZ1ltAyjbB5r-aEVZ89XaJGHIT-rX6donzG5kiDk0jYzTxedrqzuk59doGn0DeMSRl6bnBnw_Hi3wKCwpoSQxj_GiGETt3zqQ2IED5BC2F3a8SQXg6yBgsYvkkdVd3ySJX_8ATEbLsNAHSSPQaGHUAKOYZxeuaZzjSMUTYFF81QCfpH_rnUf3pXKysIMaU0aR-lqKxMRAKV3omsdhrG7X8vmIvxkD3jNJIKZGnlsB5ThbtorJ3NVXs5lvEJsqzMe-GMB3HjfvQm-HuzNWEnYzEQabj2U5U22Pe7WxGkBLvXdc2cl9E0RLY1_gfKmWmsURrRfEJfi1AkLuuc25VMBlBpH0J0fd2w",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "post_id": "1480809937396586",
+      "api_post_id": "pfbid0F4974GU2LhfHZP6hxqaCbho1nNazrUGh8u2iWSyJAwHmKbEDbSCJ6BgYYEvCeGQNl",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0F4974GU2LhfHZP6hxqaCbho1nNazrUGh8u2iWSyJAwHmKbEDbSCJ6BgYYEvCeGQNl&id=100064027815481",
+      "comments_count_from_post": 4,
+      "total_comments": 3,
+      "comments": [
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDgwODA5OTM3Mzk2NTg2XzEzMzIzNzk5MzU2MDcwNjg=",
+          "legacy_comment_id": "1332379935607068",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1776751680,
+          "message": null,
+          "author": {
+            "id": "61557114537382",
+            "name": "ท่อตันช่างเด่น บริการแก้ไขท่อตัน อ่าง/ซิ้ง/พื้น/ดักไขมัน/ชักโครก/อื่นๆ",
+            "gender": "MALE",
+            "url": "https://www.facebook.com/denservice89",
+            "profile_image": "https://scontent.fpso2-1.fna.fbcdn.net/v/t39.30808-1/505205379_122230457072237151_2018628433345101488_n.jpg?stp=c8.0.277.277a_cp0_dst-jpg_s64x64_tt6&_nc_cat=101&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=vzvRj-VBwucQ7kNvwGjYO8Q&_nc_oc=AdrJ9CjTxwHLqbI7596rb_9auUigr-TQajWz6fECSgf0xUWz3_R-TUYMaqsUAzqSYn0&_nc_zt=24&_nc_ht=scontent.fpso2-1.fna&_nc_gid=02CXf3343XlpS50Qkdpnng&_nc_ss=7f289&oh=00_Af49crYGCEXkclZwB8wP4l4JOCnRw1297LbgO02C0MuFaw&oe=69FBEDCF"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzM0MDk1OgF_39crzU-T8qyadFc8EXh4pA-IDjzeRQIAe8oVmw8OOhABroFf2WHIEKCaHtUfu5tGFDweOGLjKY3fYMBdzc3JfVSpbLzIUtSlocTwmp1VzSnyyBXr1bIYvrSbO1gzSJO43g4fGGv1LijAAajLEkpCmBD5TFSGkADbzZut_bIrP_WgtoKCjVGzQurd2OngqdcCH9c9dOUi5AxVV3h_lrXN1vYrxcvCjsEjXPWhsVwVQDeCgjXnDxa024zZRQD7FS4rloytGocAhxRg91hOyP6tM8CGhAZ-iNHai9xI8VyBns80sYGKLL-uMlE801g37RLcVy7wvLbv60DNm9i9gFdtGcYe3oWLhP0P8KD65D24eJJlRqq5qG2Wd7v8fJo7kHcorxKhz9MWhzJzDvfCpKJd4XjO4lM9CWRiKLxFTDFEIJLBli7FyXFLftk4xJKLQ8HbXzP0TztrrXajnIX1XrbI-RPbEuhxuX7cBHk3W7clMNUZHGxxGHz3B0joUF9exkKK-1NEF0WjsdUovjDWQ1WDtlCadU2xSuQGCvB5Aq2f11uU7LWqIS5VagsDEhWKkWCMVGVdFd0usyfs4qjFYTc8-w",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": true,
+          "gif": {
+            "__typename": "GenericAttachmentMedia",
+            "sticker_image": {
+              "__typename": "Image",
+              "uri": "https://external.fpso2-1.fna.fbcdn.net/emg1/v/t13/11547485258013694267?url=https%3A%2F%2Fmedia3.giphy.com%2Fmedia%2Fv1.Y2lkPWJlMzAyMTE3MTVmNWJ5eGg3N3N3Y3kzM21iOGkydHF2d2lnZ3IxZGhmb2Ntem9xbCZlcD12MV9naWZzJmN0PXRz%2FfisMZac2EKehsyUXlo%2Fgiphy.gif&fb_obo=1&utld=giphy.com&stp=dst-gif_fr_q75&_nc_gid=02CXf3343XlpS50Qkdpnng&_nc_oc=AdohWExqla2AYhcgcASG65IxirGHs76pEmkOHMm8jfpToHb1dpH3qfu8uD9siyXnqds&ccb=13-1&oh=06_Q3--AQGKcuWGWK0baimpU-rxaCR8weXBJPP6x1svI1SSXa6V&oe=69F7E21C&_nc_sid=9e3c15"
+            },
+            "id": "122292668570237151",
+            "image": {
+              "height": 216,
+              "width": 293,
+              "uri": "https://external.fpso2-1.fna.fbcdn.net/emg1/v/t13/11547485258013694267?url=https%3A%2F%2Fmedia3.giphy.com%2Fmedia%2Fv1.Y2lkPWJlMzAyMTE3MTVmNWJ5eGg3N3N3Y3kzM21iOGkydHF2d2lnZ3IxZGhmb2Ntem9xbCZlcD12MV9naWZzJmN0PXRz%2FfisMZac2EKehsyUXlo%2Fgiphy.gif&fb_obo=1&utld=giphy.com&stp=dst-emg0_q75_s293x216_tt6&_nc_gid=02CXf3343XlpS50Qkdpnng&_nc_oc=AdohWExqla2AYhcgcASG65IxirGHs76pEmkOHMm8jfpToHb1dpH3qfu8uD9siyXnqds&ccb=13-1&oh=06_Q3--AYKCuNOsKJM5_97wICQ9lzdgzOQLwdDzWswvttfh_s4k&oe=69F7E21C&_nc_sid=c97757"
+            },
+            "animated_image": {
+              "height": 216,
+              "width": 293,
+              "uri": "https://external.fpso2-1.fna.fbcdn.net/emg1/v/t13/11547485258013694267?url=https%3A%2F%2Fmedia3.giphy.com%2Fmedia%2Fv1.Y2lkPWJlMzAyMTE3MTVmNWJ5eGg3N3N3Y3kzM21iOGkydHF2d2lnZ3IxZGhmb2Ntem9xbCZlcD12MV9naWZzJmN0PXRz%2FfisMZac2EKehsyUXlo%2Fgiphy.gif&fb_obo=1&utld=giphy.com&stp=dst-gif_fr_q75&_nc_gid=02CXf3343XlpS50Qkdpnng&_nc_oc=AdohWExqla2AYhcgcASG65IxirGHs76pEmkOHMm8jfpToHb1dpH3qfu8uD9siyXnqds&ccb=13-1&oh=06_Q3--AQGKcuWGWK0baimpU-rxaCR8weXBJPP6x1svI1SSXa6V&oe=69F7E21C&_nc_sid=9e3c15"
+            },
+            "animated_image_caption": null,
+            "animated_image_attribution": "GIPHY"
+          },
+          "image": null,
+          "video": null
+        },
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDgwODA5OTM3Mzk2NTg2Xzk0MzM1NzM2MTY2NjkxMA==",
+          "legacy_comment_id": "943357361666910",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1776691109,
+          "message": "สนใจค่ะ",
+          "author": {
+            "id": "61579868876050",
+            "name": "Probiotics  ADay",
+            "gender": "UNKNOWN",
+            "url": "https://www.facebook.com/people/Probiotics-ADay/61579868876050/",
+            "profile_image": "https://scontent.fpso2-1.fna.fbcdn.net/v/t39.30808-1/543504971_122105573120995629_5308353870663541400_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=105&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=DcrELcW6uxQQ7kNvwHF_J6s&_nc_oc=Adpy4M1bLQzFuII5wv8PI78Mo-qIGl2B1PuHo5KPxlGAg2gS-iMXMNG6a9VpQjvWBA4&_nc_zt=24&_nc_ht=scontent.fpso2-1.fna&_nc_gid=02CXf3343XlpS50Qkdpnng&_nc_ss=7f289&oh=00_Af4kRiprI9NoWUmScp6SdYhhyK2HkZNNwWWhc7o2W1BTBw&oe=69FBE57B"
+          },
+          "replies_count": 1,
+          "reactions_count": "1",
+          "expansion_token": "MjoxNzc3NzM0MDk1OgF_QlWVleEcn3NFcHkXOYr0O2iTLqkMf5dYXQ_ilovLIFV2qBuAqtjdY0wJhGh-rlA4HTdmNQ36XWxvqU5bbwqDgL5N4QO_lXkOqUA6NgaAfs6u80lw5AH6pO0d-skzc7uy2msIU5VIoVK-l7bpaTqvu4tGh3_Z73RqVRnUSzcigKDlBTnnRpm1Hezz4JMHDVHNnND-0DN2CZ-TQIOptBRK9DBg6tqg7vocy9vfFBoJQ9zFoY9-rImLnn0BtyRBN8DaEskdsZsWIGVYpQeWZJYNpBM6NU1GFTAti8m1_vuYRrgRNFMcTcEmhCMmIHzBaJp8Jh1P3PRDl-nOgf-OLS2upvXxsNOc5OoYDQjbjeM0o5fcjI3uC515Ww7dd_qQZmn-AU6Kicji-5XUzgFagsMO0eFbq4PaZoOzsPj-E8_0Xgm9PZXGvW20d6pky2EC1W2yd8YXjPaKk1ff4F3nM1t1229RD45fzbREv6sx9tWvoq566AD7i7FgimSMQqpm4Yp33UB2LI-FkIytUOFCqIGkGg9HLd2JPN5STuiFHLplk8myBtU0cUghN2kIb-UFJJ1t8IHNDz9Yl2FiOITQwdARGg",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        },
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDgwODA5OTM3Mzk2NTg2XzE5NDY0Njg4NzI2NTE2MTI=",
+          "legacy_comment_id": "1946468872651612",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1776520179,
+          "message": "ช่องทางการติดต่อขอรายละเอียดเพิ่มเติม👇🏻\n\n📍Location\nhttps://maps.app.goo.gl/Da9bGuwikta3v2Dh7?g_st=ic\n\nปรึกษาสินเชื่อฟรี⚡️\n📲084-262-8878 \nแอดไลน์อัตโนมัติ 🔖 https://lin.ee/HHAC58E\nแอดไลน์ ID : @perfect-house \nWebsite บ้านสวยๆ 👉🏻 https://perfecthouse-property.com\n✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨",
+          "author": {
+            "id": "100064027815481",
+            "name": "บ้านมือสองนนทบุรี กรุงเทพฯและปริมณฑล สินเชื่อฟรี-by Perfect House Property",
+            "gender": "NEUTER",
+            "url": null,
+            "profile_image": "https://scontent.fpso2-1.fna.fbcdn.net/v/t39.30808-1/311191000_558996439362424_6276165546597166861_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=T_LZ_RRcHgEQ7kNvwElIETR&_nc_oc=AdrivPNsndlulaS9W9DJdCAZcO_47EqjAWB7h6SNhgxZ1sh4-z_9F_yJoXJQvQpBkWA&_nc_zt=24&_nc_ht=scontent.fpso2-1.fna&_nc_gid=02CXf3343XlpS50Qkdpnng&_nc_ss=7f289&oh=00_Af47VYGWs9YMBxUpdRSNyfNftA-udOo9h42M-97UPJnfnQ&oe=69FBFF1A"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzM0MDk1OgF_2W8bVKy5SnhbLH62G3jAv5sNevqh4hgT2406PqvOqg7J8VJNNrn35F7NUlc5-J178k12xb9-SypXoJZXoBp98Ca4mChVaSHyYOwlpigfmXWBkJM8BpWEkgw2jEsNJML96skt0gtzxVjCqXHfAOwFMR3qP6RfY59b7gvDQOCjX60pWnTkve-wrlw8f_wf1WD5Kg67sZtxPYBS65iTkmMNVcfOPtIn6MVERLxMNvCTAf89bFW_wFBCuVL8etLhQQlkUhbGb1JFNN5IK2zjnZubE6hSlZqUnfvJoPMNdmKn8oynf1DZ341YE43m8VoAqUY2RRrU2OGxXvo2CmaFje5QnpzHIyqRHeElJmvDGXyLUYtz6A-YUwUqfE6G7di50DxR2mxy1JJrZQcZ1CzJ3w52oxI4T-WYB1BN0a_VSHNHhBbiNxZORf57PgWI12QTYY_CZ5Zp0VuPk30NFbWyEVmHZ3dRtskRtWM6hNPjIh-t6j_ke3zCyagOzy1ZWUfPzp_eKEMXDq1YuPH4Xb4Vh3oK_J-6kHmlXzR7sT5BWnvOO5ADmZqhU3RaHq45SpT_YPFrDcedgJxsJ2ItfZcVwEnASg",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "post_id": "1480768834067363",
+      "api_post_id": "pfbid0LGeoRf5jvV2YpKTvo7n9ytREHCQtjngTPQsG6XET1rALjkj6U7HPkfRPcBd6s1Erl",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0LGeoRf5jvV2YpKTvo7n9ytREHCQtjngTPQsG6XET1rALjkj6U7HPkfRPcBd6s1Erl&id=100064027815481",
+      "comments_count_from_post": 1,
+      "total_comments": 1,
+      "comments": [
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDgwNzY4ODM0MDY3MzYzXzI3NzMwNDMwNDk3NTk4MTc=",
+          "legacy_comment_id": "2773043049759817",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1776516611,
+          "message": "ช่องทางการติดต่อขอรายละเอียดเพิ่มเติม👇🏻\n\n📍Location\nhttps://maps.app.goo.gl/iTnxSHimHqZYFGR87?g_st=ic\n\nปรึกษาสินเชื่อฟรี⚡️\n📲084-262-8878 \nแอดไลน์อัตโนมัติ 🔖 https://lin.ee/HHAC58E\nแอดไลน์ ID : @perfect-house \nWebsite บ้านสวยๆ 👉🏻 https://perfecthouse-property.com\n✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨",
+          "author": {
+            "id": "100064027815481",
+            "name": "บ้านมือสองนนทบุรี กรุงเทพฯและปริมณฑล สินเชื่อฟรี-by Perfect House Property",
+            "gender": "NEUTER",
+            "url": null,
+            "profile_image": "https://scontent.fuln6-2.fna.fbcdn.net/v/t39.30808-1/311191000_558996439362424_6276165546597166861_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=T_LZ_RRcHgEQ7kNvwErUJoD&_nc_oc=Adpa2fNoEcyMvo5gHTZ6n4PHxPo_zVAjrTSa8ECK6Of1ZQKH2LXvhYaP8yghioPAE8U&_nc_zt=24&_nc_ht=scontent.fuln6-2.fna&_nc_gid=dh5wwrtQbvy0V5HIVZRQQQ&_nc_ss=7f289&oh=00_Af4Bc6iVsTMpZM6pFQTl_BNqoA0KCKZNtY3ksdTWMrb_Ag&oe=69FBFF1A"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzM0MTAzOgF_8eWvoIbwtdu3wafEPEzsHXDCk105OkwwSYPrhIQzsONAXUoGLmxaPYdl2zNRJbvDewLzCy7DyERTr4XxrKTte5ooTtz72QWvTwVOCEZUoZJq7Q6n3ScqE_uKswQQA_WBPVih7kfi_lSRehQ1CKhhTjwrFKujb_nnVvo74XpZPNaONue0lj7lXt6lnLxivy-D6WgE-rQkBZR2L2o0ygL-Upx18tK09ZYcviTuVhlNNRiNITAvBJ3GgnnyiO06QgfGgc8HoFGZCawPXxv9XHNrGdGei7r3yLXRJn8mBuIPgb6_rwo0yBfwCqZQ629E4J9alX0iR63omVMKCobQki-iQg-wIUdkj4WkaLdhdMmodzwmMNXc507-AK4JMIWu05CtnscmBsnv1m3vDEhVbzJWfPCeWzRiKRQMYMUl-86gZYYrNtJz9-aVoDyhbx7Ix69pN6Kwujr99TYRw802XIWkLlvFRjfQGA50LGLUfVyr3RbR_PVAQswTE-a_mw7vWpw8c_nvfkLtOpzuQbmA4EP0qP8TnTyHt5ID9Uj6YQ4Gc1Teqg6D061eZXhtxvLPHw25FVzMJdqLezjNibz02YIWWQ",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "post_id": "1480645377413042",
+      "api_post_id": "pfbid02hC5tJH3Tc4jEbQVZqFXj3ZDJf77LFuDyep5bKbHZYtTsHndwS18rSzfh2j54aftql",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02hC5tJH3Tc4jEbQVZqFXj3ZDJf77LFuDyep5bKbHZYtTsHndwS18rSzfh2j54aftql&id=100064027815481",
+      "comments_count_from_post": 1,
+      "total_comments": 1,
+      "comments": [
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDgwNjQ1Mzc3NDEzMDQyXzE1MjMxMDgyMTU4NDc0MDc=",
+          "legacy_comment_id": "1523108215847407",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1776504660,
+          "message": "ช่องทางการติดต่อขอรายละเอียดเพิ่มเติม👇🏻\n\n📍Location\nhttps://maps.app.goo.gl/ccUuMMbt9dVtxx48A?g_st=ic\n\nปรึกษาสินเชื่อฟรี⚡️\n📲084-262-8878 \nแอดไลน์อัตโนมัติ 🔖 https://lin.ee/HHAC58E\nแอดไลน์ ID : @perfect-house \nWebsite บ้านสวยๆ 👉🏻 https://perfecthouse-property.com\n✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨",
+          "author": {
+            "id": "100064027815481",
+            "name": "บ้านมือสองนนทบุรี กรุงเทพฯและปริมณฑล สินเชื่อฟรี-by Perfect House Property",
+            "gender": "NEUTER",
+            "url": null,
+            "profile_image": "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-1/311191000_558996439362424_6276165546597166861_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=T_LZ_RRcHgEQ7kNvwErYA1f&_nc_oc=Adrczz0PewgZD9zbNMa1ICWkKIiDv5FFJTlVsio8m8Xg8FQsOVe5eINBU5Udkhzaqn0&_nc_zt=24&_nc_ht=scontent-lhr6-2.xx&_nc_gid=oxWJZ1YpNehHH52zRlrSTQ&_nc_ss=7f289&oh=00_Af7ny9QQBkd_Am-rZPUH_Cd8ALNh1PpfRPZ_5N3zPRx_pA&oe=69FBFF1A"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzM0MTA5OgF_kAawyIwm02ESFmcXQk-5T1dBR5jH_sv1Bt4WWJ3COHD3iV5U50DSBXJoymYhXm42_vXD5x8QTScywIEZg7NS5xfQyui8JHITB_-QqM9ZXzj1T8opu6Huy6Bq-gVVslKgzT7_o9srPpTZlpN7uokUyutdtPVs_y7-GyCMeTTsdJfI2NuCJdOmjZK76HP_HjHRV6pYigdCUMdz1HqI_uYTUNBQ1jJ_oDAPHYPv9YhtdZDzLpBMIWVwLPp4o2ezbCWarbxh9H4HQ7L3IakDx-RC3vI9VNkrOMCJvqY0nai57RhiphFCnRXRl9JX6M6WGtcRj7x-lQaJD-jlkqd0zFbjm-ZZs5UVfC4qCZ2DD1-4E8764aJUdyiQhIq7fj1mw7mkYh_EJJy75I_GQaj6MfcQFHNPEv0WSHHQLaLVl5UvkTYVb43p_2rhfuizdpgqy0PQUoUMX8JcVspNWDNkAtOKwMmSKVJ1WGThWSXbnL07W1aBQb5WoqvZiIGSylHUJsF8jnbSXXaFZOaIfRLhbK6gaa_htgI7KVoT6XylKA6tLLgScZ_80mLaOIXP35onXMv751nOlZBvyIt4tPI93_KwHQ",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "post_id": "1480615184082728",
+      "api_post_id": "pfbid036vZyAhirmvSgkHfYeLwA4f93ocM48mmxQg9EaaAQHCQx9VWPumN61HQjHSbaga2jl",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid036vZyAhirmvSgkHfYeLwA4f93ocM48mmxQg9EaaAQHCQx9VWPumN61HQjHSbaga2jl&id=100064027815481",
+      "comments_count_from_post": 1,
+      "total_comments": 1,
+      "comments": [
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDgwNjE1MTg0MDgyNzI4XzQ0ODg1Nzc4ODgwNjYzMjg=",
+          "legacy_comment_id": "4488577888066328",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1776501802,
+          "message": "ช่องทางการติดต่อขอรายละเอียดเพิ่มเติม👇🏻\n\n📍Location\nhttps://maps.app.goo.gl/ccUuMMbt9dVtxx48A?g_st=ic\n\nปรึกษาสินเชื่อฟรี⚡️\n📲084-262-8878 \nแอดไลน์อัตโนมัติ 🔖 https://lin.ee/HHAC58E\nแอดไลน์ ID : @perfect-house \nWebsite บ้านสวยๆ 👉🏻 https://perfecthouse-property.com\n✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨",
+          "author": {
+            "id": "100064027815481",
+            "name": "บ้านมือสองนนทบุรี กรุงเทพฯและปริมณฑล สินเชื่อฟรี-by Perfect House Property",
+            "gender": "NEUTER",
+            "url": null,
+            "profile_image": "https://scontent-qro1-1.xx.fbcdn.net/v/t39.30808-1/311191000_558996439362424_6276165546597166861_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=T_LZ_RRcHgEQ7kNvwHbFPtW&_nc_oc=Adqdd65zRkHkuIOjBmjb3sWtzGNoJ4IKNzGgPoCw5Jw_FaejxCl3Z5cxz9EEFvBK7g8&_nc_zt=24&_nc_ht=scontent-qro1-1.xx&_nc_gid=NyminA3N6BU7taFsbosAIg&_nc_ss=7f289&oh=00_Af7ENRd_NCeOZH8ysDc1KsBll2tfpgwktenSVoJVk-fLAg&oe=69FBFF1A"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzM0MTE2OgF_6QBQERq4z__MNEclVlzQZ8qGPWdZ0a8bk4MOfeJIvbx7casyLUDcC3Kgy4JLKsuwwonMubIK8-sT4L3_8TYszT0t_J8kG39fUo3CegvJoJ0paa0Uz5U6sUKxB0MwAwS_TaoPKpYMAMJsb5oRnwrfiGBXZR65FzGZtqW8U2Arrs7cVTKAWAnlPKjUd0TWHGsy2qTw3uFyJoLvIipjAEO_AwCutPojvhi_oAiTry5rOcNuOmt57qqytiPy_doOyb_J96XSdsnNwGyjWdNP5OqvpJehLVwkvZRK5uF2SIPuQkgHQdGSDd2VndRvOWdOMtMbhhygj1Yp9ljwsZap0ruTBjt2wwkDcqmHi5_-snsieNxvHwcdc-XbkmTs5enVfg3ylcqLWCh4MKkwX4RgSfsYmDGD_pqdRCc_mbkaRDD0pry5wChrBJTTVnkomuKocilg1R_Iv-yOSZfEx12gJ6ZoIqEwq-6qP-ySg_8lt_vj39XYBO4OTePw4eRtR_49Lu9lqxjR7r1y_1G3_-i7EG4MGrf_X3AkYsWF6irLV6pQJkLUXZe0y9SnXDJqrnhAxBS9PPSVmQyCsx9pF4dAcCIO_A",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "post_id": "1480120460798867",
+      "api_post_id": "pfbid02rFpf7vLWmwjTVEJZ7xuuoaxZzfh9aUaTS3EFoPA2b7qzaEKQstAuKWThwRsNneA7l",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02rFpf7vLWmwjTVEJZ7xuuoaxZzfh9aUaTS3EFoPA2b7qzaEKQstAuKWThwRsNneA7l&id=100064027815481",
+      "comments_count_from_post": 1,
+      "total_comments": 1,
+      "comments": [
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDgwMTIwNDYwNzk4ODY3XzkxMDUxOTkyNTMyMDk3MQ==",
+          "legacy_comment_id": "910519925320971",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1776443131,
+          "message": "📍Location\nhttps://maps.app.goo.gl/gKhvQXxpHw2NvBA57?g_st=ic\n\nปรึกษาสินเชื่อฟรี⚡️\n📲084-262-8878 \nแอดไลน์อัตโนมัติ 🔖 https://lin.ee/HHAC58E\nแอดไลน์ ID : @perfect-house \nWebsite บ้านสวยๆ 👉🏻 https://perfecthouse-property.com\n✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨",
+          "author": {
+            "id": "100064027815481",
+            "name": "บ้านมือสองนนทบุรี กรุงเทพฯและปริมณฑล สินเชื่อฟรี-by Perfect House Property",
+            "gender": "NEUTER",
+            "url": null,
+            "profile_image": "https://scontent.fsgn2-5.fna.fbcdn.net/v/t39.30808-1/311191000_558996439362424_6276165546597166861_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=T_LZ_RRcHgEQ7kNvwHbsrR6&_nc_oc=AdoaKRrhJ6d0k3KcrUGrfhKWrMZ2Wr7sM06I2u8xYshuXg1QeygbA43ctJxfbb8b1a0&_nc_zt=24&_nc_ht=scontent.fsgn2-5.fna&_nc_gid=DOymrmMEDDiHXad_EAIlrg&_nc_ss=7f289&oh=00_Af74oA_JTAPojEEe1X38qofgbJjRUGEolS8JKrew7OEdJg&oe=69FBFF1A"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzM0MTIzOgF_61ziOLPs-WtGf64Mnj_SzVH9Tgq6Cwg26RzLMPMtIIlEnC8OkqltZi0dB8mg3XwHYd6ee9LUUqlgEdYxM1iecpVoJ0IMJvZ020kg5nyD0FCbBWOXNZD0HEMtorGyLCSACYrraE2sqsYiR_7JN9e87R5EVuFNaY55Eh5pd7oD9_vvpl-6_mam--MLI2dySm9h_3QyanyeR6Z3EAlFnMIXNqOc8DV21VcPk181RVzo03yRyIE3sg7VmtXmD6c21YHB8II8ie94o0DOh5TsuRRje9DFAKEQ2Yf7J1vvvrdtWJaHwZNZVzSH_H2lmY1kJo7-_wIFIeID32r981c-me5vPRcWSvvmFogrAlgbKWqjp3360BRnUR6IjWA2n_Kep_cHh39RD3P8-kMh5TYs0Mxyhbkwdg_n8anccEr91DukYbgGb_LbbaKA2FIubeB45Sk81RfvsIG-tD8DuI5WOEIdLcc9A04PKNknleLct5MaKSjBwPQJMNDUjb7Rix-iktQ9KZf2BoHHzJex3esbAFMVK1lzLeRkItns7JdQqgznvzXZ2iqiFa0E8HVh2hxu3ucpI5ty3iB3sTokvuLmv0wmfg",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "post_id": "1480078390803074",
+      "api_post_id": "pfbid0gEcBJYY7RfB21KKJvcx9pvzBzcMnnwVD1qDQsYW9LVBy8SAb8j4b6tUuHuk898Csl",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0gEcBJYY7RfB21KKJvcx9pvzBzcMnnwVD1qDQsYW9LVBy8SAb8j4b6tUuHuk898Csl&id=100064027815481",
+      "comments_count_from_post": 1,
+      "total_comments": 1,
+      "comments": [
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDgwMDc4MzkwODAzMDc0Xzg5MzQ0MzkyNzAwNTg4Ng==",
+          "legacy_comment_id": "893443927005886",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1776439667,
+          "message": "ช่องทางการติดต่อขอรายละเอียดเพิ่มเติม👇🏻\n\n📍Location\nhttps://maps.app.goo.gl/WzoUETYevRtsoQ4Q6?g_st=ic\n\nปรึกษาสินเชื่อฟรี⚡️\n📲084-262-8878 \nแอดไลน์อัตโนมัติ 🔖 https://lin.ee/HHAC58E\nแอดไลน์ ID : @perfect-house \nWebsite บ้านสวยๆ 👉🏻 https://perfecthouse-property.com\n✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨",
+          "author": {
+            "id": "100064027815481",
+            "name": "บ้านมือสองนนทบุรี กรุงเทพฯและปริมณฑล สินเชื่อฟรี-by Perfect House Property",
+            "gender": "NEUTER",
+            "url": null,
+            "profile_image": "https://scontent.fjpa9-1.fna.fbcdn.net/v/t39.30808-1/311191000_558996439362424_6276165546597166861_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=T_LZ_RRcHgEQ7kNvwG0es6K&_nc_oc=Adpf4nUY6yA8xj1-1IDe1QkQr75Hn3w-d8Zx1jk-43zoegSlvBIqNakgupEZPEo7VXU&_nc_zt=24&_nc_ht=scontent.fjpa9-1.fna&_nc_gid=Itl8xmEJ4A3QhjktcX0TXw&_nc_ss=7f289&oh=00_Af5PVXF2A93pfHmkdhhMO0gkKkDAPqsFTu5ntX-CrjG-pw&oe=69FBFF1A"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzM0MTMwOgF_sJaDX_HjoFxNCViPwZPZh1mbH7GvlwwomzFOnvm0zTNUMxF8ZoqwD2BRR5TfhV2KyZuaczhijv2ljwhwOOxGb9-Aord9ys8ehgFvrKswmmKQtVro6LElGrI1zjKQtsj--yvYp1l_GkBSP3KgH1-XCreMnHmFZ734TyBkjqE3hSVgK5pFKKcC5X9eHxPH9m8LlRgnnG6hPiF9hhxPr7vX05B2zwd-alsTvYSydXgEHlQK9P7rQt4Ha09CvYeEIL2gcQsziFtUMPrGraPXAeHGAe7Bsl_1OOzTVEFB8by-9yPDysv1gcCDtCA-Mgk349sP_kftdkzoi8aJx_setfPAXa_cRe9qAwxPil3t2-tR86appceH2MbYfDg7JXRTJnVtFHETvgbFwxYTEyoYebV_rHzARCii2tXCMbCJjw5996rjM0d87vSIAlecLb8w-u1xyLROEjVc5oINkz1RFixq9e-IWnKMirq0V1xINbNYxsQtRfBj-yd4tA9SzsY9UzPF8phNXSr5hJZDDv25srLngx4ecu1LtI27F3f6VTCtxuzPubIPaFiPNNmn8rB00PYxp7935yGdtpuBWuWjU4oLXg",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "post_id": "1479929014151345",
+      "api_post_id": "pfbid02t3MU23prsTqsbwTpq9w2nZnZFjtdfNA42atW9i9zRirLdiA6S8UacNeLABPvCDLhl",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02t3MU23prsTqsbwTpq9w2nZnZFjtdfNA42atW9i9zRirLdiA6S8UacNeLABPvCDLhl&id=100064027815481",
+      "comments_count_from_post": 1,
+      "total_comments": 1,
+      "comments": [
+        {
+          "type": "comment",
+          "comment_id": "Y29tbWVudDoxNDc5OTI5MDE0MTUxMzQ1XzM0ODUxMTE2MTgzMDc1OTA=",
+          "legacy_comment_id": "3485111618307590",
+          "depth": 0,
+          "parent_comment_id": null,
+          "created_time": 1776427685,
+          "message": "ช่องทางการติดต่อขอรายละเอียดเพิ่มเติม👇🏻\n\n📍Location\nhttps://maps.app.goo.gl/AfzTBN1vtnQnY37S7?g_st=ic\n\nปรึกษาสินเชื่อฟรี⚡️\n📲084-262-8878 \nแอดไลน์อัตโนมัติ 🔖 https://lin.ee/HHAC58E\nแอดไลน์ ID : @perfect-house \nWebsite บ้านสวยๆ 👉🏻 https://perfecthouse-property.com\n✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨",
+          "author": {
+            "id": "100064027815481",
+            "name": "บ้านมือสองนนทบุรี กรุงเทพฯและปริมณฑล สินเชื่อฟรี-by Perfect House Property",
+            "gender": "NEUTER",
+            "url": null,
+            "profile_image": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/311191000_558996439362424_6276165546597166861_n.jpg?stp=cp0_dst-jpg_s64x64_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=T_LZ_RRcHgEQ7kNvwHhtfrQ&_nc_oc=AdpALI1yKgXZCyMxXrLkJTIFR1mZuhAe5hmcVe3edD2VBAWQggXO7JCBpZCDE25RjGs&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=4rwE6EHS1fFFZyrWqbD0-g&_nc_ss=7f289&oh=00_Af4ZRCx0nKXAt4xbCpKfVTUmxcCmtBl_7VnG5D1aTE3PfQ&oe=69FBFF1A"
+          },
+          "replies_count": 0,
+          "reactions_count": "0",
+          "expansion_token": "MjoxNzc3NzM0MTM2OgF_15riTmI2nQ4_vq0kL3W6BgVAuJiAZ5qqahotDrlyqE9CqFLt4lprLd2jFM4WFczsZIioKn2TQ84S3CsUeTQgyiViZojr7ijOUx4fMB4cQId5OZGAQXw0OIt1ee7DdOIc9omNdmG6_xn2t0Lo9h78nP4ehH_QmVBP9pkV3dzdAuS_BEXeYC43cZqlFqWFw3ceK2ps7rLw4upPsWOwUjVW_fu2pYidScDQPYQ3ZJnrHmeXPL18u9uDyf4NKtOWd7-WjE_6cYj6AeHa2cOf5hhcflVkOWlpdGSrTcYj0lOxKxjm-2dghugQe2PpkVLexqN6OiGbfpK8YCQUjN9r-QkABBec0NFP_9FnIVzA_xQFZen5gQIFg2yhHHYJz8LdgX7v5tTqZlBhTx9RXoGksoYkYZJ_FxqnbLoiwqioAkkPVIZsCngMzB6sQv76VSTAguvQ5vAMQQNpLArZ5qg_TMkKbTY_HPTxkThw-yOmV1Ft7xtORT6S8XTH5sCwIMEBOCQT-DGCeLPYVDluj1EBKseCPRI0lfkh0ihM7HezkB-V2LrcwMi7uw8FdcKBr8MpfueTXSfAh_WIWLL3iFa9bc_j8g",
+          "is_sticker": false,
+          "sticker": null,
+          "is_gif": false,
+          "gif": null,
+          "image": null,
+          "video": null
+        }
+      ],
+      "error": {
+        "message": "API error 429: {\"message\":\"You have exceeded the MONTHLY quota for Requests on your current plan, BASIC. Upgrade your plan at https:\\/\\/rapidapi.com\\/krasnoludkolo\\/api\\/facebook-scraper3\"}",
+        "status": 429,
+        "response": {
+          "message": "You have exceeded the MONTHLY quota for Requests on your current plan, BASIC. Upgrade your plan at https://rapidapi.com/krasnoludkolo/api/facebook-scraper3"
+        }
+      }
+    },
+    {
+      "post_id": "1478889180921995",
+      "api_post_id": "pfbid02tEiDq8KRRKGQJGMWufbNYMc88NakHjezbrah5vgKh9mCTHAF4Be7zEq1STnu2B6Nl",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02tEiDq8KRRKGQJGMWufbNYMc88NakHjezbrah5vgKh9mCTHAF4Be7zEq1STnu2B6Nl&id=100064027815481",
+      "comments_count_from_post": 0,
+      "total_comments": 0,
+      "comments": [],
+      "error": {
+        "message": "API error 403: {\"message\":\"You are not subscribed to this API.\"}",
+        "status": 403,
+        "response": {
+          "message": "You are not subscribed to this API."
+        }
+      }
+    },
+    {
+      "post_id": "1478276064316640",
+      "api_post_id": "pfbid02SoW2uVMm1L2MfRrr8HEDNgTR7E95EWi4pZXwKQnWAyDVBpstYXumHxeLn3EsgGNWl",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02SoW2uVMm1L2MfRrr8HEDNgTR7E95EWi4pZXwKQnWAyDVBpstYXumHxeLn3EsgGNWl&id=100064027815481",
+      "comments_count_from_post": 1,
+      "total_comments": 0,
+      "comments": [],
+      "error": {
+        "message": "API error 429: {\"message\":\"Too many requests\"}",
+        "status": 429,
+        "response": {
+          "message": "Too many requests"
+        }
+      }
+    },
+    {
+      "post_id": "1478263380984575",
+      "api_post_id": "pfbid02ifhryw7fc8nWUtGmJqwzBhbKBJjc3JUQZ5XyY3H36cRMWPh6vSGfJPkNSrtYhmZ9l",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02ifhryw7fc8nWUtGmJqwzBhbKBJjc3JUQZ5XyY3H36cRMWPh6vSGfJPkNSrtYhmZ9l&id=100064027815481",
+      "comments_count_from_post": 1,
+      "total_comments": 0,
+      "comments": [],
+      "error": {
+        "message": "API error 429: {\"message\":\"You have exceeded the MONTHLY quota for Requests on your current plan, BASIC. Upgrade your plan at https:\\/\\/rapidapi.com\\/krasnoludkolo\\/api\\/facebook-scraper3\"}",
+        "status": 429,
+        "response": {
+          "message": "You have exceeded the MONTHLY quota for Requests on your current plan, BASIC. Upgrade your plan at https://rapidapi.com/krasnoludkolo/api/facebook-scraper3"
+        }
+      }
+    }
+  ],
+  "saved_at": "2026-05-09T07:31:10.247Z"
+}

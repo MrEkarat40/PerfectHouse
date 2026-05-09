@@ -1,0 +1,7 @@
+{
+  "name": "perfect-house",
+  "private": true,
+  "scripts": {
+    "sync:facebook": "node tools/sync-facebook-assets.js"
+  }
+}
