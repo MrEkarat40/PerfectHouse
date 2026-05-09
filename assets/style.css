@@ -1467,3 +1467,46 @@ main > section:has(+ .qr-section-wrap) {
     padding-bottom: 12px !important;
   }
 }
+/* Real logo */
+.logo-img,
+.logo-mark.logo-img {
+  width: 48px;
+  height: 48px;
+  border-radius: 14px;
+  object-fit: contain;
+  display: inline-block;
+  flex: 0 0 auto;
+  background: #ffffff;
+  padding: 4px;
+  box-shadow: 0 8px 18px rgba(15, 35, 52, .14);
+}
+
+/* fallback เผื่อหน้าไหนยังเป็น span logo-mark */
+.logo-mark:not(img) {
+  width: 48px;
+  height: 48px;
+  border-radius: 14px;
+  background-image: url("images/logo.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  color: transparent;
+  font-size: 0;
+  line-height: 0;
+  overflow: hidden;
+  display: inline-block;
+  flex: 0 0 auto;
+  padding: 4px;
+  box-shadow: 0 8px 18px rgba(15, 35, 52, .14);
+}
+
+@media (max-width: 720px) {
+  .logo-img,
+  .logo-mark.logo-img,
+  .logo-mark:not(img) {
+    width: 44px;
+    height: 44px;
+    border-radius: 13px;
+  }
+}

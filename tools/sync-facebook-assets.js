@@ -303,6 +303,54 @@ function placeholder(index) {
   return { path: `assets/images/house-${String(n).padStart(3, "0")}.png`, n };
 }
 
+
+function isSaleHousePost(post) {
+  const msg = String(post?.message_rich || post?.message || "").trim();
+  if (!msg) return false;
+
+  const hasPrice =
+    /ราคา\s*[\d,]+\s*บาท/i.test(msg) ||
+    /💸\s*ราคา/i.test(msg);
+
+  const hasArea =
+    /พื้นที่\s*[\d.]+\s*ตารางวา/i.test(msg) ||
+    /เนื้อที่\s*[\d.]+\s*ตารางวา/i.test(msg) ||
+    /ขนาด\s*[\d.]+\s*ตารางวา/i.test(msg) ||
+    /ตารางวา/i.test(msg);
+
+  const hasRoom =
+    /ห้องนอน/i.test(msg) ||
+    /ห้องน้ำ/i.test(msg) ||
+    /ที่จอดรถ/i.test(msg);
+
+  const hasLocation =
+    /ที่ตั้งโครงการ/i.test(msg) ||
+    /ทำเล/i.test(msg) ||
+    /เดินทาง/i.test(msg);
+
+  const propertyKeyword =
+    /หมู่บ้าน|บ้านเดี่ยว|บ้านแฝด|ทาวน์โฮม|ทาวน์เฮ้าส์|ทาวน์เฮาส์|คอนโด|อาคารพาณิชย์|โฮมออฟฟิศ|ที่ดิน|เพชรเกษม|พระราม|นนทบุรี|บางใหญ่|บางบัวทอง|บางกรวย|ไทรน้อย|ปากเกร็ด|รัตนาธิเบศร์|ชัยพฤกษ์|ราชพฤกษ์/i.test(msg);
+
+  // ตัดโพสต์โปรโมตทั่วไปที่ไม่มีรายละเอียดทรัพย์
+  const promoOnly =
+    /อยากขายบ้าน|ซื้อบ้าน|คิดถึงเรา|สนใจหลังไหน|รีบมาจอง|เพอร์เฟคเฮ้าส์|Perfect House/i.test(msg) &&
+    !hasPrice &&
+    !hasArea &&
+    !hasRoom;
+
+  // ตัดโพสต์ประกาศจอง/ขายแล้วที่ไม่ใช่ประกาศขายเต็ม
+  const soldOrReservedOnly =
+    /จองแล้ว|ขายแล้ว|ปิดจอง|ติดจอง|sold\s*out/i.test(msg) &&
+    (!hasPrice || (!hasArea && !hasRoom));
+
+  // ตัดโพสต์ที่เป็นรูป/วิดีโอทั่วไป ไม่มีราคาและรายละเอียดบ้าน
+  if (promoOnly) return false;
+  if (soldOrReservedOnly) return false;
+
+  // โพสต์ขายจริงต้องมีราคา และมีอย่างน้อยข้อมูลพื้นที่/ห้อง/ทำเล พร้อม keyword อสังหา
+  return hasPrice && propertyKeyword && (hasArea || hasRoom || hasLocation);
+}
+
 async function main() {
   const postFile = findExisting(POST_CANDIDATES);
   const commentFile = findExisting(COMMENT_CANDIDATES);
@@ -311,7 +359,11 @@ async function main() {
 
   const postJson = readJson(postFile);
   const commentJson = readJson(commentFile);
-  const posts = Array.isArray(postJson?.results) ? postJson.results : (Array.isArray(postJson) ? postJson : []);
+  const allPosts = Array.isArray(postJson?.results) ? postJson.results : (Array.isArray(postJson) ? postJson : []);
+  const posts = allPosts.filter(isSaleHousePost);
+
+  console.log(`All posts: ${allPosts.length}`);
+  console.log(`Sale house posts: ${posts.length}`);
   const mapByPostId = commentMapUrlMap(commentJson);
 
   ensureDir(IMG_DIR);
@@ -319,7 +371,8 @@ async function main() {
   const report = {
     posts_file: postFile,
     comments_file: commentFile,
-    total_posts: posts.length,
+    total_posts_before_filter: allPosts.length,
+    total_sale_house_posts: posts.length,
     posts_with_map_comment: Object.keys(mapByPostId).length,
     downloaded_images: 0,
     failed_images: 0,

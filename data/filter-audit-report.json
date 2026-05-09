@@ -1,0 +1,27 @@
+{
+  "base_used": "perfect_house_full_filtered_sale_posts_only.zip",
+  "filterData_patched": true,
+  "properties_total": 145,
+  "properties_zone_changed": 67,
+  "zone_counts_before": {
+    "bangbuathong": 12,
+    "bangkruai": 13,
+    "bangyai": 72,
+    "nonthaburi": 30,
+    "pakkret": 18
+  },
+  "zone_counts_after": {
+    "bangbuathong": 4,
+    "bangkruai": 50,
+    "bangyai": 46,
+    "pakkret": 23,
+    "rama2": 20,
+    "sainoi": 2
+  },
+  "bangkruai_count_after": 50,
+  "checks": {
+    "filter_uses_zone_aliases": true,
+    "bangkruai_option_in_html_count": 12,
+    "html_count": 23
+  }
+}

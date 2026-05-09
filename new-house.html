@@ -11,7 +11,10 @@
   <meta property="og:type" content="website">
   <meta property="og:locale" content="th_TH">
   <link rel="stylesheet" href="assets/style.css">
-  <link rel="icon" type="image/png" href="assets/images/house-001.png">
+  <link rel="icon" type="image/jpeg" href="assets/images/logo.jpg">
+  <link rel="apple-touch-icon" href="assets/images/logo.jpg">
+  <meta property="og:image" content="https://mrekarat40.github.io/PerfectHouse/assets/images/logo.jpg">
+  <meta property="og:image:alt" content="Perfect House Property บ้านมือสองนนทบุรีและปริมณฑล">
 </head>
 <body data-page="new-house">
 
@@ -27,15 +30,15 @@
   </div>
   <header class="header">
     <div class="container nav">
-      <a class="logo" href="index.html" aria-label="Perfect House"><span class="logo-mark">🏠</span><span>Perfect House<small>Real Estate</small></span></a>
+      <a class="logo" href="index.html" aria-label="Perfect House"><img class="logo-mark logo-img" src="assets/images/logo.jpg" alt="Perfect House Property"><span>Perfect House<small>Real Estate</small></span></a>
       <nav class="menu" aria-label="เมนูหลัก">
         <a href="index.html" class="">หน้าแรก</a>
         <a href="properties.html" class="">ซื้อบ้าน</a>
         <a href="new-house.html" class="active">บ้านมือ 1</a>
         <a href="second-hand.html" class="">บ้านมือ 2</a>
         <a href="renovated.html" class="">บ้านรีโนเวท</a>
-        <a href="single-house.html" class="">บ้านเดี่ยว</a>
-        <a href="townhome.html" class="">ทาวน์โฮม</a>
+        <a href="single-house.html">บ้านเดี่ยว</a>
+        <a href="townhome.html">ทาวน์โฮม</a>
         <a href="locations.html" class="">ทำเล</a>
         <a href="budget.html" class="">งบประมาณ</a>
         <a href="sell-house.html" class="">ฝากขายบ้าน</a>
@@ -60,7 +63,8 @@
     <div class="field"><label>คำค้นหา</label><input name="q" placeholder="ทำเล / โครงการ / รถไฟฟ้า"></div>
     <div class="field"><label>ประเภททรัพย์</label><select name="type"><option value="">ทั้งหมด</option><option value="single-house">บ้านเดี่ยว</option><option value="twin-house">บ้านแฝด</option><option value="townhome">ทาวน์โฮม</option><option value="condo">คอนโด</option><option value="land">ที่ดิน</option></select></div>
     <div class="field"><label>กลุ่มทรัพย์</label><select name="market"><option value="">ทั้งหมด</option><option value="new-house">บ้านมือ 1</option><option value="second-hand">บ้านมือ 2</option></select></div>
-    <div class="field"><label>ทำเล</label><select name="zone"><option value="">ทุกทำเล</option><option value="bang-yai">บางใหญ่</option><option value="bang-bua-thong">บางบัวทอง</option><option value="ratchapruek">ราชพฤกษ์</option><option value="bang-kruai">บางกรวย</option><option value="chaengwattana">แจ้งวัฒนะ</option><option value="ladprao">ลาดพร้าว</option><option value="bangna">บางนา</option><option value="pathum-thani">รังสิต</option><option value="pinklao">ปิ่นเกล้า</option><option value="rama2">พระราม 2</option><option value="sathorn">สาทร</option><option value="ramintra">รามอินทรา</option></select></div>
+    <div class="field"><label>ทำเล</label><select name="zone"><option value="">ทุกทำเล</option>
+              <option value="bangkruai">บางกรวย</option><option value="bang-yai">บางใหญ่</option><option value="bang-bua-thong">บางบัวทอง</option><option value="ratchapruek">ราชพฤกษ์</option><option value="bang-kruai">บางกรวย</option><option value="chaengwattana">แจ้งวัฒนะ</option><option value="ladprao">ลาดพร้าว</option><option value="bangna">บางนา</option><option value="pathum-thani">รังสิต</option><option value="pinklao">ปิ่นเกล้า</option><option value="rama2">พระราม 2</option><option value="sathorn">สาทร</option><option value="ramintra">รามอินทรา</option></select></div>
     <div class="field"><label>ราคาสูงสุด</label><select name="max_price"><option value="">ทุกช่วงราคา</option><option value="3000000">ไม่เกิน 3 ล้าน</option><option value="5000000">ไม่เกิน 5 ล้าน</option><option value="10000000">ไม่เกิน 10 ล้าน</option><option value="20000000">ไม่เกิน 20 ล้าน</option></select></div>
     <div class="field"><label>ห้องนอนขั้นต่ำ</label><select name="bedroom"><option value="">ไม่ระบุ</option><option value="1">1 ห้องขึ้นไป</option><option value="2">2 ห้องขึ้นไป</option><option value="3">3 ห้องขึ้นไป</option><option value="4">4 ห้องขึ้นไป</option></select></div>
     <div class="field"><label>เรียงลำดับ</label><select name="sort"><option value="">แนะนำ</option><option value="newest">ใหม่ล่าสุด</option><option value="price-asc">ราคาต่ำไปสูง</option><option value="price-desc">ราคาสูงไปต่ำ</option></select></div>

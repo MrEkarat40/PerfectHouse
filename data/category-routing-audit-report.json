@@ -1,0 +1,19 @@
+{
+  "properties_total": 145,
+  "menu_expected_counts": {
+    "ซื้อบ้านมือสอง/properties.html": 145,
+    "บ้านเดี่ยว/single-house.html": 1,
+    "ทาวน์โฮม/townhome.html": 1,
+    "นนทบุรี/nonthaburi.html": 145,
+    "บางกรวย/properties.html?zone=bangkruai": 50,
+    "บางใหญ่/properties.html?zone=bangyai": 77,
+    "บางบัวทอง/properties.html?zone=bangbuathong": 44,
+    "ไทรน้อย/properties.html?zone=sainoi": 44,
+    "ปากเกร็ด/properties.html?zone=pakkret": 36
+  },
+  "files_patched": {
+    "assets/app.js": true,
+    "data/properties.json": true,
+    "data/properties.js": true
+  }
+}

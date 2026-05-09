@@ -170,15 +170,65 @@ const PH = {
   filterData(list, extra={}){
     const form=document.getElementById("filterForm"); const url=this.params();
     const get=(n)=>{const el=form?.querySelector(`[name="${n}"]`); return el?el.value:(url.get(n)||"");};
-    const q=this.normalize(get("q")||extra.q);
-    const type=get("type")||extra.type||"";
-    const zone=get("zone")||extra.zone||"";
-    const province=get("province")||extra.province||"";
-    const max=Number(get("max_price")||extra.max_price||0);
-    const bed=Number(get("bedroom")||extra.bedroom||0);
+
+    const q=this.normalize(get("q") || extra.q || "");
+    const type=get("type") || extra.type || "";
+    const category=get("category") || extra.category || "";
+    const zone=get("zone") || extra.zone || "";
+    const province=get("province") || extra.province || "";
+    const max=Number(get("max_price") || extra.max_price || 0);
+    const min=Number(get("min_price") || extra.min_price || 0);
+    const bed=Number(get("bedroom") || extra.bedroom || 0);
+
+    const zoneAliases = {
+      bangkruai: ["bangkruai", "บางกรวย", "นครอินทร์", "บางบำหรุ", "วัดชลอ", "ปลายบาง", "มหาสวัสดิ์"],
+      bangyai: ["bangyai", "บางใหญ่", "เวสต์เกต", "คลองบางไผ่", "เสาธงหิน"],
+      bangbuathong: ["bangbuathong", "บางบัวทอง", "บ้านกล้วย", "พิมลราช", "บางรักพัฒนา"],
+      sainoi: ["sainoi", "ไทรน้อย", "ลาดปลาดุก"],
+      pakkret: ["pakkret", "ปากเกร็ด", "แจ้งวัฒนะ", "เมืองทอง", "ติวานนท์"],
+      "mueang-nonthaburi": ["mueang-nonthaburi", "เมืองนนทบุรี", "สนามบินน้ำ", "งามวงศ์วาน"],
+      rattanathibet: ["rattanathibet", "รัตนาธิเบศร์", "ท่าอิฐ", "ไทรม้า"],
+      rama2: ["rama2", "พระราม2", "พระราม 2", "ท่าข้าม", "บางขุนเทียน"],
+      phetkasem: ["phetkasem", "เพชรเกษม", "หนองแขม", "บางแค"],
+      pathumthani: ["pathumthani", "ปทุมธานี", "ลำลูกกา", "คลองหลวง", "ธัญบุรี"],
+      samutprakan: ["samutprakan", "สมุทรปราการ", "บางพลี", "เทพารักษ์"],
+      samutsakhon: ["samutsakhon", "สมุทรสาคร", "มหาชัย"],
+      nonthaburi: ["nonthaburi", "นนทบุรี", "บางกรวย", "บางใหญ่", "บางบัวทอง", "ไทรน้อย", "ปากเกร็ด", "เมืองนนทบุรี", "รัตนาธิเบศร์"]
+    };
+
+    const typeAliases = {
+      "single-house": ["single-house", "บ้านเดี่ยว"],
+      townhome: ["townhome", "ทาวน์โฮม", "ทาวน์เฮ้าส์", "ทาวน์เฮาส์"],
+      condo: ["condo", "คอนโด"],
+      land: ["land", "ที่ดิน"],
+      commercial: ["commercial", "อาคารพาณิชย์", "โฮมออฟฟิศ"]
+    };
+
     return list.filter(p=>{
-      const hay=this.normalize(`${p.id} ${p.title} ${p.priceText} ${p.typeText} ${p.zoneText} ${p.province} ${p.address} ${p.description}`);
-      return (!q || hay.includes(q)) && (!type || p.type===type) && (!zone || p.zone===zone) && (!province || p.province===province) && (!max || p.price<=max) && (!bed || Number(p.bed||0)>=bed);
+      const hay=this.normalize(`${p.id} ${p.title} ${p.priceText} ${p.type} ${p.typeText} ${p.category} ${p.zone} ${p.zoneText} ${p.province} ${p.address} ${p.location} ${p.description}`);
+
+      const selectedType = type || category;
+      const typeOk = !selectedType ||
+        p.type === selectedType ||
+        p.category === selectedType ||
+        (typeAliases[selectedType] || [selectedType]).some(x => hay.includes(this.normalize(x)));
+
+      const zoneOk = !zone ||
+        p.zone === zone ||
+        (zone === "nonthaburi" && p.province === "นนทบุรี") ||
+        (zoneAliases[zone] || [zone]).some(x => hay.includes(this.normalize(x)));
+
+      const provinceOk = !province || p.province === province || hay.includes(this.normalize(province));
+
+      const price = Number(p.price || 0);
+
+      return (!q || hay.includes(q)) &&
+        typeOk &&
+        zoneOk &&
+        provinceOk &&
+        (!max || price <= max) &&
+        (!min || price >= min) &&
+        (!bed || Number(p.bed||0) >= bed);
     });
   },
   sortData(list){
@@ -482,3 +532,60 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
+
+
+/* =========================================================
+   CATEGORY ROUTING FIX
+   ทำให้เมนูบน header และหน้า category แยกหมวดจริง
+   ========================================================= */
+(function(){
+  const page = (location.pathname.split("/").pop() || "index.html").toLowerCase();
+
+  const pageExtraMap = {
+    "single-house.html": { type: "single-house" },
+    "townhome.html": { type: "townhome" },
+    "condo.html": { type: "condo" },
+    "land.html": { type: "land" },
+    "nonthaburi.html": { province: "นนทบุรี" },
+    "second-hand.html": { market: "second-hand" }
+  };
+
+  const budgetMap = {
+    "budget.html": {}
+  };
+
+  function applyHeaderActive(){
+    document.querySelectorAll(".menu a, .nav a, header a").forEach(a=>{
+      try {
+        const href = (a.getAttribute("href") || "").split("?")[0].toLowerCase();
+        if (href && href === page) a.classList.add("active");
+      } catch {}
+    });
+  }
+
+  async function rerenderCategoryIfNeeded(){
+    if (!window.PH) return;
+    const target = document.getElementById("propertyList");
+    if (!target) return;
+
+    const extra = pageExtraMap[page];
+    if (extra) {
+      PH.currentPage = 1;
+      await PH.renderListings("propertyList", extra);
+      PH.bindFilters(extra);
+      return;
+    }
+
+    // properties.html uses query params only; keep normal behavior.
+    if (page === "properties.html") {
+      PH.currentPage = 1;
+      await PH.renderListings("propertyList", {});
+      PH.bindFilters({});
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    applyHeaderActive();
+    setTimeout(rerenderCategoryIfNeeded, 0);
+  });
+})();
